@@ -6,4 +6,5 @@ ng deploy --base-href "https://leanhhuy.github.io/marcos-programacion/"
 
 or
 
-ng deploy --no-build --base-href=/marcos-programacion/
+(not work yet)
+ng deploy --base-href "/marcos-programacion/" --no-build 
