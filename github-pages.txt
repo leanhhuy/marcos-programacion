@@ -1,0 +1,9 @@
+https://github.com/angular-schule/angular-cli-ghpages
+
+ng add angular-cli-ghpages
+
+ng deploy --base-href "https://leanhhuy.github.io/marcos-programacion/"
+
+or
+
+ng deploy --no-build --base-href=/marcos-programacion/
