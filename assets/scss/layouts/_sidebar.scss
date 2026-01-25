@@ -1,7 +1,9 @@
 @use "../variables" as *;
 
 .mat-drawer.sidebarNav {
-  width: $sidenav-desktop;
+  min-width: $sidenav-desktop-min;
+  max-width: $sidenav-desktop-max;
+  width: fit-content;
   flex-shrink: 0;
   transition: width .4s cubic-bezier(.25, .8, .25, 1);
   position: fixed !important;
@@ -247,10 +249,11 @@
 
     .menu-list-item {
 
-      height: 47px;
+      height: auto;
+      min-height: 47px;
       display: flex;
       font-size: 15px;
-      white-space: nowrap;
+      white-space: normal;
       align-items: center;
       line-height: 25px;
       position: relative;
