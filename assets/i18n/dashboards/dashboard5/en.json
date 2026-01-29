@@ -1,0 +1,35 @@
+{
+  "DASHBOARD5": {
+    "title": "Social Dashboard",
+    "ACCOUNT_PROFILE": {
+      "title": "Account Profile"
+    },
+    "DOWNLOAD_COUNT_CHART": {
+      "title": "Download Count"
+    },
+    "EXPERIANCES": {
+      "title": "Experiences"
+    },
+    "NOTIFICATION": {
+      "title": "Notification"
+    },
+    "PRODUCT_CARD": {
+      "title": "Product Card"
+    },
+    "PRODUCTS_AVAILABILITY": {
+      "title": "Products Availability"
+    },
+    "PROFILE_CARD_TWO": {
+      "title": "Profile Card"
+    },
+    "REVIEWS": {
+      "title": "Reviews"
+    },
+    "SALES_AMPLE_PIXEL": {
+      "title": "Sales Ample Pixel"
+    },
+    "VISIT_SOURCE": {
+      "title": "Visit Source"
+    }
+  }
+}

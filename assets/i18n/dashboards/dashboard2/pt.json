@@ -1,0 +1,23 @@
+{
+  "DASHBOARD2": {
+    "title": "Painel Clássico",
+    "CURRENT_VISITS": {
+      "title": "Visitas Atuais"
+    },
+    "OUR_VISITORS": {
+      "title": "Nossos Visitantes"
+    },
+    "PROJECT_DATA": {
+      "title": "Dados do Projeto"
+    },
+    "RECENT_COMMENTS": {
+      "title": "Comentários Recentes"
+    },
+    "REVENUE_CARDS": {
+      "title": "Cartões de Receita"
+    },
+    "TODO_LIST": {
+      "title": "Lista de Tarefas"
+    }
+  }
+}

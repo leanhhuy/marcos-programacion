@@ -1,0 +1,83 @@
+{
+  "DASHBOARD1": {
+    "title": "Pannello Generale",
+    "DAYS": {
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mer",
+      "thu": "Gio",
+      "fri": "Ven",
+      "sat": "Sab",
+      "sun": "Dom"
+    },
+    "SALES_OVERVIEW": {
+      "title": "Panoramica Vendite",
+      "subtitle": "Ample Admin Vs Pixel Admin",
+      "ample": "Ample",
+      "pixel": "Pixel"
+    },
+    "ACTIVITY_TIMELINE": {
+      "title": "Attività del Profilo",
+      "subtitle": "Ample Admin Vs Pixel Admin",
+      "profile": "Profilo",
+      "activity": "Attività",
+      "fullName": "Nome Completo",
+      "mobile": "Cellulare",
+      "email": "E-mail",
+      "location": "Posizione",
+      "skillSet": "Competenze"
+    },
+    "BANDWIDTH_USAGE": {
+      "title": "Utilizzo Banda",
+      "subtitle": "Marzo 2025"
+    },
+    "BLOG_CARD": {
+      "title": "Scheda Blog",
+      "category": "Tecnologia",
+      "headline": "Nuove regole di sviluppo aziendale per il 2025",
+      "readMore": "Leggi di Più",
+      "share": "Condividi"
+    },
+    "DOWNLOAD_COUNT": {
+      "title": "Conteggio Download",
+      "subtitle": "Marzo 2025"
+    },
+    "MY_CONTACTS": {
+      "title": "I Miei Contatti",
+      "subtitle": "Consulta i miei contatti qui",
+      "videoCall": "Eri in videochiamata",
+      "missedCall": "Hai perso la chiamata di {name}"
+    },
+    "NEWSLETTER_CAMPAIGN": {
+      "title": "Campagna Newsletter",
+      "subtitle": "Panoramica della Campagna Newsletter",
+      "openRate": "Tasso di Apertura",
+      "recurringPayments": "Pagamenti Ricorrenti",
+      "totalSent": "Totale Inviati",
+      "mailOpenRate": "Tasso di Apertura E-mail",
+      "clickRate": "Tasso di Click"
+    },
+    "OUR_VISITORS": {
+      "title": "I Nostri Visitatori",
+      "subtitle": "Dispositivi Utilizzati per Visitare",
+      "chartLabel": "I Nostri Visitatori",
+      "mobile": "Mobile",
+      "desktop": "Desktop",
+      "tablet": "Tablet",
+      "other": "Altro"
+    },
+    "PROFILE_CARD": {
+      "title": "Scheda Profilo",
+      "profession": "Designer e Sviluppatore Web",
+      "follow": "Segui",
+      "articles": "Articoli",
+      "followers": "Follower",
+      "following": "Seguiti"
+    },
+    "WEATHER_CARD": {
+      "title": "Scheda Meteo",
+      "sunnyRainy": "Soleggiato Piovoso",
+      "tonight": "Stasera"
+    }
+  }
+}

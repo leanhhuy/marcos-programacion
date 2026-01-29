@@ -1,0 +1,23 @@
+{
+  "DASHBOARD2": {
+    "title": "Tableau de Bord Classique",
+    "CURRENT_VISITS": {
+      "title": "Visites Actuelles"
+    },
+    "OUR_VISITORS": {
+      "title": "Nos Visiteurs"
+    },
+    "PROJECT_DATA": {
+      "title": "Données du Projet"
+    },
+    "RECENT_COMMENTS": {
+      "title": "Commentaires Récents"
+    },
+    "REVENUE_CARDS": {
+      "title": "Cartes de Revenus"
+    },
+    "TODO_LIST": {
+      "title": "Liste de Tâches"
+    }
+  }
+}

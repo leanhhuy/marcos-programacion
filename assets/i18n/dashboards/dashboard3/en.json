@@ -1,0 +1,29 @@
+{
+  "DASHBOARD3": {
+    "title": "Analytics Dashboard",
+    "AD_EXPENSE": {
+      "title": "Ad Expense"
+    },
+    "CURRENT_VISITS_TWO": {
+      "title": "Current Visits"
+    },
+    "DESIGN_MEETINGS": {
+      "title": "Design Meetings"
+    },
+    "HIGHLIGHTS": {
+      "title": "Highlights"
+    },
+    "MATERIAL_PRO": {
+      "title": "Material Pro"
+    },
+    "MY_CONTACTS_TWO": {
+      "title": "My Contacts"
+    },
+    "ONLINE_REVENUE": {
+      "title": "Online Revenue"
+    },
+    "UPGRADE_PLAN": {
+      "title": "Upgrade Plan"
+    }
+  }
+}

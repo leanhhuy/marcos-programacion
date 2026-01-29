@@ -1,0 +1,83 @@
+{
+  "DASHBOARD1": {
+    "title": "General Dashboard",
+    "DAYS": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "SALES_OVERVIEW": {
+      "title": "Sales Overview",
+      "subtitle": "Ample Admin Vs Pixel Admin",
+      "ample": "Ample",
+      "pixel": "Pixel"
+    },
+    "ACTIVITY_TIMELINE": {
+      "title": "Profile Activity",
+      "subtitle": "Ample Admin Vs Pixel Admin",
+      "profile": "Profile",
+      "activity": "Activity",
+      "fullName": "Full Name",
+      "mobile": "Mobile",
+      "email": "Email",
+      "location": "Location",
+      "skillSet": "Skill Set"
+    },
+    "BANDWIDTH_USAGE": {
+      "title": "Bandwidth usage",
+      "subtitle": "March 2025"
+    },
+    "BLOG_CARD": {
+      "title": "Blog Card",
+      "category": "Technology",
+      "headline": "Business development new rules for 2025",
+      "readMore": "Read More",
+      "share": "Share"
+    },
+    "DOWNLOAD_COUNT": {
+      "title": "Download count",
+      "subtitle": "March 2025"
+    },
+    "MY_CONTACTS": {
+      "title": "My Contacts",
+      "subtitle": "Checkout my contacts here",
+      "videoCall": "You were in video call",
+      "missedCall": "You missed {name}'s call"
+    },
+    "NEWSLETTER_CAMPAIGN": {
+      "title": "Newsletter Campaign",
+      "subtitle": "Overview of Newsletter Campaign",
+      "openRate": "Open Rate",
+      "recurringPayments": "Recurring Payments",
+      "totalSent": "Total Sent",
+      "mailOpenRate": "Mail Open Rate",
+      "clickRate": "Click Rate"
+    },
+    "OUR_VISITORS": {
+      "title": "Our Visitors",
+      "subtitle": "Different Devices Used to Visit",
+      "chartLabel": "Our Visitors",
+      "mobile": "Mobile",
+      "desktop": "Desktop",
+      "tablet": "Tablet",
+      "other": "Other"
+    },
+    "PROFILE_CARD": {
+      "title": "Profile Card",
+      "profession": "Web Designer & Developer",
+      "follow": "Follow",
+      "articles": "Articles",
+      "followers": "Followers",
+      "following": "Following"
+    },
+    "WEATHER_CARD": {
+      "title": "Weather Card",
+      "sunnyRainy": "Sunny Rainy",
+      "tonight": "Tonight"
+    }
+  }
+}

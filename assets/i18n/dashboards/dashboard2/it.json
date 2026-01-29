@@ -1,0 +1,23 @@
+{
+  "DASHBOARD2": {
+    "title": "Pannello Classico",
+    "CURRENT_VISITS": {
+      "title": "Visite Attuali"
+    },
+    "OUR_VISITORS": {
+      "title": "I Nostri Visitatori"
+    },
+    "PROJECT_DATA": {
+      "title": "Dati del Progetto"
+    },
+    "RECENT_COMMENTS": {
+      "title": "Commenti Recenti"
+    },
+    "REVENUE_CARDS": {
+      "title": "Schede Entrate"
+    },
+    "TODO_LIST": {
+      "title": "Lista Attività"
+    }
+  }
+}

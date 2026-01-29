@@ -1,0 +1,32 @@
+{
+  "DASHBOARD6": {
+    "title": "Cryptocurrency Dashboard",
+    "DISCOUNT": {
+      "title": "Discount"
+    },
+    "EARNING": {
+      "title": "Earning"
+    },
+    "MONTHLY_WINNER": {
+      "title": "Monthly Winner"
+    },
+    "NEW_ITEMS": {
+      "title": "New Items"
+    },
+    "PRODUCT_A_SALES": {
+      "title": "Product A Sales"
+    },
+    "PRODUCT_B_SALES": {
+      "title": "Product B Sales"
+    },
+    "PRODUCT_C_SALES": {
+      "title": "Product C Sales"
+    },
+    "PRODUCT_OVERVIEW": {
+      "title": "Product Overview"
+    },
+    "PRODUCT_SALES": {
+      "title": "Product Sales"
+    }
+  }
+}

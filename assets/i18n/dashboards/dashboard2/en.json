@@ -1,0 +1,23 @@
+{
+  "DASHBOARD2": {
+    "title": "Classic Dashboard",
+    "CURRENT_VISITS": {
+      "title": "Current Visits"
+    },
+    "OUR_VISITORS": {
+      "title": "Our Visitors"
+    },
+    "PROJECT_DATA": {
+      "title": "Project Data"
+    },
+    "RECENT_COMMENTS": {
+      "title": "Recent Comments"
+    },
+    "REVENUE_CARDS": {
+      "title": "Revenue Cards"
+    },
+    "TODO_LIST": {
+      "title": "Todo List"
+    }
+  }
+}

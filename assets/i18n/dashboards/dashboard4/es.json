@@ -1,0 +1,26 @@
+{
+  "DASHBOARD4": {
+    "title": "Panel de Comercio Electrónico",
+    "BROWSER_STATS": {
+      "title": "Estadísticas del Navegador"
+    },
+    "COUNTRY_VISIT": {
+      "title": "Visitas por País"
+    },
+    "RECENT_CHAT": {
+      "title": "Chat Reciente"
+    },
+    "SALES_DIFFERENCE": {
+      "title": "Diferencia de Ventas"
+    },
+    "SALES_PREDICTION": {
+      "title": "Predicción de Ventas"
+    },
+    "SPARKLINE_CARDS": {
+      "title": "Tarjetas Sparkline"
+    },
+    "TOTAL_REVENUE": {
+      "title": "Ingresos Totales"
+    }
+  }
+}

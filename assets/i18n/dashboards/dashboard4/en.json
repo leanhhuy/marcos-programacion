@@ -1,0 +1,26 @@
+{
+  "DASHBOARD4": {
+    "title": "eCommerce Dashboard",
+    "BROWSER_STATS": {
+      "title": "Browser Stats"
+    },
+    "COUNTRY_VISIT": {
+      "title": "Country Visit"
+    },
+    "RECENT_CHAT": {
+      "title": "Recent Chat"
+    },
+    "SALES_DIFFERENCE": {
+      "title": "Sales Difference"
+    },
+    "SALES_PREDICTION": {
+      "title": "Sales Prediction"
+    },
+    "SPARKLINE_CARDS": {
+      "title": "Sparkline Cards"
+    },
+    "TOTAL_REVENUE": {
+      "title": "Total Revenue"
+    }
+  }
+}

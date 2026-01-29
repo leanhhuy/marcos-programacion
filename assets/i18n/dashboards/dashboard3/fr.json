@@ -1,0 +1,29 @@
+{
+  "DASHBOARD3": {
+    "title": "Tableau de Bord Analytique",
+    "AD_EXPENSE": {
+      "title": "Dépenses Publicitaires"
+    },
+    "CURRENT_VISITS_TWO": {
+      "title": "Visites Actuelles"
+    },
+    "DESIGN_MEETINGS": {
+      "title": "Réunions de Design"
+    },
+    "HIGHLIGHTS": {
+      "title": "Points Forts"
+    },
+    "MATERIAL_PRO": {
+      "title": "Material Pro"
+    },
+    "MY_CONTACTS_TWO": {
+      "title": "Mes Contacts"
+    },
+    "ONLINE_REVENUE": {
+      "title": "Revenus en Ligne"
+    },
+    "UPGRADE_PLAN": {
+      "title": "Améliorer le Plan"
+    }
+  }
+}

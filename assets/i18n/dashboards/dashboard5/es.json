@@ -1,0 +1,35 @@
+{
+  "DASHBOARD5": {
+    "title": "Panel Social",
+    "ACCOUNT_PROFILE": {
+      "title": "Perfil de Cuenta"
+    },
+    "DOWNLOAD_COUNT_CHART": {
+      "title": "Contador de Descargas"
+    },
+    "EXPERIANCES": {
+      "title": "Experiencias"
+    },
+    "NOTIFICATION": {
+      "title": "Notificación"
+    },
+    "PRODUCT_CARD": {
+      "title": "Tarjeta de Producto"
+    },
+    "PRODUCTS_AVAILABILITY": {
+      "title": "Disponibilidad de Productos"
+    },
+    "PROFILE_CARD_TWO": {
+      "title": "Tarjeta de Perfil"
+    },
+    "REVIEWS": {
+      "title": "Reseñas"
+    },
+    "SALES_AMPLE_PIXEL": {
+      "title": "Ventas Ample Pixel"
+    },
+    "VISIT_SOURCE": {
+      "title": "Fuente de Visitas"
+    }
+  }
+}

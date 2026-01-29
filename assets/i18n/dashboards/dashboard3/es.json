@@ -1,0 +1,29 @@
+{
+  "DASHBOARD3": {
+    "title": "Panel de Analítica",
+    "AD_EXPENSE": {
+      "title": "Gasto en Publicidad"
+    },
+    "CURRENT_VISITS_TWO": {
+      "title": "Visitas Actuales"
+    },
+    "DESIGN_MEETINGS": {
+      "title": "Reuniones de Diseño"
+    },
+    "HIGHLIGHTS": {
+      "title": "Destacados"
+    },
+    "MATERIAL_PRO": {
+      "title": "Material Pro"
+    },
+    "MY_CONTACTS_TWO": {
+      "title": "Mis Contactos"
+    },
+    "ONLINE_REVENUE": {
+      "title": "Ingresos Online"
+    },
+    "UPGRADE_PLAN": {
+      "title": "Mejorar Plan"
+    }
+  }
+}

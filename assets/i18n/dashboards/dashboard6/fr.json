@@ -1,0 +1,32 @@
+{
+  "DASHBOARD6": {
+    "title": "Tableau de Bord Cryptomonnaies",
+    "DISCOUNT": {
+      "title": "Remise"
+    },
+    "EARNING": {
+      "title": "Revenus"
+    },
+    "MONTHLY_WINNER": {
+      "title": "Gagnant du Mois"
+    },
+    "NEW_ITEMS": {
+      "title": "Nouveaux Articles"
+    },
+    "PRODUCT_A_SALES": {
+      "title": "Ventes Produit A"
+    },
+    "PRODUCT_B_SALES": {
+      "title": "Ventes Produit B"
+    },
+    "PRODUCT_C_SALES": {
+      "title": "Ventes Produit C"
+    },
+    "PRODUCT_OVERVIEW": {
+      "title": "Aperçu du Produit"
+    },
+    "PRODUCT_SALES": {
+      "title": "Ventes de Produits"
+    }
+  }
+}

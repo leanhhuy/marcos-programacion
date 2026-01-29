@@ -1,0 +1,83 @@
+{
+  "DASHBOARD1": {
+    "title": "Painel Geral",
+    "DAYS": {
+      "mon": "Seg",
+      "tue": "Ter",
+      "wed": "Qua",
+      "thu": "Qui",
+      "fri": "Sex",
+      "sat": "Sáb",
+      "sun": "Dom"
+    },
+    "SALES_OVERVIEW": {
+      "title": "Visão Geral de Vendas",
+      "subtitle": "Ample Admin Vs Pixel Admin",
+      "ample": "Ample",
+      "pixel": "Pixel"
+    },
+    "ACTIVITY_TIMELINE": {
+      "title": "Atividade do Perfil",
+      "subtitle": "Ample Admin Vs Pixel Admin",
+      "profile": "Perfil",
+      "activity": "Atividade",
+      "fullName": "Nome Completo",
+      "mobile": "Telemóvel",
+      "email": "E-mail",
+      "location": "Localização",
+      "skillSet": "Competências"
+    },
+    "BANDWIDTH_USAGE": {
+      "title": "Uso de Largura de Banda",
+      "subtitle": "Março 2025"
+    },
+    "BLOG_CARD": {
+      "title": "Cartão de Blog",
+      "category": "Tecnologia",
+      "headline": "Novas regras de desenvolvimento empresarial para 2025",
+      "readMore": "Ler Mais",
+      "share": "Partilhar"
+    },
+    "DOWNLOAD_COUNT": {
+      "title": "Contagem de Downloads",
+      "subtitle": "Março 2025"
+    },
+    "MY_CONTACTS": {
+      "title": "Meus Contactos",
+      "subtitle": "Consulte os meus contactos aqui",
+      "videoCall": "Esteve em videochamada",
+      "missedCall": "Perdeu a chamada de {name}"
+    },
+    "NEWSLETTER_CAMPAIGN": {
+      "title": "Campanha de Newsletter",
+      "subtitle": "Resumo da Campanha Newsletter",
+      "openRate": "Taxa de Abertura",
+      "recurringPayments": "Pagamentos Recorrentes",
+      "totalSent": "Total Enviados",
+      "mailOpenRate": "Taxa de Abertura de E-mails",
+      "clickRate": "Taxa de Cliques"
+    },
+    "OUR_VISITORS": {
+      "title": "Nossos Visitantes",
+      "subtitle": "Dispositivos Utilizados para Visitar",
+      "chartLabel": "Nossos Visitantes",
+      "mobile": "Telemóvel",
+      "desktop": "Computador",
+      "tablet": "Tablet",
+      "other": "Outro"
+    },
+    "PROFILE_CARD": {
+      "title": "Cartão de Perfil",
+      "profession": "Designer e Desenvolvedor Web",
+      "follow": "Seguir",
+      "articles": "Artigos",
+      "followers": "Seguidores",
+      "following": "A Seguir"
+    },
+    "WEATHER_CARD": {
+      "title": "Cartão de Tempo",
+      "sunnyRainy": "Ensolarado Chuvoso",
+      "tonight": "Esta Noite"
+    }
+  }
+}

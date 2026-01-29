@@ -1,0 +1,32 @@
+{
+  "DASHBOARD6": {
+    "title": "Pannello Criptovalute",
+    "DISCOUNT": {
+      "title": "Sconto"
+    },
+    "EARNING": {
+      "title": "Guadagni"
+    },
+    "MONTHLY_WINNER": {
+      "title": "Vincitore del Mese"
+    },
+    "NEW_ITEMS": {
+      "title": "Nuovi Articoli"
+    },
+    "PRODUCT_A_SALES": {
+      "title": "Vendite Prodotto A"
+    },
+    "PRODUCT_B_SALES": {
+      "title": "Vendite Prodotto B"
+    },
+    "PRODUCT_C_SALES": {
+      "title": "Vendite Prodotto C"
+    },
+    "PRODUCT_OVERVIEW": {
+      "title": "Panoramica Prodotto"
+    },
+    "PRODUCT_SALES": {
+      "title": "Vendite Prodotti"
+    }
+  }
+}
