@@ -1,6 +1,7 @@
 ﻿{
   "Home": "Início",
   "Dashboards": "Painéis de controlo",
+  "Dashboard": "Painel de controlo de gestão",
   "General": "Geral",
   "Classic": "Clássico",
   "Analytical": "Analítico",
@@ -173,5 +174,13 @@
   "Employee App": "App de funcionários",
   "Todo Application": "Aplicação de tarefas",
   "Quick Page Links": "Links rápidos de página",
-  "Search here": "Pesquisar aqui"
+  "Search here": "Pesquisar aqui",
+  "This Month": "Este mês",
+  "Last Month": "Mês passado",
+  "General Dashboard": "Painel Geral",
+  "Classic Dashboard": "Painel Clássico",
+  "Analytics Dashboard": "Painel Analítico",
+  "Demographic Dashboard": "Painel Demográfico",
+  "Campaign Dashboard": "Painel de Campanha",
+  "e-Commerce Dashboard": "Painel de Comércio Eletrônico"
 }

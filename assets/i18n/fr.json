@@ -1,6 +1,7 @@
 {
   "Home": "Accueil",
   "Dashboards": "Tableaux de bord",
+  "Dashboard": "Tableau de bord de gestion",
   "General": "Général",
   "Classic": "Classique",
   "Analytical": "Analytique",
@@ -173,5 +174,13 @@
   "Employee App": "App employ\u00e9s",
   "Todo Application": "Application de t\u00e2ches",
   "Quick Page Links": "Liens rapides de page",
-  "Search here": "Rechercher ici"
+  "Search here": "Rechercher ici",
+  "This Month": "Ce mois-ci",
+  "Last Month": "Le mois dernier",
+  "General Dashboard": "Tableau de bord général",
+  "Classic Dashboard": "Tableau de bord classique",
+  "Analytics Dashboard": "Tableau de bord analytique",
+  "Demographic Dashboard": "Tableau de bord démographique",
+  "Campaign Dashboard": "Tableau de bord de campagne",
+  "e-Commerce Dashboard": "Tableau de bord e-commerce"
 }

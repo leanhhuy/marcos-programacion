@@ -1,6 +1,7 @@
 {
   "Home": "Inicio",
   "Dashboards": "Cuadros de mando",
+  "Dashboard": "Cuadro de mando",
   "General": "General",
   "Classic": "Clásico",
   "Analytical": "Analítico",
@@ -175,5 +176,11 @@
   "Quick Page Links": "Enlaces r\u00e1pidos de p\u00e1gina",
   "Search here": "Buscar aqu\u00ed",
   "This Month": "Este mes",
-  "Last Month": "El mes pasado"
+  "Last Month": "El mes pasado",
+  "General Dashboard": "Cuadro de mando general",
+  "Classic Dashboard": "Cuadro de mando clásico",
+  "Analytics Dashboard": "Cuadro de mando analítico",
+  "Demographic Dashboard": "Cuadro de mando demográfico",
+  "Campaign Dashboard": "Cuadro de mando de campaña",
+  "e-Commerce Dashboard": "Cuadro de mando de comercio electrónico"
 }

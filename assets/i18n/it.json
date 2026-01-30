@@ -1,6 +1,7 @@
 {
   "Home": "Inizio",
   "Dashboards": "Cruscotti",
+  "Dashboard": "Cruscotto direzionale",
   "General": "Generale",
   "Classic": "Classico",
   "Analytical": "Analitico",
@@ -173,5 +174,13 @@
   "Employee App": "App dipendenti",
   "Todo Application": "Applicazione attivit\u00e0",
   "Quick Page Links": "Collegamenti rapidi alle pagine",
-  "Search here": "Cerca qui"
+  "Search here": "Cerca qui",
+  "This Month": "Questo mese",
+  "Last Month": "Il mese scorso",
+  "General Dashboard": "Cruscotto Generale",
+  "Classic Dashboard": "Cruscotto Classico",
+  "Analytics Dashboard": "Cruscotto Analitico",
+  "Demographic Dashboard": "Cruscotto Demografico",
+  "Campaign Dashboard": "Cruscotto Campagna",
+  "e-Commerce Dashboard": "Cruscotto e-Commerce"
 }

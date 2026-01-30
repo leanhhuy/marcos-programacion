@@ -1,6 +1,7 @@
 {
   "Home": "Home",
   "Dashboards": "Dashboards",
+  "Dashboard": "Dashboard",
   "General": "General",
   "Classic": "Classic",
   "Analytical": "Analytical",
@@ -175,5 +176,11 @@
   "Quick Page Links": "Quick Page Links",
   "Search here": "Search here",
   "This Month": "This Month",
-  "Last Month": "Last Month"
+  "Last Month": "Last Month",
+  "General Dashboard": "General Dashboard",
+  "Classic Dashboard": "Classic Dashboard",
+  "Analytics Dashboard": "Analytics Dashboard",
+  "Demographic Dashboard": "Demographic Dashboard",
+  "Campaign Dashboard": "Campaign Dashboard",
+  "e-Commerce Dashboard": "e-Commerce Dashboard"
 }
