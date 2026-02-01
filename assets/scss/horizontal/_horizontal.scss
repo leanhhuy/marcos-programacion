@@ -87,7 +87,7 @@
       &:hover > .activeMenu,
       .activeMenu {
         color: $white !important;
-        background-color: $secondary;
+        background-color: var(--mat-sys-primary);
       }
       .down-icon .mat-icon {
         width: 18px;
@@ -152,7 +152,7 @@
       &.pactive > a,
       &.pactive > a:hover,
       &.pactive:hover > a {
-        background-color: var(--mat-sys-secondary);
+        background-color: var(--mat-sys-primary);
         color: $white !important;
         border-radius: var(--mat-sys-corner-full);
       }

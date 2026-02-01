@@ -299,7 +299,7 @@
       }
 
       &.activeMenu {
-        background-color: var(--mat-sys-secondary);
+        background-color: var(--mat-sys-primary);
 
         .mdc-list-item__primary-text {
           color: $white !important;
@@ -342,14 +342,14 @@
 }
 
 .sidebar-list .top-parent .menu-list-item.activemenu {
-  background-color: color-mix(in srgb, var(--mat-sys-secondary) 10%, transparent);
+  background-color: color-mix(in srgb, var(--mat-sys-primary) 10%, transparent);
 
   .mdc-list-item__primary-text {
-    color: var(--mat-sys-secondary) !important;
+    color: var(--mat-sys-primary) !important;
   }
 
   .mat-mdc-list-item-icon {
-    color: var(--mat-sys-secondary) !important;
+    color: var(--mat-sys-primary) !important;
   }
 }
 

@@ -1,10 +1,13 @@
 @use "sass:map";
 @use "@angular/material" as mat;
 
+//# 76 
+// --mat-sys-primary: rgb(61, 80 , 90);
+
 html.orange_theme {
-  --mat-sys-primary: rgb(61, 80 , 90);
-  --mat-sys-primary-fixed-dim: rgb(61, 80 , 90, 0.15);
-  --mat-sys-secondary: rgb(61, 80 , 90);
-  --mat-sys-secondary-fixed-dim: rgb(61, 80 , 90, 0.15);
-  --mat-sys-error-fixed-dim: rgba(61, 80 , 90, 0.15);
+  --mat-sys-primary: rgb(88, 116 , 130);
+  --mat-sys-primary-fixed-dim: rgb(88, 116 , 130, 0.15);
+  --mat-sys-secondary: rgb(150, 190, 5);
+  --mat-sys-secondary-fixed-dim: rgb(150, 190, 5, 0.15);
+  --mat-sys-error-fixed-dim: rgba(247, 68, 86, 0.15);
 }
