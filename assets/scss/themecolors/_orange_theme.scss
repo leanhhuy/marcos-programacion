@@ -2,9 +2,9 @@
 @use "@angular/material" as mat;
 
 html.orange_theme {
-  --mat-sys-primary: rgb(114,101,102);
-  --mat-sys-primary-fixed-dim: rgb(114,101,102, 0.15);
-  --mat-sys-secondary: rgb(114,101,102);
-  --mat-sys-secondary-fixed-dim: rgb(114,101,102, 0.15);
-  --mat-sys-error-fixed-dim: rgba(114,101,102, 0.15);
+  --mat-sys-primary: rgb(61, 80 , 90);
+  --mat-sys-primary-fixed-dim: rgb(61, 80 , 90, 0.15);
+  --mat-sys-secondary: rgb(61, 80 , 90);
+  --mat-sys-secondary-fixed-dim: rgb(61, 80 , 90, 0.15);
+  --mat-sys-error-fixed-dim: rgba(61, 80 , 90, 0.15);
 }
