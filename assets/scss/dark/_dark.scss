@@ -46,7 +46,7 @@
   .customizer-button-group
     .mat-button-toggle-appearance-standard.mat-button-toggle-checked
     i-tabler.fill-icon {
-    fill: var(--mat-sys-primary-fixed-dim);
+    fill: var(--mat-sys-primary); // Use primary color
   }
 }
 
@@ -63,3 +63,18 @@ html.light-theme {
     display: none;
   }
 }
+
+/*
+═══════════════════════════════════════════════════════════════════════════
+COPILOT CHANGE LOG
+
+@generated
+@taskId         TASK-2026-0201-001
+@dateTime       2026-02-01T14:30:00Z
+@aiModel        GPT-4o
+@purpose        Ensure mat-button-toggle uses --mat-sys-primary for consistent theme color.
+@filesChanged   2
+@fileDescription Updated styles for mat-button-toggle-checked to use --mat-sys-primary.
+
+═══════════════════════════════════════════════════════════════════════════
+*/

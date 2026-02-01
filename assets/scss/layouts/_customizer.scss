@@ -36,7 +36,7 @@ html .customizer-fixed {
         .theme-circle {
           .theme-icon {
             display: flex;
-            color: $white;
+            color: var(--mat-sys-primary); // Use primary color
           }
         }
       }
@@ -52,22 +52,22 @@ html .customizer-fixed {
           display: none;
         }
         &.orange_theme {
-          background-color: rgb(250, 137, 107);
+          background-color: rgb(114,101,102);
         }
         &.blue_theme {
           background-color: rgb(30 136 229);
         }
         &.aqua_theme {
-          background-color: rgb(0, 116, 186);
+          background-color: rgb(0,140,69);
         }
         &.purple_theme {
-          background-color: rgb(118, 62, 189);
+          background-color: rgb(249,182,0);
         }
         &.green_theme {
-          background-color: rgb(10, 126, 164);
+          background-color: rgb(152,41,42);
         }
         &.cyan_theme {
-          background-color: rgb(1, 192, 200);
+          background-color: rgb(189,19,82);
         }
       }
     }
