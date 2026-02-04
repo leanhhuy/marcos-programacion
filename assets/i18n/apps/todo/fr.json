@@ -1,0 +1,12 @@
+{
+  "TODO": {
+    "title": "Application de tâches",
+    "all": "Toutes",
+    "incompleted": "Incomplètes",
+    "completed": "Terminées",
+    "markAll": "Tout marquer",
+    "tasksLeft": "Tâches restantes",
+    "addTodoPlaceholder": "Ajouter une tâche",
+    "addTodoButton": "Ajouter tâche"
+  }
+}

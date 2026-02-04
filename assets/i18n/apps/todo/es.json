@@ -1,0 +1,12 @@
+{
+  "TODO": {
+    "title": "Aplicación de Tareas",
+    "all": "Todas",
+    "incompleted": "Incompletas",
+    "completed": "Completadas",
+    "markAll": "Marcar todas",
+    "tasksLeft": "Tareas pendientes",
+    "addTodoPlaceholder": "Agregar tarea",
+    "addTodoButton": "Agregar tarea"
+  }
+}

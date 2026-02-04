@@ -1,0 +1,10 @@
+{
+  "EMAIL": {
+    "inbox": "Caixa de entrada",
+    "compose": "Escrever",
+    "sortBy": "Ordenar por",
+    "labels": "Etiquetas",
+    "noEmailsFound": "Nenhum email encontrado.",
+    "pleaseSelectMail": "Por favor, selecione um email"
+  }
+}

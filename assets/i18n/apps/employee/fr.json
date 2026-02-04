@@ -1,0 +1,13 @@
+{
+  "EMPLOYEE": {
+    "searchPlaceholder": "Rechercher un employé",
+    "addEmployee": "Ajouter un employé",
+    "name": "Nom",
+    "email": "Courriel",
+    "mobile": "Téléphone mobile",
+    "dateOfJoining": "Date d'embauche",
+    "salary": "Salaire",
+    "projects": "Projets",
+    "action": "Action"
+  }
+}

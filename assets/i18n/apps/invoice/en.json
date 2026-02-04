@@ -1,0 +1,17 @@
+{
+  "INVOICE": {
+    "total": "Total",
+    "invoices": "invoices",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "pending": "Pending",
+    "searchPlaceholder": "Search Invoice",
+    "addInvoice": "Add Invoice",
+    "id": "Id",
+    "billFrom": "Bill From",
+    "billTo": "Bill To",
+    "totalCost": "Total Cost",
+    "status": "Status",
+    "action": "Action"
+  }
+}

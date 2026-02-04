@@ -1,0 +1,69 @@
+{
+  "FRONT_PAGES": {
+    "navigation": {
+      "aboutUs": "About Us",
+      "blogs": "Blogs",
+      "portfolio": "Portfolio",
+      "dashboard": "Dashboard",
+      "pricing": "Pricing",
+      "contact": "Contact",
+      "logIn": "Log In",
+      "new": "New"
+    },
+    "toolbar": {
+      "frontendPagesIncluded": "Frontend Pages Included!"
+    },
+    "aboutUs": {
+      "title": "About Us",
+      "subtitle": "Our Story",
+      "description": "We are a team of passionate developers",
+      "ourMission": "Our Mission",
+      "ourVision": "Our Vision",
+      "ourTeam": "Our Team"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Get in Touch",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "address": "Address",
+      "phone": "Phone",
+      "emailAddress": "Email Address"
+    },
+    "pricing": {
+      "title": "Pricing Plans",
+      "subtitle": "Choose Your Plan",
+      "free": "Free",
+      "basic": "Basic",
+      "premium": "Premium",
+      "enterprise": "Enterprise",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "getStarted": "Get Started",
+      "features": "Features",
+      "perMonth": "per month",
+      "perYear": "per year"
+    },
+    "blog": {
+      "title": "Blog",
+      "readMore": "Read More",
+      "recentPosts": "Recent Posts",
+      "categories": "Categories",
+      "tags": "Tags",
+      "searchArticles": "Search Articles"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "allWorks": "All Works",
+      "viewProject": "View Project"
+    },
+    "footer": {
+      "copyright": "Copyright",
+      "allRightsReserved": "All Rights Reserved",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    }
+  }
+}

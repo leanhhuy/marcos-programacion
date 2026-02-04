@@ -1,0 +1,12 @@
+{
+  "TODO": {
+    "title": "Applicazione attività",
+    "all": "Tutte",
+    "incompleted": "Incomplete",
+    "completed": "Completate",
+    "markAll": "Segna tutte",
+    "tasksLeft": "Attività rimanenti",
+    "addTodoPlaceholder": "Aggiungi attività",
+    "addTodoButton": "Aggiungi attività"
+  }
+}

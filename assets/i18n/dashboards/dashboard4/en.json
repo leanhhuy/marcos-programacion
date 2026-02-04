@@ -1,6 +1,19 @@
 {
   "DASHBOARD4": {
     "title": "eCommerce Dashboard",
+    "totalRevenue": "Total Revenue",
+    "uniqueVisit": "Unique Visit",
+    "totalVisit": "Total Visit",
+    "bounceRate": "Bounce rate",
+    "pageViews": "Page Views",
+    "salesPrediction": "Sales Prediction",
+    "increased": "10% Increased",
+    "salesRange": "(150-165 Sales)",
+    "salesDifference": "Sales Difference",
+    "recentChats": "Recent Chats",
+    "sendMessage": "Send message",
+    "totalVisits": "Total Visits",
+    "browserStats": "Browser Stats",
     "BROWSER_STATS": {
       "title": "Browser Stats"
     },

@@ -1,0 +1,21 @@
+{
+  "TASK": {
+    "markAsIncomplete": "MARQUER COMME INCOMPLÈTE",
+    "markAsComplete": "MARQUER COMME COMPLÈTE",
+    "title": "Titre",
+    "priority": "Priorité",
+    "low": "Faible",
+    "normal": "Normale",
+    "high": "Élevée",
+    "dueDate": "Date d'Échéance",
+    "notes": "Notes",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "tasks": "Tâches",
+    "addTask": "Ajouter une Tâche",
+    "addSection": "Ajouter une Section",
+    "incompleteTasks": "Tâche(s) Incomplète(s)",
+    "completeTasks": "Tâche(s) Complète(s)",
+    "totalTasks": "Total de Tâche(s)"
+  }
+}

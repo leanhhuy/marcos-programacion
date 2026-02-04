@@ -1,0 +1,33 @@
+{
+  "WIDGETS": {
+    "title": "Widgets",
+    "cards": {
+      "title": "Cartões de Widgets",
+      "topProjects": "Projetos Principais",
+      "newProjects": "Novos Projetos",
+      "clients": "Clientes",
+      "totalSales": "Vendas Totais",
+      "employees": "Funcionários",
+      "products": "Produtos",
+      "orders": "Pedidos",
+      "revenue": "Receita",
+      "views": "Visualizações",
+      "comments": "Comentários",
+      "readMore": "Ler Mais"
+    },
+    "banners": {
+      "title": "Banners",
+      "specialOffer": "Oferta Especial",
+      "newArrival": "Nova Chegada",
+      "bestSeller": "Mais Vendido",
+      "trending": "Em Alta"
+    },
+    "charts": {
+      "title": "Gráficos de Widgets",
+      "salesOverview": "Visão Geral de Vendas",
+      "monthlyEarnings": "Ganhos Mensais",
+      "yearlyStats": "Estatísticas Anuais",
+      "performance": "Desempenho"
+    }
+  }
+}

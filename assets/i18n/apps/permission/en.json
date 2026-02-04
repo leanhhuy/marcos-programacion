@@ -1,0 +1,11 @@
+{
+  "PERMISSION": {
+    "rollbaseAccess": "Rollbase Access",
+    "moreDetail": "You can find more detail about this from here:",
+    "admin": "Admin",
+    "manager": "Manager",
+    "guest": "Guest",
+    "currentRole": "Your current role:",
+    "currentPermissions": "Your current permissions:"
+  }
+}

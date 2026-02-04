@@ -1,0 +1,108 @@
+{
+  "FORMS": {
+    "title": "Moduli",
+    "labels": {
+      "name": "Nome",
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "email": "E-mail",
+      "company": "Azienda",
+      "phoneNo": "Numero di telefono",
+      "phone": "Telefono",
+      "message": "Messaggio",
+      "password": "Password",
+      "confirmPassword": "Conferma password",
+      "address": "Indirizzo",
+      "country": "Paese",
+      "city": "Città",
+      "state": "Stato/Provincia",
+      "zipCode": "Codice postale",
+      "date": "Data",
+      "gender": "Genere",
+      "age": "Età",
+      "description": "Descrizione",
+      "subject": "Oggetto",
+      "username": "Nome utente"
+    },
+    "buttons": {
+      "send": "Invia",
+      "submit": "Invia",
+      "cancel": "Annulla",
+      "reset": "Reimposta",
+      "save": "Salva",
+      "next": "Avanti",
+      "back": "Indietro",
+      "finish": "Fine",
+      "upload": "Carica"
+    },
+    "titles": {
+      "basicLayout": "Layout di base",
+      "basicWithIcons": "Base con icone",
+      "formSeparator": "Separatore modulo",
+      "formLabelAlignment": "Allineamento etichette",
+      "formWizard": "Procedura guidata modulo",
+      "vertical": "Verticale",
+      "ordinaryForm": "Modulo ordinario",
+      "inputVariants": "Varianti di input",
+      "defaultForm": "Modulo predefinito",
+      "basicHeaderForm": "Modulo con intestazione di base",
+      "disabledForm": "Modulo disabilitato",
+      "formWithLeftIcon": "Modulo con icona a sinistra",
+      "formWithRightIcon": "Modulo con icona a destra",
+      "formEditor": "Editor moduli",
+      "formToastr": "Notifiche Toastr"
+    },
+    "placeholders": {
+      "enterName": "Inserisci il nome",
+      "johnDeo": "Mario Rossi",
+      "acmeInc": "ACME S.r.l.",
+      "enterEmail": "Inserisci l'e-mail",
+      "enterPhone": "Inserisci il telefono",
+      "enterMessage": "Inserisci il messaggio",
+      "hiDoYouHaveMoment": "Ciao, hai un momento per parlare?"
+    },
+    "sections": {
+      "personalInfo": "Informazioni personali",
+      "contactInfo": "Informazioni di contatto",
+      "accountInfo": "Informazioni account",
+      "addressInfo": "Informazioni indirizzo"
+    },
+    "radioCheckbox": {
+      "basicRadioButton": "Pulsante radio di base",
+      "radioWithColors": "Radio con colori",
+      "basicCheckbox": "Casella di controllo di base",
+      "checkboxWithColors": "Casella con colori",
+      "primary": "Primario",
+      "accent": "Accento",
+      "warn": "Avviso",
+      "checked": "Selezionato",
+      "indeterminate": "Indeterminato",
+      "disabled": "Disabilitato"
+    },
+    "autocomplete": {
+      "title": "Autocompletamento",
+      "basicAutocomplete": "Autocompletamento di base",
+      "displayValue": "Mostra valore",
+      "filterOptions": "Filtra opzioni",
+      "optionGroups": "Gruppi di opzioni"
+    },
+    "datepicker": {
+      "title": "Selettore data",
+      "basicDatepicker": "Selettore data di base",
+      "dateRange": "Intervallo date",
+      "startDate": "Data di inizio",
+      "endDate": "Data di fine",
+      "chooseDate": "Scegli una data"
+    },
+    "button": {
+      "title": "Pulsante",
+      "basicButton": "Pulsante di base",
+      "raisedButton": "Pulsante in rilievo",
+      "strokedButton": "Pulsante con bordo",
+      "flatButton": "Pulsante piatto",
+      "iconButton": "Pulsante icona",
+      "fabButton": "Pulsante FAB",
+      "miniFabButton": "Pulsante Mini FAB"
+    }
+  }
+}

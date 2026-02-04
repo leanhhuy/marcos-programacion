@@ -1,0 +1,108 @@
+{
+  "FORMS": {
+    "title": "Formulários",
+    "labels": {
+      "name": "Nome",
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "E-mail",
+      "company": "Empresa",
+      "phoneNo": "Número de Telefone",
+      "phone": "Telefone",
+      "message": "Mensagem",
+      "password": "Senha",
+      "confirmPassword": "Confirmar Senha",
+      "address": "Endereço",
+      "country": "País",
+      "city": "Cidade",
+      "state": "Estado",
+      "zipCode": "CEP",
+      "date": "Data",
+      "gender": "Gênero",
+      "age": "Idade",
+      "description": "Descrição",
+      "subject": "Assunto",
+      "username": "Nome de Usuário"
+    },
+    "buttons": {
+      "send": "Enviar",
+      "submit": "Enviar",
+      "cancel": "Cancelar",
+      "reset": "Redefinir",
+      "save": "Salvar",
+      "next": "Próximo",
+      "back": "Voltar",
+      "finish": "Concluir",
+      "upload": "Carregar"
+    },
+    "titles": {
+      "basicLayout": "Layout Básico",
+      "basicWithIcons": "Básico com Ícones",
+      "formSeparator": "Separador de Formulário",
+      "formLabelAlignment": "Alinhamento de Rótulos",
+      "formWizard": "Assistente de Formulário",
+      "vertical": "Vertical",
+      "ordinaryForm": "Formulário Comum",
+      "inputVariants": "Variantes de Entrada",
+      "defaultForm": "Formulário Padrão",
+      "basicHeaderForm": "Formulário com Cabeçalho Básico",
+      "disabledForm": "Formulário Desabilitado",
+      "formWithLeftIcon": "Formulário com Ícone à Esquerda",
+      "formWithRightIcon": "Formulário com Ícone à Direita",
+      "formEditor": "Editor de Formulários",
+      "formToastr": "Notificações Toastr"
+    },
+    "placeholders": {
+      "enterName": "Digite o Nome",
+      "johnDeo": "João Silva",
+      "acmeInc": "ACME Ltda.",
+      "enterEmail": "Digite o E-mail",
+      "enterPhone": "Digite o Telefone",
+      "enterMessage": "Digite a Mensagem",
+      "hiDoYouHaveMoment": "Olá, você tem um momento para conversar?"
+    },
+    "sections": {
+      "personalInfo": "Informações Pessoais",
+      "contactInfo": "Informações de Contato",
+      "accountInfo": "Informações da Conta",
+      "addressInfo": "Informações de Endereço"
+    },
+    "radioCheckbox": {
+      "basicRadioButton": "Botão de Rádio Básico",
+      "radioWithColors": "Rádio com Cores",
+      "basicCheckbox": "Caixa de Seleção Básica",
+      "checkboxWithColors": "Caixa com Cores",
+      "primary": "Primário",
+      "accent": "Destaque",
+      "warn": "Alerta",
+      "checked": "Marcado",
+      "indeterminate": "Indeterminado",
+      "disabled": "Desabilitado"
+    },
+    "autocomplete": {
+      "title": "Autocompletar",
+      "basicAutocomplete": "Autocompletar Básico",
+      "displayValue": "Exibir valor",
+      "filterOptions": "Filtrar opções",
+      "optionGroups": "Grupos de opções"
+    },
+    "datepicker": {
+      "title": "Seletor de Data",
+      "basicDatepicker": "Seletor de Data Básico",
+      "dateRange": "Intervalo de Datas",
+      "startDate": "Data de início",
+      "endDate": "Data de término",
+      "chooseDate": "Escolha uma data"
+    },
+    "button": {
+      "title": "Botão",
+      "basicButton": "Botão Básico",
+      "raisedButton": "Botão Elevado",
+      "strokedButton": "Botão com Borda",
+      "flatButton": "Botão Plano",
+      "iconButton": "Botão de Ícone",
+      "fabButton": "Botão FAB",
+      "miniFabButton": "Botão Mini FAB"
+    }
+  }
+}

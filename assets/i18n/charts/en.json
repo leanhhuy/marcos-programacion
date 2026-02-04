@@ -1,0 +1,24 @@
+{
+  "CHARTS": {
+    "title": "Charts",
+    "types": {
+      "line": "Line Chart",
+      "area": "Area Chart",
+      "column": "Column Chart",
+      "bar": "Bar Chart",
+      "pie": "Pie Chart",
+      "doughnut": "Doughnut Chart",
+      "radial": "Radial Chart",
+      "radar": "Radar Chart",
+      "candlestick": "Candlestick Chart",
+      "gradient": "Gradient Chart"
+    },
+    "labels": {
+      "series": "Series",
+      "category": "Category",
+      "value": "Value",
+      "percentage": "Percentage",
+      "total": "Total"
+    }
+  }
+}

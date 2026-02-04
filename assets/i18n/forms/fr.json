@@ -1,0 +1,108 @@
+{
+  "FORMS": {
+    "title": "Formulaires",
+    "labels": {
+      "name": "Nom",
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "email": "E-mail",
+      "company": "Entreprise",
+      "phoneNo": "Numéro de téléphone",
+      "phone": "Téléphone",
+      "message": "Message",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "address": "Adresse",
+      "country": "Pays",
+      "city": "Ville",
+      "state": "État/Province",
+      "zipCode": "Code postal",
+      "date": "Date",
+      "gender": "Genre",
+      "age": "Âge",
+      "description": "Description",
+      "subject": "Sujet",
+      "username": "Nom d'utilisateur"
+    },
+    "buttons": {
+      "send": "Envoyer",
+      "submit": "Soumettre",
+      "cancel": "Annuler",
+      "reset": "Réinitialiser",
+      "save": "Enregistrer",
+      "next": "Suivant",
+      "back": "Retour",
+      "finish": "Terminer",
+      "upload": "Télécharger"
+    },
+    "titles": {
+      "basicLayout": "Mise en page de base",
+      "basicWithIcons": "Base avec icônes",
+      "formSeparator": "Séparateur de formulaire",
+      "formLabelAlignment": "Alignement des étiquettes",
+      "formWizard": "Assistant de formulaire",
+      "vertical": "Vertical",
+      "ordinaryForm": "Formulaire ordinaire",
+      "inputVariants": "Variantes d'entrée",
+      "defaultForm": "Formulaire par défaut",
+      "basicHeaderForm": "Formulaire avec en-tête de base",
+      "disabledForm": "Formulaire désactivé",
+      "formWithLeftIcon": "Formulaire avec icône à gauche",
+      "formWithRightIcon": "Formulaire avec icône à droite",
+      "formEditor": "Éditeur de formulaires",
+      "formToastr": "Notifications Toastr"
+    },
+    "placeholders": {
+      "enterName": "Entrez le nom",
+      "johnDeo": "Jean Dupont",
+      "acmeInc": "ACME SARL",
+      "enterEmail": "Entrez l'e-mail",
+      "enterPhone": "Entrez le téléphone",
+      "enterMessage": "Entrez le message",
+      "hiDoYouHaveMoment": "Bonjour, avez-vous un moment pour discuter?"
+    },
+    "sections": {
+      "personalInfo": "Informations personnelles",
+      "contactInfo": "Coordonnées",
+      "accountInfo": "Informations du compte",
+      "addressInfo": "Informations d'adresse"
+    },
+    "radioCheckbox": {
+      "basicRadioButton": "Bouton radio de base",
+      "radioWithColors": "Radio avec couleurs",
+      "basicCheckbox": "Case à cocher de base",
+      "checkboxWithColors": "Case à cocher avec couleurs",
+      "primary": "Principal",
+      "accent": "Accent",
+      "warn": "Avertissement",
+      "checked": "Coché",
+      "indeterminate": "Indéterminé",
+      "disabled": "Désactivé"
+    },
+    "autocomplete": {
+      "title": "Autocomplétion",
+      "basicAutocomplete": "Autocomplétion de base",
+      "displayValue": "Afficher la valeur",
+      "filterOptions": "Filtrer les options",
+      "optionGroups": "Groupes d'options"
+    },
+    "datepicker": {
+      "title": "Sélecteur de date",
+      "basicDatepicker": "Sélecteur de date de base",
+      "dateRange": "Plage de dates",
+      "startDate": "Date de début",
+      "endDate": "Date de fin",
+      "chooseDate": "Choisissez une date"
+    },
+    "button": {
+      "title": "Bouton",
+      "basicButton": "Bouton de base",
+      "raisedButton": "Bouton en relief",
+      "strokedButton": "Bouton avec bordure",
+      "flatButton": "Bouton plat",
+      "iconButton": "Bouton icône",
+      "fabButton": "Bouton FAB",
+      "miniFabButton": "Bouton Mini FAB"
+    }
+  }
+}

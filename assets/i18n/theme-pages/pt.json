@@ -1,0 +1,48 @@
+{
+  "ACCOUNT": {
+    "tabAccount": "Conta",
+    "tabNotifications": "Notificações",
+    "tabBills": "Faturas",
+    "tabSecurity": "Segurança",
+    "changeProfile": "Alterar perfil",
+    "changeProfileDesc": "Altere sua foto de perfil aqui",
+    "upload": "Carregar",
+    "reset": "Redefinir",
+    "allowedFormats": "Permitido JPG, GIF ou PNG. Tamanho máximo de 800K",
+    "changePassword": "Alterar senha",
+    "changePasswordDesc": "Para alterar sua senha, confirme aqui",
+    "currentPassword": "Senha atual",
+    "newPassword": "Nova senha",
+    "confirmPassword": "Confirmar senha",
+    "personalDetails": "Detalhes pessoais",
+    "personalDetailsDesc": "Para alterar seus dados pessoais, edite e salve aqui",
+    "yourName": "Seu nome",
+    "location": "Localização",
+    "email": "Email",
+    "storeName": "Nome da loja",
+    "currency": "Moeda",
+    "phone": "Telefone",
+    "address": "Endereço",
+    "save": "Salvar",
+    "cancel": "Cancelar"
+  },
+  "FAQ": {
+    "title": "Perguntas frequentes",
+    "subtitle": "Saiba mais sobre modelos de painel de administração prontos para uso"
+  },
+  "PRICING": {
+    "title": "Planos flexíveis adaptados às necessidades da sua comunidade!",
+    "subtitle": "Não tem certeza do que precisa? Estamos aqui para ajudar.",
+    "monthly": "Mensal",
+    "yearly": "Anual",
+    "free": "Grátis",
+    "starter": "Inicial",
+    "professional": "Profissional",
+    "enterprise": "Empresarial",
+    "perMonth": "/mês",
+    "perYear": "/ano",
+    "choosePlan": "Escolher plano",
+    "currentPlan": "Plano atual",
+    "mostPopular": "Mais popular"
+  }
+}

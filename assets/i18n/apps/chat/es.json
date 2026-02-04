@@ -1,0 +1,10 @@
+{
+  "CHAT": {
+    "searchPlaceholder": "Buscar contactos",
+    "noMessagesFound": "No se encontraron mensajes.",
+    "contactInfo": "Información de contacto",
+    "mute": "Silenciar",
+    "deleteChat": "Eliminar conversación",
+    "sendPlaceholder": "Enviar mensaje"
+  }
+}

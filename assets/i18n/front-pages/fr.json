@@ -1,0 +1,69 @@
+{
+  "FRONT_PAGES": {
+    "navigation": {
+      "aboutUs": "À Propos",
+      "blogs": "Blog",
+      "portfolio": "Portfolio",
+      "dashboard": "Tableau de Bord",
+      "pricing": "Tarifs",
+      "contact": "Contact",
+      "logIn": "Connexion",
+      "new": "Nouveau"
+    },
+    "toolbar": {
+      "frontendPagesIncluded": "Pages Frontend Incluses !"
+    },
+    "aboutUs": {
+      "title": "À Propos",
+      "subtitle": "Notre Histoire",
+      "description": "Nous sommes une équipe de développeurs passionnés",
+      "ourMission": "Notre Mission",
+      "ourVision": "Notre Vision",
+      "ourTeam": "Notre Équipe"
+    },
+    "contact": {
+      "title": "Contactez-Nous",
+      "subtitle": "Entrer en Contact",
+      "name": "Nom",
+      "email": "E-mail",
+      "message": "Message",
+      "send": "Envoyer le Message",
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "emailAddress": "Adresse E-mail"
+    },
+    "pricing": {
+      "title": "Plans Tarifaires",
+      "subtitle": "Choisissez Votre Plan",
+      "free": "Gratuit",
+      "basic": "Basique",
+      "premium": "Premium",
+      "enterprise": "Entreprise",
+      "monthly": "Mensuel",
+      "yearly": "Annuel",
+      "getStarted": "Commencer",
+      "features": "Fonctionnalités",
+      "perMonth": "par mois",
+      "perYear": "par an"
+    },
+    "blog": {
+      "title": "Blog",
+      "readMore": "Lire Plus",
+      "recentPosts": "Publications Récentes",
+      "categories": "Catégories",
+      "tags": "Étiquettes",
+      "searchArticles": "Rechercher des Articles"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "allWorks": "Tous les Travaux",
+      "viewProject": "Voir le Projet"
+    },
+    "footer": {
+      "copyright": "Droits d'Auteur",
+      "allRightsReserved": "Tous Droits Réservés",
+      "privacyPolicy": "Politique de Confidentialité",
+      "termsOfService": "Conditions d'Utilisation"
+    }
+  }
+}

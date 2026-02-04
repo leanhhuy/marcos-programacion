@@ -1,0 +1,37 @@
+{
+  "DATATABLE": {
+    "columns": {
+      "name": "Nom",
+      "position": "Poste",
+      "email": "Courriel",
+      "mobile": "Mobile",
+      "dateOfJoining": "Date d'Embauche",
+      "dateOfBirth": "Date de Naissance",
+      "salary": "Salaire",
+      "projects": "Projets",
+      "action": "Action"
+    },
+    "actions": {
+      "addUser": "Ajouter un Utilisateur",
+      "update": "Mettre à Jour",
+      "delete": "Supprimer",
+      "cancel": "Annuler"
+    },
+    "placeholders": {
+      "searchUser": "Rechercher un Utilisateur",
+      "name": "Nom",
+      "position": "Poste",
+      "email": "Courriel",
+      "mobile": "Mobile",
+      "dateOfBirth": "Date de Naissance",
+      "salary": "Salaire",
+      "projects": "Projets"
+    },
+    "dialogs": {
+      "addTitle": "Ajouter un Utilisateur",
+      "updateTitle": "Mettre à Jour l'Utilisateur",
+      "deleteTitle": "Supprimer l'Utilisateur",
+      "deleteConfirm": "Êtes-vous sûr de vouloir supprimer"
+    }
+  }
+}

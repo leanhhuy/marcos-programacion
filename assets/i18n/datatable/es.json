@@ -1,0 +1,37 @@
+{
+  "DATATABLE": {
+    "columns": {
+      "name": "Nombre",
+      "position": "Cargo",
+      "email": "Correo Electrónico",
+      "mobile": "Móvil",
+      "dateOfJoining": "Fecha de Incorporación",
+      "dateOfBirth": "Fecha de Nacimiento",
+      "salary": "Salario",
+      "projects": "Proyectos",
+      "action": "Acción"
+    },
+    "actions": {
+      "addUser": "Agregar Usuario",
+      "update": "Actualizar",
+      "delete": "Eliminar",
+      "cancel": "Cancelar"
+    },
+    "placeholders": {
+      "searchUser": "Buscar Usuario",
+      "name": "Nombre",
+      "position": "Cargo",
+      "email": "Correo Electrónico",
+      "mobile": "Móvil",
+      "dateOfBirth": "Fecha de Nacimiento",
+      "salary": "Salario",
+      "projects": "Proyectos"
+    },
+    "dialogs": {
+      "addTitle": "Agregar Usuario",
+      "updateTitle": "Actualizar Usuario",
+      "deleteTitle": "Eliminar Usuario",
+      "deleteConfirm": "¿Está seguro de eliminar"
+    }
+  }
+}

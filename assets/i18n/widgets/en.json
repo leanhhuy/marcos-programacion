@@ -1,0 +1,33 @@
+{
+  "WIDGETS": {
+    "title": "Widgets",
+    "cards": {
+      "title": "Widget Cards",
+      "topProjects": "Top Projects",
+      "newProjects": "New Projects",
+      "clients": "Clients",
+      "totalSales": "Total Sales",
+      "employees": "Employees",
+      "products": "Products",
+      "orders": "Orders",
+      "revenue": "Revenue",
+      "views": "Views",
+      "comments": "Comments",
+      "readMore": "Read More"
+    },
+    "banners": {
+      "title": "Banners",
+      "specialOffer": "Special Offer",
+      "newArrival": "New Arrival",
+      "bestSeller": "Best Seller",
+      "trending": "Trending"
+    },
+    "charts": {
+      "title": "Widget Charts",
+      "salesOverview": "Sales Overview",
+      "monthlyEarnings": "Monthly Earnings",
+      "yearlyStats": "Yearly Stats",
+      "performance": "Performance"
+    }
+  }
+}

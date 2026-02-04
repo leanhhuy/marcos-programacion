@@ -1,0 +1,108 @@
+{
+  "FORMS": {
+    "title": "Forms",
+    "labels": {
+      "name": "Name",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "company": "Company",
+      "phoneNo": "Phone No",
+      "phone": "Phone",
+      "message": "Message",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "address": "Address",
+      "country": "Country",
+      "city": "City",
+      "state": "State",
+      "zipCode": "Zip Code",
+      "date": "Date",
+      "gender": "Gender",
+      "age": "Age",
+      "description": "Description",
+      "subject": "Subject",
+      "username": "Username"
+    },
+    "buttons": {
+      "send": "Send",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "reset": "Reset",
+      "save": "Save",
+      "next": "Next",
+      "back": "Back",
+      "finish": "Finish",
+      "upload": "Upload"
+    },
+    "titles": {
+      "basicLayout": "Basic Layout",
+      "basicWithIcons": "Basic with Icons",
+      "formSeparator": "Form Separator",
+      "formLabelAlignment": "Form Label Alignment",
+      "formWizard": "Form Wizard",
+      "vertical": "Vertical",
+      "ordinaryForm": "Ordinary Form",
+      "inputVariants": "Input Variants",
+      "defaultForm": "Default Form",
+      "basicHeaderForm": "Basic Header Form",
+      "disabledForm": "Disabled Form",
+      "formWithLeftIcon": "Form with Left Icon",
+      "formWithRightIcon": "Form with Right Icon",
+      "formEditor": "Form Editor",
+      "formToastr": "Form Toastr"
+    },
+    "placeholders": {
+      "enterName": "Enter Name",
+      "johnDeo": "John Deo",
+      "acmeInc": "ACME Inc.",
+      "enterEmail": "Enter Email",
+      "enterPhone": "Enter Phone",
+      "enterMessage": "Enter Message",
+      "hiDoYouHaveMoment": "Hi, Do you have a moment to talk?"
+    },
+    "sections": {
+      "personalInfo": "Personal Info",
+      "contactInfo": "Contact Info",
+      "accountInfo": "Account Info",
+      "addressInfo": "Address Info"
+    },
+    "radioCheckbox": {
+      "basicRadioButton": "Basic radio button",
+      "radioWithColors": "Radio with Colors",
+      "basicCheckbox": "Basic Checkbox",
+      "checkboxWithColors": "Checkbox with Colors",
+      "primary": "Primary",
+      "accent": "Accent",
+      "warn": "Warn",
+      "checked": "Checked",
+      "indeterminate": "Indeterminate",
+      "disabled": "Disabled"
+    },
+    "autocomplete": {
+      "title": "Autocomplete",
+      "basicAutocomplete": "Basic Autocomplete",
+      "displayValue": "Display value",
+      "filterOptions": "Filter options",
+      "optionGroups": "Option groups"
+    },
+    "datepicker": {
+      "title": "Datepicker",
+      "basicDatepicker": "Basic Datepicker",
+      "dateRange": "Date Range",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "chooseDate": "Choose a date"
+    },
+    "button": {
+      "title": "Button",
+      "basicButton": "Basic Button",
+      "raisedButton": "Raised Button",
+      "strokedButton": "Stroked Button",
+      "flatButton": "Flat Button",
+      "iconButton": "Icon Button",
+      "fabButton": "FAB Button",
+      "miniFabButton": "Mini FAB Button"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "CHARTS": {
+    "title": "Gráficos",
+    "types": {
+      "line": "Gráfico de Líneas",
+      "area": "Gráfico de Área",
+      "column": "Gráfico de Columnas",
+      "bar": "Gráfico de Barras",
+      "pie": "Gráfico Circular",
+      "doughnut": "Gráfico de Anillo",
+      "radial": "Gráfico Radial",
+      "radar": "Gráfico de Radar",
+      "candlestick": "Gráfico de Velas",
+      "gradient": "Gráfico con Degradado"
+    },
+    "labels": {
+      "series": "Series",
+      "category": "Categoría",
+      "value": "Valor",
+      "percentage": "Porcentaje",
+      "total": "Total"
+    }
+  }
+}

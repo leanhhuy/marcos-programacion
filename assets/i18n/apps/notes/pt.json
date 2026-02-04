@@ -1,0 +1,12 @@
+{
+  "NOTES": {
+    "searchPlaceholder": "Pesquisar notas",
+    "allNotes": "Todas as notas",
+    "deleteTooltip": "Excluir",
+    "noNotesFound": "Nenhuma nota encontrada",
+    "addNotes": "Adicionar notas",
+    "editNote": "Editar nota",
+    "changeColor": "Alterar cor da nota",
+    "noNoteSelected": "Nenhuma nota selecionada"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "ACCOUNT": {
+    "tabAccount": "Account",
+    "tabNotifications": "Notifications",
+    "tabBills": "Bills",
+    "tabSecurity": "Security",
+    "changeProfile": "Change Profile",
+    "changeProfileDesc": "Change your profile picture from here",
+    "upload": "Upload",
+    "reset": "Reset",
+    "allowedFormats": "Allowed JPG, GIF or PNG. Max size of 800K",
+    "changePassword": "Change Password",
+    "changePasswordDesc": "To change your password please confirm here",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "personalDetails": "Personal Details",
+    "personalDetailsDesc": "To change your personal detail, edit and save from here",
+    "yourName": "Your Name",
+    "location": "Location",
+    "email": "Email",
+    "storeName": "Store Name",
+    "currency": "Currency",
+    "phone": "Phone",
+    "address": "Address",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get to know more about ready-to-use admin dashboard templates"
+  },
+  "PRICING": {
+    "title": "Flexible Plans Tailored to Fit Your Community Needs!",
+    "subtitle": "Not sure what you need? We are here to help.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "free": "Free",
+    "starter": "Starter",
+    "professional": "Professional",
+    "enterprise": "Enterprise",
+    "perMonth": "/mo",
+    "perYear": "/yr",
+    "choosePlan": "Choose Plan",
+    "currentPlan": "Current Plan",
+    "mostPopular": "Most Popular"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "ACCOUNT": {
+    "tabAccount": "Account",
+    "tabNotifications": "Notifiche",
+    "tabBills": "Fatture",
+    "tabSecurity": "Sicurezza",
+    "changeProfile": "Cambia profilo",
+    "changeProfileDesc": "Cambia la tua immagine del profilo da qui",
+    "upload": "Carica",
+    "reset": "Ripristina",
+    "allowedFormats": "Consentiti JPG, GIF o PNG. Dimensione max 800K",
+    "changePassword": "Cambia password",
+    "changePasswordDesc": "Per cambiare la password, conferma qui",
+    "currentPassword": "Password attuale",
+    "newPassword": "Nuova password",
+    "confirmPassword": "Conferma password",
+    "personalDetails": "Dettagli personali",
+    "personalDetailsDesc": "Per modificare i tuoi dati personali, modifica e salva da qui",
+    "yourName": "Il tuo nome",
+    "location": "Posizione",
+    "email": "Email",
+    "storeName": "Nome negozio",
+    "currency": "Valuta",
+    "phone": "Telefono",
+    "address": "Indirizzo",
+    "save": "Salva",
+    "cancel": "Annulla"
+  },
+  "FAQ": {
+    "title": "Domande frequenti",
+    "subtitle": "Scopri di più sui modelli di dashboard di amministrazione pronti all'uso"
+  },
+  "PRICING": {
+    "title": "Piani flessibili su misura per le esigenze della tua comunità!",
+    "subtitle": "Non sai cosa ti serve? Siamo qui per aiutarti.",
+    "monthly": "Mensile",
+    "yearly": "Annuale",
+    "free": "Gratuito",
+    "starter": "Iniziale",
+    "professional": "Professionale",
+    "enterprise": "Enterprise",
+    "perMonth": "/mese",
+    "perYear": "/anno",
+    "choosePlan": "Scegli piano",
+    "currentPlan": "Piano attuale",
+    "mostPopular": "Più popolare"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "PROFILE": {
+    "posts": "Publications",
+    "followers": "Abonnés",
+    "following": "Abonnements",
+    "addToStory": "Ajouter à la Story",
+    "profile": "Profil",
+    "friends": "Amis",
+    "gallery": "Galerie",
+    "introduction": "Introduction",
+    "photos": "Photos",
+    "shareYourThoughts": "Partagez vos pensées",
+    "photoVideo": "Photo / Vidéo",
+    "article": "Article",
+    "post": "Publier",
+    "comment": "Commenter",
+    "searchFollowers": "Rechercher des Abonnés",
+    "searchFriends": "Rechercher des Amis",
+    "searchGallery": "Rechercher dans la Galerie",
+    "follow": "Suivre",
+    "unfollow": "Ne plus suivre"
+  }
+}

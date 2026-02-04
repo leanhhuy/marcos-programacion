@@ -1,6 +1,19 @@
 {
   "DASHBOARD4": {
     "title": "Panel de Comercio Electrónico",
+    "totalRevenue": "Ingresos Totales",
+    "uniqueVisit": "Visita Única",
+    "totalVisit": "Visita Total",
+    "bounceRate": "Tasa de rebote",
+    "pageViews": "Vistas de Página",
+    "salesPrediction": "Predicción de Ventas",
+    "increased": "10% Aumentado",
+    "salesRange": "(150-165 Ventas)",
+    "salesDifference": "Diferencia de Ventas",
+    "recentChats": "Chats Recientes",
+    "sendMessage": "Enviar mensaje",
+    "totalVisits": "Visitas Totales",
+    "browserStats": "Estadísticas del Navegador",
     "BROWSER_STATS": {
       "title": "Estadísticas del Navegador"
     },

@@ -1,0 +1,10 @@
+{
+  "EMAIL": {
+    "inbox": "Bandeja de entrada",
+    "compose": "Redactar",
+    "sortBy": "Ordenar por",
+    "labels": "Etiquetas",
+    "noEmailsFound": "No se encontraron correos electrónicos.",
+    "pleaseSelectMail": "Por favor, seleccione un correo electrónico"
+  }
+}

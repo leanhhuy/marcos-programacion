@@ -1,0 +1,45 @@
+{
+  "TABLES": {
+    "title": "Tabelas",
+    "columns": {
+      "assigned": "Atribuído",
+      "name": "Nome",
+      "priority": "Prioridade",
+      "budget": "Orçamento",
+      "position": "Posição",
+      "weight": "Peso",
+      "symbol": "Símbolo",
+      "actions": "Ações"
+    },
+    "priorities": {
+      "low": "Baixa",
+      "medium": "Média",
+      "high": "Alta",
+      "critical": "Crítica",
+      "moderate": "Moderada"
+    },
+    "titles": {
+      "topProjects": "Projetos Principais",
+      "topNewProducts": "Novos produtos principais",
+      "basicTable": "Tabela Básica",
+      "dynamicTable": "Tabela Dinâmica",
+      "expandTable": "Tabela Expansível",
+      "filterableTable": "Tabela Filtrável",
+      "paginationTable": "Tabela com Paginação",
+      "sortableTable": "Tabela Ordenável"
+    },
+    "actions": {
+      "edit": "Editar",
+      "delete": "Excluir",
+      "view": "Visualizar"
+    },
+    "pagination": {
+      "itemsPerPage": "Itens por página",
+      "of": "de",
+      "firstPage": "Primeira página",
+      "lastPage": "Última página",
+      "previousPage": "Página anterior",
+      "nextPage": "Próxima página"
+    }
+  }
+}

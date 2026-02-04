@@ -1,6 +1,19 @@
 {
   "DASHBOARD4": {
     "title": "Tableau de Bord eCommerce",
+    "totalRevenue": "Chiffre d'Affaires Total",
+    "uniqueVisit": "Visite Unique",
+    "totalVisit": "Visite Totale",
+    "bounceRate": "Taux de rebond",
+    "pageViews": "Pages Vues",
+    "salesPrediction": "Prévision des Ventes",
+    "increased": "10% Augmenté",
+    "salesRange": "(150-165 Ventes)",
+    "salesDifference": "Différence de Ventes",
+    "recentChats": "Discussions Récentes",
+    "sendMessage": "Envoyer un message",
+    "totalVisits": "Visites Totales",
+    "browserStats": "Statistiques du Navigateur",
     "BROWSER_STATS": {
       "title": "Statistiques du Navigateur"
     },

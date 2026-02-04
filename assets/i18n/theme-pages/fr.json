@@ -1,0 +1,48 @@
+{
+  "ACCOUNT": {
+    "tabAccount": "Compte",
+    "tabNotifications": "Notifications",
+    "tabBills": "Factures",
+    "tabSecurity": "Sécurité",
+    "changeProfile": "Modifier le profil",
+    "changeProfileDesc": "Modifiez votre photo de profil ici",
+    "upload": "Télécharger",
+    "reset": "Réinitialiser",
+    "allowedFormats": "JPG, GIF ou PNG autorisés. Taille max de 800K",
+    "changePassword": "Modifier le mot de passe",
+    "changePasswordDesc": "Pour modifier votre mot de passe, veuillez confirmer ici",
+    "currentPassword": "Mot de passe actuel",
+    "newPassword": "Nouveau mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "personalDetails": "Détails personnels",
+    "personalDetailsDesc": "Pour modifier vos détails personnels, modifiez et enregistrez ici",
+    "yourName": "Votre nom",
+    "location": "Emplacement",
+    "email": "Courriel",
+    "storeName": "Nom du magasin",
+    "currency": "Devise",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "save": "Enregistrer",
+    "cancel": "Annuler"
+  },
+  "FAQ": {
+    "title": "Questions fréquentes",
+    "subtitle": "En savoir plus sur les modèles de tableau de bord d'administration prêts à l'emploi"
+  },
+  "PRICING": {
+    "title": "Des plans flexibles adaptés aux besoins de votre communauté !",
+    "subtitle": "Vous ne savez pas ce dont vous avez besoin ? Nous sommes là pour vous aider.",
+    "monthly": "Mensuel",
+    "yearly": "Annuel",
+    "free": "Gratuit",
+    "starter": "Débutant",
+    "professional": "Professionnel",
+    "enterprise": "Entreprise",
+    "perMonth": "/mois",
+    "perYear": "/an",
+    "choosePlan": "Choisir le plan",
+    "currentPlan": "Plan actuel",
+    "mostPopular": "Le plus populaire"
+  }
+}

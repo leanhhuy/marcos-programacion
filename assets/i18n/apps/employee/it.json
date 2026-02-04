@@ -1,0 +1,13 @@
+{
+  "EMPLOYEE": {
+    "searchPlaceholder": "Cerca dipendente",
+    "addEmployee": "Aggiungi dipendente",
+    "name": "Nome",
+    "email": "Email",
+    "mobile": "Telefono cellulare",
+    "dateOfJoining": "Data di assunzione",
+    "salary": "Stipendio",
+    "projects": "Progetti",
+    "action": "Azione"
+  }
+}

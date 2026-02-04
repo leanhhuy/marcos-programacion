@@ -1,0 +1,24 @@
+{
+  "CHARTS": {
+    "title": "Grafici",
+    "types": {
+      "line": "Grafico a Linee",
+      "area": "Grafico ad Area",
+      "column": "Grafico a Colonne",
+      "bar": "Grafico a Barre",
+      "pie": "Grafico a Torta",
+      "doughnut": "Grafico a Ciambella",
+      "radial": "Grafico Radiale",
+      "radar": "Grafico Radar",
+      "candlestick": "Grafico a Candele",
+      "gradient": "Grafico con Sfumatura"
+    },
+    "labels": {
+      "series": "Serie",
+      "category": "Categoria",
+      "value": "Valore",
+      "percentage": "Percentuale",
+      "total": "Totale"
+    }
+  }
+}

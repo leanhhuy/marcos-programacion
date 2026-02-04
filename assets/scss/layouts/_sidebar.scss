@@ -263,6 +263,14 @@
       font-weight: 400;
       border-radius: 26px;
       gap: 12px;
+      
+      // COPILOT START - TASK-2026-0202-001 - Enable text wrapping for long menu items - Claude Haiku 4.5      
+      .hide-menu {
+        white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+      }
+      // COPILOT END - TASK-2026-0202-001 - reviewed
 
       &:hover::before {
         background-color: transparent !important;

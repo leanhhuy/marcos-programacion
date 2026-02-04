@@ -1,0 +1,17 @@
+{
+  "BLOGS": {
+    "minsRead": "{{count}} min de lectura",
+    "titleOfParagraph": "Título del párrafo",
+    "thisIsStrongText": "Este es texto en negrita.",
+    "thisIsItalicText": "Este es texto en cursiva.",
+    "unorderedList": "Lista desordenada.",
+    "orderedList": "Lista ordenada.",
+    "quotes": "Citas",
+    "noBlogPostAvailable": "No hay publicación de blog disponible.",
+    "postComments": "Publicar comentarios",
+    "postButton": "Publicar",
+    "comments": "Comentarios",
+    "reply": "Responder",
+    "now": "ahora"
+  }
+}

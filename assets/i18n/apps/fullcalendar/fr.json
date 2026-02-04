@@ -1,0 +1,18 @@
+{
+  "FULLCALENDAR": {
+    "angularCalendar": "Calendrier Angular",
+    "addEvent": "Ajouter un Événement",
+    "editEvent": "Modifier l'Événement",
+    "month": "Mois",
+    "week": "Semaine",
+    "day": "Jour",
+    "editTitle": "Modifier le Titre",
+    "addTitle": "Ajouter un Titre",
+    "changeColor": "Changer la Couleur",
+    "startDate": "Date de Début",
+    "endDate": "Date de Fin",
+    "okay": "D'accord",
+    "save": "Enregistrer",
+    "cancel": "Annuler"
+  }
+}

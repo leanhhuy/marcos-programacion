@@ -1,0 +1,16 @@
+{
+  "TICKETS": {
+    "totalTickets": "Total des tickets",
+    "inProgress": "En cours",
+    "open": "Ouvert",
+    "closed": "Fermé",
+    "searchPlaceholder": "Rechercher des tickets",
+    "addTicket": "Ajouter un ticket",
+    "id": "Id",
+    "title": "Titre",
+    "assignedTo": "Assigné à",
+    "status": "Statut",
+    "date": "Date",
+    "action": "Action"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "STARTER": {
+    "title": "Page de Démarrage",
+    "buttons": {
+      "basic": "Basique",
+      "primary": "Principal",
+      "accent": "Accent",
+      "warn": "Avertissement",
+      "disabled": "Désactivé",
+      "link": "Lien"
+    }
+  }
+}

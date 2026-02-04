@@ -1,0 +1,33 @@
+{
+  "CONTACT_LIST": {
+    "addNewContacts": "Add New Contacts",
+    "categories": "Categories",
+    "searchContacts": "Search Contacts",
+    "noContactsFound": "No contacts found.",
+    "pleaseSelectContact": "Please Select a contact",
+    "back": "Back",
+    "contactDetails": "Contact Details",
+    "unstar": "Unstar",
+    "star": "Star",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "phoneNumber": "Phone Number",
+    "emailAddress": "Email address",
+    "address": "Address",
+    "department": "Department",
+    "company": "Company",
+    "notes": "Notes",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "companyName": "Company Name",
+    "email": "Email",
+    "phone": "Phone",
+    "saveContact": "Save Contact",
+    "cancel": "Cancel",
+    "addNewContact": "Add New Contact",
+    "addContact": "Add Contact",
+    "confirmation": "Confirmation",
+    "yes": "Yes"
+  }
+}

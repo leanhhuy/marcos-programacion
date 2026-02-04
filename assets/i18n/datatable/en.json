@@ -1,0 +1,37 @@
+{
+  "DATATABLE": {
+    "columns": {
+      "name": "Name",
+      "position": "Position",
+      "email": "Email",
+      "mobile": "Mobile",
+      "dateOfJoining": "Date of Joining",
+      "dateOfBirth": "Date of Birth",
+      "salary": "Salary",
+      "projects": "Projects",
+      "action": "Action"
+    },
+    "actions": {
+      "addUser": "Add User",
+      "update": "Update",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    },
+    "placeholders": {
+      "searchUser": "Search User",
+      "name": "Name",
+      "position": "Position",
+      "email": "Email",
+      "mobile": "Mobile",
+      "dateOfBirth": "Date of Birth",
+      "salary": "Salary",
+      "projects": "Projects"
+    },
+    "dialogs": {
+      "addTitle": "Add User",
+      "updateTitle": "Update User",
+      "deleteTitle": "Delete User",
+      "deleteConfirm": "Sure to delete"
+    }
+  }
+}

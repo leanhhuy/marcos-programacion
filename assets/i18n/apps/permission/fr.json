@@ -1,0 +1,11 @@
+{
+  "PERMISSION": {
+    "rollbaseAccess": "Accès Basé sur les Rôles",
+    "moreDetail": "Vous pouvez trouver plus de détails ici :",
+    "admin": "Administrateur",
+    "manager": "Gestionnaire",
+    "guest": "Invité",
+    "currentRole": "Votre rôle actuel :",
+    "currentPermissions": "Vos permissions actuelles :"
+  }
+}

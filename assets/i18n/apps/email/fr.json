@@ -1,0 +1,10 @@
+{
+  "EMAIL": {
+    "inbox": "Boîte de réception",
+    "compose": "Rédiger",
+    "sortBy": "Trier par",
+    "labels": "Étiquettes",
+    "noEmailsFound": "Aucun courriel trouvé.",
+    "pleaseSelectMail": "Veuillez sélectionner un courriel"
+  }
+}

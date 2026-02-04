@@ -1,0 +1,17 @@
+{
+  "INVOICE": {
+    "total": "Total",
+    "invoices": "faturas",
+    "shipped": "Enviado",
+    "delivered": "Entregue",
+    "pending": "Pendente",
+    "searchPlaceholder": "Pesquisar fatura",
+    "addInvoice": "Adicionar fatura",
+    "id": "Id",
+    "billFrom": "Faturar de",
+    "billTo": "Faturar para",
+    "totalCost": "Custo total",
+    "status": "Status",
+    "action": "Ação"
+  }
+}

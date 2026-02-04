@@ -1,0 +1,21 @@
+{
+  "TASK": {
+    "markAsIncomplete": "SEGNA COME INCOMPLETA",
+    "markAsComplete": "SEGNA COME COMPLETA",
+    "title": "Titolo",
+    "priority": "Priorità",
+    "low": "Bassa",
+    "normal": "Normale",
+    "high": "Alta",
+    "dueDate": "Data di Scadenza",
+    "notes": "Note",
+    "save": "Salva",
+    "delete": "Elimina",
+    "tasks": "Attività",
+    "addTask": "Aggiungi Attività",
+    "addSection": "Aggiungi Sezione",
+    "incompleteTasks": "Attività Incompleta/e",
+    "completeTasks": "Attività Completa/e",
+    "totalTasks": "Totale Attività"
+  }
+}

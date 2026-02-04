@@ -1,0 +1,33 @@
+{
+  "CONTACT_LIST": {
+    "addNewContacts": "Agregar Nuevos Contactos",
+    "categories": "Categorías",
+    "searchContacts": "Buscar Contactos",
+    "noContactsFound": "No se encontraron contactos.",
+    "pleaseSelectContact": "Por favor seleccione un contacto",
+    "back": "Volver",
+    "contactDetails": "Detalles del Contacto",
+    "unstar": "Quitar destacado",
+    "star": "Destacar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "phoneNumber": "Número de Teléfono",
+    "emailAddress": "Dirección de Correo Electrónico",
+    "address": "Dirección",
+    "department": "Departamento",
+    "company": "Empresa",
+    "notes": "Notas",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "companyName": "Nombre de la Empresa",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "saveContact": "Guardar Contacto",
+    "cancel": "Cancelar",
+    "addNewContact": "Agregar Nuevo Contacto",
+    "addContact": "Agregar Contacto",
+    "confirmation": "Confirmación",
+    "yes": "Sí"
+  }
+}

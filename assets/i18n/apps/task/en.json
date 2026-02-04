@@ -1,0 +1,21 @@
+{
+  "TASK": {
+    "markAsIncomplete": "MARK AS INCOMPLETE",
+    "markAsComplete": "MARK AS COMPLETE",
+    "title": "Title",
+    "priority": "Priority",
+    "low": "Low",
+    "normal": "Normal",
+    "high": "High",
+    "dueDate": "Due Date",
+    "notes": "Notes",
+    "save": "Save",
+    "delete": "Delete",
+    "tasks": "Tasks",
+    "addTask": "Add Task",
+    "addSection": "Add Section",
+    "incompleteTasks": "Incomplete Task(s)",
+    "completeTasks": "Complete Task(s)",
+    "totalTasks": "Total Task(s)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "KANBAN": {
+    "title": "Kanban",
+    "createTask": "Créer une tâche",
+    "todo": "À faire",
+    "inProgress": "En cours",
+    "onHold": "En attente",
+    "completed": "Terminé",
+    "edit": "Modifier",
+    "delete": "Supprimer"
+  }
+}

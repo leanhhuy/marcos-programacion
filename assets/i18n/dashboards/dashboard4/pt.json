@@ -1,6 +1,19 @@
 {
   "DASHBOARD4": {
     "title": "Painel de Comércio Eletrónico",
+    "totalRevenue": "Receita Total",
+    "uniqueVisit": "Visita Única",
+    "totalVisit": "Visita Total",
+    "bounceRate": "Taxa de rejeição",
+    "pageViews": "Visualizações de Página",
+    "salesPrediction": "Previsão de Vendas",
+    "increased": "10% Aumentado",
+    "salesRange": "(150-165 Vendas)",
+    "salesDifference": "Diferença de Vendas",
+    "recentChats": "Conversas Recentes",
+    "sendMessage": "Enviar mensagem",
+    "totalVisits": "Visitas Totais",
+    "browserStats": "Estatísticas do Navegador",
     "BROWSER_STATS": {
       "title": "Estatísticas do Navegador"
     },

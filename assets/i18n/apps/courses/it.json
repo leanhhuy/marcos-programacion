@@ -1,0 +1,28 @@
+{
+  "COURSES": {
+    "search": "Cerca",
+    "category": "Categoria",
+    "all": "Tutti",
+    "web": "Web",
+    "android": "Android",
+    "angular": "Angular",
+    "design": "Design",
+    "start": "Inizia",
+    "next": "Avanti",
+    "back": "Indietro",
+    "reset": "Reimposta",
+    "step": "Passo",
+    "introduction": "Introduzione",
+    "getSampleCode": "Ottieni il codice di esempio",
+    "createFirebaseProject": "Crea un progetto Firebase e configura la tua app",
+    "installFirebaseCli": "Installa l'interfaccia a riga di comando di Firebase",
+    "deployAndRun": "Distribuisci ed esegui l'app web",
+    "functionsDirectory": "La directory delle funzioni",
+    "importCloudFunctions": "Importa i moduli Cloud Functions e Firebase Admin",
+    "welcomeNewUsers": "Dai il benvenuto ai nuovi utenti",
+    "imagesModeration": "Moderazione delle immagini",
+    "newMessageNotifications": "Notifiche di nuovi messaggi",
+    "congratulations": "Congratulazioni!",
+    "installDependencies": "Installa le dipendenze"
+  }
+}

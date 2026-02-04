@@ -1,0 +1,45 @@
+{
+  "TABLES": {
+    "title": "Tables",
+    "columns": {
+      "assigned": "Assigned",
+      "name": "Name",
+      "priority": "Priority",
+      "budget": "Budget",
+      "position": "Position",
+      "weight": "Weight",
+      "symbol": "Symbol",
+      "actions": "Actions"
+    },
+    "priorities": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical",
+      "moderate": "Moderate"
+    },
+    "titles": {
+      "topProjects": "Top Projects",
+      "topNewProducts": "Top new products",
+      "basicTable": "Basic Table",
+      "dynamicTable": "Dynamic Table",
+      "expandTable": "Expand Table",
+      "filterableTable": "Filterable Table",
+      "paginationTable": "Pagination Table",
+      "sortableTable": "Sortable Table"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "view": "View"
+    },
+    "pagination": {
+      "itemsPerPage": "Items per page",
+      "of": "of",
+      "firstPage": "First page",
+      "lastPage": "Last page",
+      "previousPage": "Previous page",
+      "nextPage": "Next page"
+    }
+  }
+}

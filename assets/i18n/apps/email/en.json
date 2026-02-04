@@ -1,0 +1,10 @@
+{
+  "EMAIL": {
+    "inbox": "Inbox",
+    "compose": "Compose",
+    "sortBy": "Sort By",
+    "labels": "Labels",
+    "noEmailsFound": "No emails found.",
+    "pleaseSelectMail": "Please Select a Mail"
+  }
+}

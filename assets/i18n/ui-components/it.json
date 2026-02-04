@@ -1,0 +1,24 @@
+{
+  "UI_COMPONENTS": {
+    "title": "Componenti dell'Interfaccia",
+    "components": {
+      "badge": "Badge",
+      "chips": "Etichette",
+      "dialog": "Finestra di Dialogo",
+      "divider": "Divisore",
+      "expansion": "Pannello di Espansione",
+      "lists": "Liste",
+      "menu": "Menu",
+      "paginator": "Paginatore",
+      "progress": "Progresso",
+      "progressSpinner": "Indicatore di Caricamento",
+      "ripples": "Increspature",
+      "slideToggle": "Interruttore Scorrevole",
+      "slider": "Cursore",
+      "snackbar": "Barra di Notifica",
+      "tabs": "Schede",
+      "toolbar": "Barra degli Strumenti",
+      "tooltips": "Suggerimenti"
+    }
+  }
+}

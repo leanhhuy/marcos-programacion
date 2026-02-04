@@ -1,0 +1,13 @@
+{
+  "STARTER": {
+    "title": "Pagina Iniziale",
+    "buttons": {
+      "basic": "Base",
+      "primary": "Principale",
+      "accent": "Accento",
+      "warn": "Avviso",
+      "disabled": "Disabilitato",
+      "link": "Link"
+    }
+  }
+}

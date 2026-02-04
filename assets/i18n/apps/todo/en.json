@@ -1,0 +1,12 @@
+{
+  "TODO": {
+    "title": "Todo App",
+    "all": "All",
+    "incompleted": "Incompleted",
+    "completed": "Completed",
+    "markAll": "Mark All",
+    "tasksLeft": "Tasks left",
+    "addTodoPlaceholder": "Add todo",
+    "addTodoButton": "Add Todo"
+  }
+}
