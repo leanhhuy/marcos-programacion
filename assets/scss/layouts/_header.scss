@@ -160,3 +160,24 @@ html .topbar {
   left: 0;
   box-shadow: var(--mat-sys-level2);
 }
+
+// TODO switch to use the .white-border class instead of .rounded-circle[class*="icon-"]
+// .white-border {
+//   border: 2px solid #F4F5F0;
+//   box-sizing: border-box;
+// }
+
+// COPILOT START - TASK-2026-0207-001 - Add white round border to language icon image
+// original 
+// .rounded-circle.icon-28,
+// .rounded-circle.icon-50 {
+//   border: 2px solid #F4F5F0;
+//   box-sizing: border-box;
+// }
+
+// enhanced, generalized
+.rounded-circle[class*="icon-"] {
+  border: 2px solid #F4F5F0;
+  box-sizing: border-box;
+}
+// COPILOT END - TASK-2026-0207-001
