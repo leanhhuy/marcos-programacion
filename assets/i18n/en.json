@@ -219,5 +219,12 @@
   "Shadow": "Shadow",
   "Border": "Border",
   "Container Option": "Container Option",
-  "Boxed": "Boxed"
+  "Boxed": "Boxed",
+  "Reset": "Reset",
+  "Cancel": "Cancel",
+  "Confirm": "Confirm",
+  "CUSTOMIZER": {
+    "resetTitle": "Reset Layout Options",
+    "resetConfirmation": "Would you really like to reset all layout options?"
+  }
 }

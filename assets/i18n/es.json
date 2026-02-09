@@ -219,5 +219,12 @@
   "Shadow": "Sombra",
   "Border": "Borde",
   "Container Option": "Opción de contenedor",
-  "Boxed": "Encajonado"
+  "Boxed": "Encajonado",
+  "Reset": "Restablecer",
+  "Cancel": "Cancelar",
+  "Confirm": "Confirmar",
+  "CUSTOMIZER": {
+    "resetTitle": "Restablecer opciones de diseño",
+    "resetConfirmation": "¿Realmente desea restablecer todas las opciones de diseño?"
+  }
 }

@@ -219,5 +219,12 @@
   "Shadow": "Sombra",
   "Border": "Borda",
   "Container Option": "Opção de contêiner",
-  "Boxed": "Em caixa"
+  "Boxed": "Em caixa",
+  "Reset": "Redefinir",
+  "Cancel": "Cancelar",
+  "Confirm": "Confirmar",
+  "CUSTOMIZER": {
+    "resetTitle": "Redefinir opções de layout",
+    "resetConfirmation": "Você realmente deseja redefinir todas as opções de layout?"
+  }
 }
