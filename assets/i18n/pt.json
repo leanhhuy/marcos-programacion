@@ -223,8 +223,6 @@
   "Reset": "Redefinir",
   "Cancel": "Cancelar",
   "Confirm": "Confirmar",
-  "CUSTOMIZER": {
-    "resetTitle": "Redefinir opções de layout",
-    "resetConfirmation": "Você realmente deseja redefinir todas as opções de layout?"
-  }
+  "customizer_resetTitle": "Redefinir opções de layout",
+  "customizer_resetConfirmation": "Você realmente deseja redefinir todas as opções de layout?"
 }

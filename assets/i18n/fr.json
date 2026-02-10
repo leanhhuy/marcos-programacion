@@ -223,8 +223,6 @@
   "Reset": "Réinitialiser",
   "Cancel": "Annuler",
   "Confirm": "Confirmer",
-  "CUSTOMIZER": {
-    "resetTitle": "Réinitialiser les options de mise en page",
-    "resetConfirmation": "Voulez-vous vraiment réinitialiser toutes les options de mise en page ?"
-  }
+  "customizer_resetTitle": "Réinitialiser les options de mise en page",
+  "customizer_resetConfirmation": "Voulez-vous vraiment réinitialiser toutes les options de mise en page ?"
 }

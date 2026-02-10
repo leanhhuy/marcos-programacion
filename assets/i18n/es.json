@@ -223,8 +223,6 @@
   "Reset": "Restablecer",
   "Cancel": "Cancelar",
   "Confirm": "Confirmar",
-  "CUSTOMIZER": {
-    "resetTitle": "Restablecer opciones de diseño",
-    "resetConfirmation": "¿Realmente desea restablecer todas las opciones de diseño?"
-  }
+  "customizer_resetTitle": "Restablecer opciones de diseño",
+  "customizer_resetConfirmation": "¿Realmente desea restablecer todas las opciones de diseño?"
 }

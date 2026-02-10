@@ -223,8 +223,6 @@
   "Reset": "Reset",
   "Cancel": "Cancel",
   "Confirm": "Confirm",
-  "CUSTOMIZER": {
-    "resetTitle": "Reset Layout Options",
-    "resetConfirmation": "Would you really like to reset all layout options?"
-  }
+  "customizer_resetTitle": "Reset Layout Options",
+  "customizer_resetConfirmation": "Would you really like to reset all layout options?"
 }

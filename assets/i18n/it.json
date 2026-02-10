@@ -223,8 +223,6 @@
   "Reset": "Ripristina",
   "Cancel": "Annulla",
   "Confirm": "Conferma",
-  "CUSTOMIZER": {
-    "resetTitle": "Ripristina opzioni di layout",
-    "resetConfirmation": "Vuoi davvero ripristinare tutte le opzioni di layout?"
-  }
+  "customizer_resetTitle": "Ripristina opzioni di layout",
+  "customizer_resetConfirmation": "Vuoi davvero ripristinare tutte le opzioni di layout?"
 }
