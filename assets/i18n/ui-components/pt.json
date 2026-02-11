@@ -1,12 +1,4 @@
 {
-  "_copilot": {
-    "taskId": "TASK-2026-0210-001",
-    "dateTime": "2026-02-10T10:00:00Z",
-    "aiModel": "Claude Opus 4.6",
-    "purpose": "Add General-Purpose Confirmation Dialog translations",
-    "filesChanged": 14,
-    "fileDescription": "Added CONFIRM_DIALOG translation keys for Portuguese"
-  },
   "CONFIRM_DIALOG": {
     "defaultTitle": "Confirmação",
     "defaultMessage": "Você realmente tem certeza de que deseja fazer isso?"

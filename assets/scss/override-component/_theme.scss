@@ -4,7 +4,13 @@
 
 html {
   @include mat.theme((color: mat.$azure-palette,
-      typography: "Poppins",
+      // typography: "Poppins",
+
+      typography: "Roboto Flex",
+      // typography: "Roboto",
+      // typography: "Inter",
+      // typography: "DM Sans",
+      // typography: "Noto Sans",
     ));
 
   @include mat.theme-overrides((error: rgb(248, 40, 90),
