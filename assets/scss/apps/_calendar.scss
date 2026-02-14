@@ -18,7 +18,7 @@
     color: var(--mat-sys-primary) !important;
   }
   .cal-cell {
-    font-size: 14px;
+    font-size: 0.9375rem; // COPILOT - TASK-2026-0213-003 - was 14px, +1px body, px→rem
     font-weight: 500;
   }
 }

@@ -28,7 +28,7 @@
 
   a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.9375rem; // COPILOT - TASK-2026-0213-003 - was 14px, +1px UI text, px→rem
 
     &:hover {
       color: $primary;

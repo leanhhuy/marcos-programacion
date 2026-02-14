@@ -8,8 +8,8 @@
 }
 
 .auth-title {
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 2.25rem; // COPILOT - TASK-2026-0213-003 - was 36px, display unchanged, px→rem
+  line-height: 2.75rem; // COPILOT - TASK-2026-0213-003 - was 44px, px→rem
 }
 
 .bg-gredient {

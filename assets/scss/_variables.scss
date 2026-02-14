@@ -1,7 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+/*
+═══════════════════════════════════════════════════════════════════════════
+COPILOT CHANGE LOG
+
+@generated
+@taskId         TASK-2026-0213-001
+@dateTime       2026-02-13T12:00:00Z
+@aiModel        Claude Opus 4.6
+@purpose        Remove Poppins font import and commented reference
+@filesChanged   3
+@fileDescription Removed Poppins @import url and commented $font-family line
+
+═══════════════════════════════════════════════════════════════════════════
+*/
 
 // font
-// $font-family: "Poppins", sans-serif;
 
 $font-family: "Roboto Flex", sans-serif;
 // $font-family: "Roboto", sans-serif;

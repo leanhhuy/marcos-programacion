@@ -1,11 +1,24 @@
+/*
+═══════════════════════════════════════════════════════════════════════════
+COPILOT CHANGE LOG
+
+@generated
+@taskId         TASK-2026-0213-001
+@dateTime       2026-02-13T12:00:00Z
+@aiModel        Claude Opus 4.6
+@purpose        Remove commented Poppins typography reference
+@filesChanged   3
+@fileDescription Removed commented-out Poppins typography option
+
+═══════════════════════════════════════════════════════════════════════════
+*/
+
 @use "sass:map";
 @use "@angular/material" as mat;
 @use "../variables" as *;
 
 html {
   @include mat.theme((color: mat.$azure-palette,
-      // typography: "Poppins",
-
       typography: "Roboto Flex",
       // typography: "Roboto",
       // typography: "Inter",
@@ -13,10 +26,12 @@ html {
       // typography: "Noto Sans",
     ));
 
+  // COPILOT START - TASK-2026-0213-003 - Recalibrated Material body sizes (px → rem)
   @include mat.theme-overrides((error: rgb(248, 40, 90),
-      body-medium-size: 14px,
-      body-large-size: 14px,
+      body-medium-size: 0.9375rem,  // 15px (was 14px, +1px optical compensation)
+      body-large-size: 1rem,        // 16px (was 14px, corrected to Material default + compensation)
       outline-variant: #d7dde2,
+  // COPILOT END - TASK-2026-0213-003
       level1: 0px 12px 24px -4px rgb(145 158 171 / 30%),
       level2: rgba(145, 158, 171, 0.12) 0px 1px 16px,
     ));

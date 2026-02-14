@@ -8,7 +8,7 @@
 
 body {
   font-family: $font-family;
-  line-height: 1.334rem;
+  line-height: 1.5rem; // COPILOT - TASK-2026-0213-003 - was 1.334rem, increased for readability
   overflow-x: hidden;
   color: var(--mat-sys-on-background);
 }
@@ -98,7 +98,8 @@ h6 {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 2;  // for old browers
+  line-clamp: 2;          // for compatibility with modern browser
   -webkit-box-orient: vertical;
 }
 

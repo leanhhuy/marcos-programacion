@@ -65,28 +65,30 @@ $font-wieghts: (
   900: 900,
 ) !default;
 
+// COPILOT START - TASK-2026-0213-003 - Recalibrated Roboto Flex font sizes (px → rem)
 $font-sizes: (
   0: 0,
-  10: 10px,
-  12: 12px,
-  13: 13px,
-  14: 14px,
-  15: 15px,
-  16: 16px,
-  18: 18px,
-  20: 20px,
-  21: 21px,
-  22: 22px,
-  23: 23px,
-  24: 24px,
-  28: 28px,
-  30: 30px,
-  34: 34px,
-  40: 40px,
-  44: 44px,
-  56: 56px,
-  64: 64px,
+  10: 0.75rem,     // was 10px → 12px optical compensation (+2px caption)
+  12: 0.875rem,    // was 12px → 14px optical compensation (+2px caption)
+  13: 0.875rem,    // was 13px → 14px optical compensation (+1px UI text)
+  14: 0.9375rem,   // was 14px → 15px optical compensation (+1px body)
+  15: 1rem,        // was 15px → 16px optical compensation (+1px body)
+  16: 1.0625rem,   // was 16px → 17px optical compensation (+1px body)
+  18: 1.1875rem,   // was 18px → 19px optical compensation (+1px body)
+  20: 1.3125rem,   // was 20px → 21px optical compensation (+1px heading)
+  21: 1.375rem,    // was 21px → 22px optical compensation (+1px heading)
+  22: 1.4375rem,   // was 22px → 23px optical compensation (+1px heading)
+  23: 1.5rem,      // was 23px → 24px optical compensation (+1px heading)
+  24: 1.5625rem,   // was 24px → 25px optical compensation (+1px heading)
+  28: 1.8125rem,   // was 28px → 29px optical compensation (+1px heading)
+  30: 1.9375rem,   // was 30px → 31px optical compensation (+1px heading)
+  34: 2.1875rem,   // was 34px → 35px optical compensation (+1px heading)
+  40: 2.5rem,      // was 40px → unchanged (display)
+  44: 2.75rem,     // was 44px → unchanged (display)
+  56: 3.5rem,      // was 56px → unchanged (display)
+  64: 4rem,        // was 64px → unchanged (display)
 ) !default;
+// COPILOT END - TASK-2026-0213-003
 
 // Sizing
 

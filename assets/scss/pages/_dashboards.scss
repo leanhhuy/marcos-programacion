@@ -187,7 +187,7 @@
           height: auto;
           border-radius: 8px;
           border: 1px dashed $borderColor;
-          font-size: 15px;
+          font-size: 1rem; // COPILOT - TASK-2026-0213-003 - was 15px, +1px UI text, px→rem
           padding: 23px 16px;
           overflow: hidden;
           font-weight: 400;
@@ -258,7 +258,7 @@
 
     .chat-time {
       width: 80px;
-      font-size: 13px;
+      font-size: 0.875rem; // COPILOT - TASK-2026-0213-003 - was 13px, +1px caption, px→rem
     }
 
     &.odd {

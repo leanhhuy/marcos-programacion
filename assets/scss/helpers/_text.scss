@@ -72,11 +72,11 @@ h6 {
 }
 
 .lh-lg {
-  line-height: 36px !important;
+  line-height: 2.25rem !important; // COPILOT - TASK-2026-0213-003 - was 36px, px→rem
 }
 
 .lh-sm {
-  line-height: 20px !important;
+  line-height: 1.25rem !important; // COPILOT - TASK-2026-0213-003 - was 20px, px→rem
 }
 
 .lh-normal {

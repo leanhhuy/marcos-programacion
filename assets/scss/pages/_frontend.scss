@@ -95,7 +95,7 @@
 
 @media (max-width: 959px) {
     .section-sub-title {
-        font-size: 32px !important;
+        font-size: 2.0625rem !important; // COPILOT - TASK-2026-0213-003 - was 32px, +1px heading, px→rem
     }
 
     .spacing-top-bottom {
@@ -121,7 +121,7 @@
 
 @media (max-width: 767px) {
     .section-sub-title {
-        font-size: 26px !important;
+        font-size: 1.6875rem !important; // COPILOT - TASK-2026-0213-003 - was 26px, +1px heading, px→rem
     }
 
     .spacing-top-bottom {

@@ -52,8 +52,8 @@
 // ----------------------------------------------------------
 @media (min-width: 900px) {
   .banner-title {
-    font-size: 40px !important;
-    line-height: 50px !important;
+    font-size: 2.5rem !important; // COPILOT - TASK-2026-0213-003 - was 40px, display unchanged, px→rem
+    line-height: 3.125rem !important; // COPILOT - TASK-2026-0213-003 - was 50px, px→rem
   }
 }
 
@@ -64,18 +64,18 @@
 }
 
 .banner-title {
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 2.25rem; // COPILOT - TASK-2026-0213-003 - was 36px, display unchanged, px→rem
+  line-height: 2.75rem; // COPILOT - TASK-2026-0213-003 - was 44px, px→rem
 }
 
 .banner-subtitle {
-  line-height: 25px;
+  line-height: 1.5625rem; // COPILOT - TASK-2026-0213-003 - was 25px, px→rem
 }
 
 .btn-custom {
   height: 56px !important;
   padding: 0 52px !important;
-  font-size: 16px;
+  font-size: 1.0625rem; // COPILOT - TASK-2026-0213-003 - was 16px, +1px body, px→rem
   &.sm {
     padding: 0 34px !important;
   }
@@ -130,15 +130,15 @@
 }
 
 .section-title {
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 1.8125rem; // COPILOT - TASK-2026-0213-003 - was 28px, +1px heading, px→rem
+  line-height: 2rem; // COPILOT - TASK-2026-0213-003 - was 32px, px→rem
   font-weight: 600;
 }
 
 @media (min-width: 991px) {
   .section-title {
-    font-size: 36px;
-    line-height: 43px;
+    font-size: 2.25rem; // COPILOT - TASK-2026-0213-003 - was 36px, display unchanged, px→rem
+    line-height: 2.6875rem; // COPILOT - TASK-2026-0213-003 - was 43px, px→rem
   }
 }
 
@@ -186,8 +186,8 @@
 }
 
 .section-title2 {
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 1.9375rem; // COPILOT - TASK-2026-0213-003 - was 30px, +1px heading, px→rem
+  line-height: 2.25rem; // COPILOT - TASK-2026-0213-003 - was 36px, px→rem
   font-weight: 700;
 }
 
@@ -227,6 +227,7 @@
 .truncate-3-line {
   max-height: 4.4rem;
   -webkit-line-clamp: 3;
+  line-clamp: 3; // <-- Add this line to fix the prolem of this line: -webkit-line-clamp: 3;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;

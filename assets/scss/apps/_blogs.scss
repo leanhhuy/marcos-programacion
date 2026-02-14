@@ -42,7 +42,7 @@
 
 @media (min-width: 1200px) {
   .blog-title {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 2.25rem; // COPILOT - TASK-2026-0213-003 - was 36px, display unchanged, px→rem
+    line-height: 2.5rem; // COPILOT - TASK-2026-0213-003 - was 40px, px→rem
   }
 }
