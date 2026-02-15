@@ -15,7 +15,7 @@ COPILOT CHANGE LOG
 
 // font
 
-$font-family: "Roboto Flex", sans-serif;
+$font-family: var(--primary-font-family, 'Roboto Flex', 'Roboto', "Helvetica Neue", sans-serif);
 // $font-family: "Roboto", sans-serif;
 // $font-family: "Inter", sans-serif;
 // $font-family: "DM Sans", sans-serif;

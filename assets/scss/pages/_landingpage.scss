@@ -226,8 +226,8 @@
 
 .truncate-3-line {
   max-height: 4.4rem;
-  -webkit-line-clamp: 3;
-  line-clamp: 3; // <-- Add this line to fix the prolem of this line: -webkit-line-clamp: 3;
+  -webkit-line-clamp: 3; // (for old browsers)
+  line-clamp: 3; // <-- Add this line to fix problem caused by the above line
   display: -webkit-box;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;

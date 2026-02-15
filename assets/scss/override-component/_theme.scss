@@ -19,7 +19,7 @@ COPILOT CHANGE LOG
 
 html {
   @include mat.theme((color: mat.$azure-palette,
-      typography: "Roboto Flex",
+      typography: "var(--primary-font-family, 'Roboto Flex', sans-serif)",
       // typography: "Roboto",
       // typography: "Inter",
       // typography: "DM Sans",

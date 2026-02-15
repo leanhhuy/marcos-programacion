@@ -8,7 +8,7 @@
   "Analytics": "Analítica",
   "Campaign": "Campaña",
   "Demographic": "Demográfico",
-  "Modern": "Moderno",
+  "Modern": "Moderno"
   "Ecommerce": "Comercio electrónico",
   "Front Pages": "Páginas frontales",
   "Homepage": "Página de inicio",
@@ -224,5 +224,13 @@
   "Cancel": "Cancelar",
   "Confirm": "Confirmar",
   "customizer_resetTitle": "Restablecer opciones de diseño",
-  "customizer_resetConfirmation": "¿Realmente desea restablecer todas las opciones de diseño?"
+  "customizer_resetConfirmation": "¿Realmente desea restablecer todas las opciones de diseño?",
+  "Font Family": "Familia tipográfica",
+  "Neutral": "Neutro",
+  "System": "Sistema",
+  "Professional": "Profesional",
+  "Corporate": "Corporativo",
+  "Friendly": "Amistoso",
+  "Young": "Joven",
+  "Creative": "Creativo"
 }

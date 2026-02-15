@@ -224,5 +224,13 @@
   "Cancel": "Annulla",
   "Confirm": "Conferma",
   "customizer_resetTitle": "Ripristina opzioni di layout",
-  "customizer_resetConfirmation": "Vuoi davvero ripristinare tutte le opzioni di layout?"
+  "customizer_resetConfirmation": "Vuoi davvero ripristinare tutte le opzioni di layout?",
+  "Font Family": "Famiglia di caratteri",
+  "Neutral": "Neutro",
+  "System": "Sistema",
+  "Professional": "Professionale",
+  "Corporate": "Aziendale",
+  "Friendly": "Amichevole",
+  "Young": "Giovane",
+  "Creative": "Creativo"
 }
