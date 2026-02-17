@@ -1,0 +1,32 @@
+{
+  "_copilot": {
+    "taskId": "TASK-2026-0217-001",
+    "dateTime": "2026-02-17T10:00:00Z",
+    "aiModel": "Claude Opus 4.6",
+    "purpose": "Font size recalibration for Space Grotesk to visually match Roboto Flex",
+    "filesChanged": 28,
+    "fileDescription": "Recalibrated font-size CSS variable values for Space Grotesk. Geometric sans-serif with ~2.5% smaller x-height and slightly narrower width. Scale factors: Display 1.01, Heading 1.02, Body 1.025, Caption 1.03."
+  },
+  "--font-size-pricing-title": "3.1875rem",
+  "--font-size-banner-title-lg": "2.5rem",
+  "--font-size-banner-title": "2.25rem",
+  "--font-size-banner-subtitle": "1.0625rem",
+  "--font-size-section-title": "1.875rem",
+  "--font-size-section-title-lg": "2.25rem",
+  "--font-size-section-title2": "2rem",
+  "--font-size-section-sub-title-lg": "2.125rem",
+  "--font-size-section-sub-title-md": "1.75rem",
+  "--font-size-dashboard-tab": "1rem",
+  "--font-size-dashboard-caption": "0.875rem",
+  "--font-size-auth-title": "2.25rem",
+  "--font-size-header-badge": "0.75rem",
+  "--font-size-breadcrumb-link": "0.9375rem",
+  "--font-size-sidebar-subheader": "0.875rem",
+  "--font-size-sidebar-menu": "1rem",
+  "--font-size-sidebar-chip": "0.875rem",
+  "--font-size-sidebar-icon": "1.1875rem",
+  "--font-size-horizontal-menu": "0.9375rem",
+  "--font-size-horizontal-icon": "1.1875rem",
+  "--font-size-calendar-cell": "0.9375rem",
+  "--font-size-blog-title": "2.25rem"
+}

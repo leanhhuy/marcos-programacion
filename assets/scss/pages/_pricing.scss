@@ -1,5 +1,21 @@
+/*
+═══════════════════════════════════════════════════════════════════════════
+COPILOT CHANGE LOG
+
+@generated
+@taskId         TASK-2026-0216-001
+@dateTime       2026-02-16T15:00:00Z
+@aiModel        GPT-4.1
+@purpose        Refactor font-size to use $font-size-pricing-title variable
+@filesChanged   11
+@fileDescription Refactored plan-title font-size to use variable, added Copilot change log
+═══════════════════════════════════════════════════════════════════════════
+*/
+@use "../variables" as *;
+
 .plan-title {
-  font-size: 3.125rem; // COPILOT - TASK-2026-0213-003 - was 50px, display unchanged, px→rem
+  // font-size: 3.125rem; // COPILOT - TASK-2026-0213-003 - was 50px, display unchanged, px→rem
+  font-size: var(--font-size-pricing-title); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
   margin-top: 40px;
   line-height: 3.125rem; // COPILOT - TASK-2026-0213-003 - was 50px, px→rem
   font-weight: 600;

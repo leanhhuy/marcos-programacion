@@ -1,0 +1,32 @@
+{
+  "_copilot": {
+    "taskId": "TASK-2026-0217-001",
+    "dateTime": "2026-02-17T10:00:00Z",
+    "aiModel": "Claude Opus 4.6",
+    "purpose": "Font size recalibration for Nunito to visually match Roboto Flex",
+    "filesChanged": 28,
+    "fileDescription": "Recalibrated font-size CSS variable values for Nunito. Nunito has ~9% smaller x-height with rounded terminals and looser spacing. Scale factors: Display 1.04, Heading 1.07, Body 1.09, Caption 1.12."
+  },
+  "--font-size-pricing-title": "3.25rem",
+  "--font-size-banner-title-lg": "2.625rem",
+  "--font-size-banner-title": "2.3125rem",
+  "--font-size-banner-subtitle": "1.1875rem",
+  "--font-size-section-title": "1.9375rem",
+  "--font-size-section-title-lg": "2.3125rem",
+  "--font-size-section-title2": "2.0625rem",
+  "--font-size-section-sub-title-lg": "2.1875rem",
+  "--font-size-section-sub-title-md": "1.8125rem",
+  "--font-size-dashboard-tab": "1.0625rem",
+  "--font-size-dashboard-caption": "1rem",
+  "--font-size-auth-title": "2.3125rem",
+  "--font-size-header-badge": "0.8125rem",
+  "--font-size-breadcrumb-link": "1rem",
+  "--font-size-sidebar-subheader": "1rem",
+  "--font-size-sidebar-menu": "1.0625rem",
+  "--font-size-sidebar-chip": "1rem",
+  "--font-size-sidebar-icon": "1.1875rem",
+  "--font-size-horizontal-menu": "1rem",
+  "--font-size-horizontal-icon": "1.1875rem",
+  "--font-size-calendar-cell": "1rem",
+  "--font-size-blog-title": "2.3125rem"
+}

@@ -18,7 +18,8 @@
     color: var(--mat-sys-primary) !important;
   }
   .cal-cell {
-    font-size: 0.9375rem; // COPILOT - TASK-2026-0213-003 - was 14px, +1px body, px→rem
+    // font-size: 0.9375rem; // COPILOT - TASK-2026-0213-003 - was 14px, +1px body, px→rem
+    font-size: var(--font-size-calendar-cell); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
     font-weight: 500;
   }
 }

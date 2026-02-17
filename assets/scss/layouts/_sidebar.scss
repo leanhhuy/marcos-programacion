@@ -239,7 +239,8 @@
 
     .mdc-list-group__subheader {
       margin: 24px 0 0;
-      font-size: 0.875rem; // COPILOT - TASK-2026-0213-003 - was 13px, +1px UI text, px→rem
+      // font-size: 0.875rem; // COPILOT - TASK-2026-0213-003 - was 13px, +1px UI text, px→rem      
+      font-size: var(--font-size-sidebar-subheader); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
       font-weight: 600;
       padding: 0px 0px 8px;
       line-height: 1.25rem; // COPILOT - TASK-2026-0213-003 - was 19px, adjusted, px→rem
@@ -260,7 +261,8 @@
       height: auto;
       min-height: 47px;
       display: flex;
-      font-size: 1rem; // COPILOT - TASK-2026-0213-003 - was 15px, +1px UI text, px→rem
+      // font-size: 1rem; // COPILOT - TASK-2026-0213-003 - was 15px, +1px UI text, px→rem
+      font-size: var(--font-size-sidebar-menu); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
       white-space: normal;
       align-items: center;
       line-height: 1.625rem; // COPILOT - TASK-2026-0213-003 - was 25px, adjusted, px→rem
@@ -310,7 +312,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 0.875rem; // COPILOT - TASK-2026-0213-003 - was 12px, +2px caption, px→rem
+        // font-size: 0.875rem; // COPILOT - TASK-2026-0213-003 - was 12px, +2px caption, px→rem        
+        font-size: var(--font-size-sidebar-chip); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
       }
 
       &.activeMenu {
@@ -343,7 +346,8 @@
           display: flex;
 
           .mat-icon {
-            font-size: 1.1875rem; // COPILOT - TASK-2026-0213-003 - was 18px, +1px icon, px→rem
+            // font-size: 1.1875rem; // COPILOT - TASK-2026-0213-003 - was 18px, +1px icon, px→rem
+            font-size: var(--font-size-sidebar-icon); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
             width: 18px;
             height: 18px;
             display: flex;

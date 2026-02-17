@@ -42,7 +42,8 @@
 
 @media (min-width: 1200px) {
   .blog-title {
-    font-size: 2.25rem; // COPILOT - TASK-2026-0213-003 - was 36px, display unchanged, px→rem
+    // font-size: 2.25rem; // COPILOT - TASK-2026-0213-003 - was 36px, display unchanged, px→rem
+    font-size: var(--font-size-blog-title); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
     line-height: 2.5rem; // COPILOT - TASK-2026-0213-003 - was 40px, px→rem
   }
 }

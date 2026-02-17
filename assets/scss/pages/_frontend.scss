@@ -1,3 +1,5 @@
+@use "../variables" as *;
+
 .front-topbar {
     background-color: var(--mat-sys-background) !important;
 
@@ -95,7 +97,8 @@
 
 @media (max-width: 959px) {
     .section-sub-title {
-        font-size: 2.0625rem !important; // COPILOT - TASK-2026-0213-003 - was 32px, +1px heading, px→rem
+        // font-size: 2.0625rem !important; // COPILOT - TASK-2026-0213-003 - was 32px, +1px heading, px→rem
+        font-size: var(--font-size-section-sub-title-lg) !important; // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
     }
 
     .spacing-top-bottom {
@@ -121,7 +124,8 @@
 
 @media (max-width: 767px) {
     .section-sub-title {
-        font-size: 1.6875rem !important; // COPILOT - TASK-2026-0213-003 - was 26px, +1px heading, px→rem
+        // font-size: 1.6875rem !important; // COPILOT - TASK-2026-0213-003 - was 26px, +1px heading, px→rem
+        font-size: var(--font-size-section-sub-title-md) !important; // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
     }
 
     .spacing-top-bottom {

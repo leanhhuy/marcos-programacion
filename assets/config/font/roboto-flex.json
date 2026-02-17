@@ -1,0 +1,499 @@
+{
+  "_copilot": {
+    "taskId": "TASK-2026-0213-005",
+    "dateTime": "2026-02-13T18:00:00Z",
+    "aiModel": "Claude Opus 4.6",
+    "purpose": "Generate font size JSON registry for all fonts used in the application",
+    "filesChanged": 2,
+    "fileDescription": "Complete font registry mapping all font families, their sources, weight ranges, and font-size tokens (in rem)"
+  },
+
+  "fonts": {
+    "roboto-flex": {
+      "family": "Roboto Flex",
+      "type": "variable",
+      "role": "primary",
+      "active": true,
+      "source": {
+        "method": "google-fonts-link",
+        "url": "https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap",
+        "file": "src/index.html"
+      },
+      "axes": {
+        "opsz": { "min": 8, "max": 144 },
+        "wght": { "min": 100, "max": 1000 }
+      },
+      "declarations": {
+        "scss-variable": {
+          "variable": "$font-family",
+          "value": "\"Roboto Flex\", sans-serif",
+          "file": "src/assets/scss/_variables.scss"
+        },
+        "material-typography": {
+          "value": "Roboto Flex",
+          "file": "src/assets/scss/override-component/_theme.scss"
+        },
+        "body-css": {
+          "value": "'Roboto Flex', 'Roboto', \"Helvetica Neue\", sans-serif",
+          "file": "src/styles.scss"
+        }
+      }
+    },
+
+    "roboto": {
+      "family": "Roboto",
+      "type": "static",
+      "role": "fallback",
+      "active": false,
+      "note": "Commented out in $font-family and Material typography. Loaded as fallback in body CSS.",
+      "source": {
+        "method": "google-fonts-link",
+        "url": "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap",
+        "file": "src/index.html"
+      },
+      "weights": [100, 300, 400, 500, 700, 900],
+      "declarations": {
+        "scss-variable": {
+          "variable": "$font-family",
+          "value": "\"Roboto\", sans-serif",
+          "file": "src/assets/scss/_variables.scss",
+          "commented": true
+        },
+        "material-typography": {
+          "value": "Roboto",
+          "file": "src/assets/scss/override-component/_theme.scss",
+          "commented": true
+        }
+      }
+    },
+
+    "inter": {
+      "family": "Inter",
+      "type": "static",
+      "role": "switchable",
+      "active": false,
+      "note": "Commented out. Available as switchable option.",
+      "source": {
+        "method": "google-fonts-link",
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap",
+        "file": "src/index.html"
+      },
+      "weights": [100, 300, 400, 500, 700, 900],
+      "declarations": {
+        "scss-variable": {
+          "variable": "$font-family",
+          "value": "\"Inter\", sans-serif",
+          "file": "src/assets/scss/_variables.scss",
+          "commented": true
+        },
+        "material-typography": {
+          "value": "Inter",
+          "file": "src/assets/scss/override-component/_theme.scss",
+          "commented": true
+        }
+      }
+    },
+
+    "dm-sans": {
+      "family": "DM Sans",
+      "type": "static",
+      "role": "switchable-and-charts",
+      "active": true,
+      "note": "Commented out as primary font option. Actively used in line and column chart components.",
+      "source": {
+        "method": "google-fonts-link",
+        "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+        "file": "src/index.html"
+      },
+      "weights": [400, 500, 700],
+      "declarations": {
+        "scss-variable": {
+          "variable": "$font-family",
+          "value": "\"DM Sans\", sans-serif",
+          "file": "src/assets/scss/_variables.scss",
+          "commented": true
+        },
+        "chart-usage": [
+          {
+            "value": "'DM Sans,sans-serif'",
+            "file": "src/app/pages/charts/line/line.component.ts",
+            "context": "ApexCharts fontFamily option"
+          },
+          {
+            "value": "'DM Sans,sans-serif'",
+            "file": "src/app/pages/charts/column/column.component.ts",
+            "context": "ApexCharts fontFamily option"
+          }
+        ]
+      }
+    },
+
+    "noto-sans": {
+      "family": "Noto Sans",
+      "type": "static",
+      "role": "switchable",
+      "active": false,
+      "note": "Commented out. Available as switchable option.",
+      "source": {
+        "method": "google-fonts-link",
+        "url": "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700;900&display=swap",
+        "file": "src/index.html"
+      },
+      "weights": [100, 300, 400, 500, 700, 900],
+      "declarations": {
+        "scss-variable": {
+          "variable": "$font-family",
+          "value": "\"Noto Sans\", sans-serif",
+          "file": "src/assets/scss/_variables.scss",
+          "commented": true
+        },
+        "material-typography": {
+          "value": "Noto Sans",
+          "file": "src/assets/scss/override-component/_theme.scss",
+          "commented": true
+        }
+      }
+    },
+
+    "plus-jakarta-sans": {
+      "family": "Plus Jakarta Sans",
+      "type": "static",
+      "role": "charts",
+      "active": true,
+      "source": {
+        "method": "google-fonts-link",
+        "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap",
+        "file": "src/index.html"
+      },
+      "weights": [300, 400, 500, 600, 700],
+      "declarations": {
+        "chart-usage": [
+          {
+            "value": "'Plus Jakarta Sans', sans-serif;",
+            "file": "src/app/pages/widgets/charts/charts.component.ts",
+            "context": "ApexCharts fontFamily option (16 chart configs)",
+            "note": "Trailing semicolon inside string — known issue"
+          },
+          {
+            "value": "'Plus Jakarta Sans', sans-serif",
+            "file": "src/app/pages/charts/radial-radar/radial-radar.component.ts",
+            "context": "ApexCharts fontFamily option (2 charts)"
+          },
+          {
+            "value": "'Plus Jakarta Sans', sans-serif",
+            "file": "src/app/pages/charts/doughnut-pie/doughnut-pie.component.ts",
+            "context": "ApexCharts fontFamily option (2 charts)"
+          },
+          {
+            "value": "'Plus Jakarta Sans', sans-serif",
+            "file": "src/app/pages/charts/candlestick/candlestick.component.ts",
+            "context": "ApexCharts fontFamily option (1 chart)"
+          }
+        ]
+      }
+    },
+
+    "material-icons": {
+      "family": "Material Icons",
+      "type": "icon-font",
+      "role": "icons",
+      "active": true,
+      "source": {
+        "method": "google-fonts-link",
+        "url": "https://fonts.googleapis.com/icon?family=Material+Icons",
+        "file": "src/index.html"
+      },
+      "declarations": {
+        "html-usage": {
+          "element": "<mat-icon> and <i class=\"material-icons\">",
+          "context": "Angular Material icon components and native icon elements"
+        }
+      }
+    }
+  },
+
+  "fontSizeTokens": {
+    "unit": "rem",
+    "basePx": 16,
+    "source": "src/assets/scss/helpers/_variables.scss",
+    "mapName": "$font-sizes",
+    "generatedClasses": ".f-s-{key}",
+    "generatorFile": "src/assets/scss/helpers/_text.scss",
+    "recalibrationTask": "TASK-2026-0213-003",
+    "tokens": {
+      "0":  { "rem": 0,        "computedPx": 0,  "originalPx": 0,  "compensation": "none" },
+      "10": { "rem": 0.75,     "computedPx": 12, "originalPx": 10, "compensation": "+2px caption" },
+      "12": { "rem": 0.875,    "computedPx": 14, "originalPx": 12, "compensation": "+2px caption" },
+      "13": { "rem": 0.875,    "computedPx": 14, "originalPx": 13, "compensation": "+1px UI" },
+      "14": { "rem": 0.9375,   "computedPx": 15, "originalPx": 14, "compensation": "+1px body" },
+      "15": { "rem": 1,        "computedPx": 16, "originalPx": 15, "compensation": "+1px body" },
+      "16": { "rem": 1.0625,   "computedPx": 17, "originalPx": 16, "compensation": "+1px body" },
+      "18": { "rem": 1.1875,   "computedPx": 19, "originalPx": 18, "compensation": "+1px body" },
+      "20": { "rem": 1.3125,   "computedPx": 21, "originalPx": 20, "compensation": "+1px heading" },
+      "21": { "rem": 1.375,    "computedPx": 22, "originalPx": 21, "compensation": "+1px heading" },
+      "22": { "rem": 1.4375,   "computedPx": 23, "originalPx": 22, "compensation": "+1px heading" },
+      "23": { "rem": 1.5,      "computedPx": 24, "originalPx": 23, "compensation": "+1px heading" },
+      "24": { "rem": 1.5625,   "computedPx": 25, "originalPx": 24, "compensation": "+1px heading" },
+      "28": { "rem": 1.8125,   "computedPx": 29, "originalPx": 28, "compensation": "+1px heading" },
+      "30": { "rem": 1.9375,   "computedPx": 31, "originalPx": 30, "compensation": "+1px heading" },
+      "34": { "rem": 2.1875,   "computedPx": 35, "originalPx": 34, "compensation": "+1px heading" },
+      "40": { "rem": 2.5,      "computedPx": 40, "originalPx": 40, "compensation": "none (display)" },
+      "44": { "rem": 2.75,     "computedPx": 44, "originalPx": 44, "compensation": "none (display)" },
+      "56": { "rem": 3.5,      "computedPx": 56, "originalPx": 56, "compensation": "none (display)" },
+      "64": { "rem": 4,        "computedPx": 64, "originalPx": 64, "compensation": "none (display)" }
+    }
+  },
+
+  "materialOverrides": {
+    "source": "src/assets/scss/override-component/_theme.scss",
+    "recalibrationTask": "TASK-2026-0213-003",
+    "overrides": {
+      "body-medium-size": { "rem": 0.9375,  "computedPx": 15, "originalPx": 14, "compensation": "+1px body" },
+      "body-large-size":  { "rem": 1,       "computedPx": 16, "originalPx": 14, "compensation": "+2px (corrects Material default + compensation)" }
+    }
+  },
+
+  "hardcodedFontSizes": {
+    "recalibrationTask": "TASK-2026-0213-003",
+    "entries": [
+      {
+        "file": "src/assets/scss/layouts/_header.scss",
+        "selector": ".badge",
+        "rem": 0.75,
+        "computedPx": 12,
+        "originalPx": 10,
+        "compensation": "+2px caption"
+      },
+      {
+        "file": "src/assets/scss/layouts/_sidebar.scss",
+        "selector": ".subheader",
+        "rem": 0.875,
+        "computedPx": 14,
+        "originalPx": 13,
+        "compensation": "+1px UI"
+      },
+      {
+        "file": "src/assets/scss/layouts/_sidebar.scss",
+        "selector": ".menu-item",
+        "rem": 1,
+        "computedPx": 16,
+        "originalPx": 15,
+        "compensation": "+1px UI"
+      },
+      {
+        "file": "src/assets/scss/layouts/_sidebar.scss",
+        "selector": ".chip",
+        "rem": 0.875,
+        "computedPx": 14,
+        "originalPx": 12,
+        "compensation": "+2px caption"
+      },
+      {
+        "file": "src/assets/scss/layouts/_sidebar.scss",
+        "selector": ".arrow-icon",
+        "rem": 1.1875,
+        "computedPx": 19,
+        "originalPx": 18,
+        "compensation": "+1px icon"
+      },
+      {
+        "file": "src/assets/scss/layouts/_breacrumb.scss",
+        "selector": ".breadcrumb-link",
+        "rem": 0.9375,
+        "computedPx": 15,
+        "originalPx": 14,
+        "compensation": "+1px UI"
+      },
+      {
+        "file": "src/assets/scss/horizontal/_horizontal.scss",
+        "selector": ".menuLink",
+        "rem": 0.9375,
+        "computedPx": 15,
+        "originalPx": 14,
+        "compensation": "+1px UI"
+      },
+      {
+        "file": "src/assets/scss/horizontal/_horizontal.scss",
+        "selector": ".icon",
+        "rem": 1.1875,
+        "computedPx": 19,
+        "originalPx": 18,
+        "compensation": "+1px icon"
+      },
+      {
+        "file": "src/assets/scss/pages/_landingpage.scss",
+        "selector": ".banner-title (mobile)",
+        "rem": 2.5,
+        "computedPx": 40,
+        "originalPx": 40,
+        "compensation": "none (display)"
+      },
+      {
+        "file": "src/assets/scss/pages/_landingpage.scss",
+        "selector": ".banner-subtitle",
+        "rem": 2.25,
+        "computedPx": 36,
+        "originalPx": 36,
+        "compensation": "none (display)"
+      },
+      {
+        "file": "src/assets/scss/pages/_landingpage.scss",
+        "selector": ".banner-body",
+        "rem": 1.0625,
+        "computedPx": 17,
+        "originalPx": 16,
+        "compensation": "+1px body"
+      },
+      {
+        "file": "src/assets/scss/pages/_landingpage.scss",
+        "selector": ".section-heading",
+        "rem": 1.8125,
+        "computedPx": 29,
+        "originalPx": 28,
+        "compensation": "+1px heading"
+      },
+      {
+        "file": "src/assets/scss/pages/_landingpage.scss",
+        "selector": ".section-heading (lg)",
+        "rem": 2.25,
+        "computedPx": 36,
+        "originalPx": 36,
+        "compensation": "none (display)"
+      },
+      {
+        "file": "src/assets/scss/pages/_landingpage.scss",
+        "selector": ".feature-heading",
+        "rem": 1.9375,
+        "computedPx": 31,
+        "originalPx": 30,
+        "compensation": "+1px heading"
+      },
+      {
+        "file": "src/assets/scss/pages/_auth.scss",
+        "selector": ".auth-title",
+        "rem": 2.25,
+        "computedPx": 36,
+        "originalPx": 36,
+        "compensation": "none (display)"
+      },
+      {
+        "file": "src/assets/scss/pages/_dashboards.scss",
+        "selector": ".profile-tab",
+        "rem": 1,
+        "computedPx": 16,
+        "originalPx": 15,
+        "compensation": "+1px UI"
+      },
+      {
+        "file": "src/assets/scss/pages/_dashboards.scss",
+        "selector": ".chat-time",
+        "rem": 0.875,
+        "computedPx": 14,
+        "originalPx": 13,
+        "compensation": "+1px caption"
+      },
+      {
+        "file": "src/assets/scss/pages/_pricing.scss",
+        "selector": ".plan-title",
+        "rem": 3.125,
+        "computedPx": 50,
+        "originalPx": 50,
+        "compensation": "none (display)"
+      },
+      {
+        "file": "src/assets/scss/pages/_frontend.scss",
+        "selector": ".sub-title (md)",
+        "rem": 2.0625,
+        "computedPx": 33,
+        "originalPx": 32,
+        "compensation": "+1px heading"
+      },
+      {
+        "file": "src/assets/scss/pages/_frontend.scss",
+        "selector": ".sub-title (sm)",
+        "rem": 1.6875,
+        "computedPx": 27,
+        "originalPx": 26,
+        "compensation": "+1px heading"
+      },
+      {
+        "file": "src/assets/scss/apps/_blogs.scss",
+        "selector": ".blog-title",
+        "rem": 2.25,
+        "computedPx": 36,
+        "originalPx": 36,
+        "compensation": "none (display)"
+      },
+      {
+        "file": "src/assets/scss/apps/_calendar.scss",
+        "selector": ".cal-cell",
+        "rem": 0.9375,
+        "computedPx": 15,
+        "originalPx": 14,
+        "compensation": "+1px body"
+      },
+      {
+        "file": "src/app/pages/apps/ecommerce/product-details/product-details.component.scss",
+        "selector": ".count",
+        "rem": 0.9375,
+        "computedPx": 15,
+        "originalPx": 14,
+        "compensation": "+1px body"
+      },
+      {
+        "file": "src/app/pages/apps/ecommerce/shop/shop.component.scss",
+        "selector": ".custom-radio",
+        "rem": 0.9375,
+        "computedPx": 15,
+        "originalPx": 14,
+        "compensation": "+1px body"
+      },
+      {
+        "file": "src/app/pages/apps/notes/notes.component.scss",
+        "selector": ".note-title",
+        "rem": 1.0625,
+        "computedPx": 17,
+        "originalPx": 16,
+        "compensation": "+1px body"
+      },
+      {
+        "file": "src/app/pages/apps/notes/notes.component.scss",
+        "selector": ".checkIcon",
+        "rem": 0.875,
+        "computedPx": 14,
+        "originalPx": 12,
+        "compensation": "+2px caption"
+      }
+    ]
+  },
+
+  "lineHeightOverrides": {
+    "recalibrationTask": "TASK-2026-0213-003",
+    "entries": [
+      {
+        "file": "src/assets/scss/_container.scss",
+        "selector": "body",
+        "rem": 1.5,
+        "computedPx": 24,
+        "originalRem": 1.334,
+        "note": "Increased for readability with recalibrated sizes"
+      },
+      {
+        "file": "src/assets/scss/helpers/_text.scss",
+        "selector": ".lh-lg",
+        "rem": 2.25,
+        "computedPx": 36,
+        "originalPx": 36,
+        "note": "px→rem conversion only"
+      },
+      {
+        "file": "src/assets/scss/helpers/_text.scss",
+        "selector": ".lh-sm",
+        "rem": 1.25,
+        "computedPx": 20,
+        "originalPx": 20,
+        "note": "px→rem conversion only"
+      }
+    ]
+  }
+}

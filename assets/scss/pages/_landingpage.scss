@@ -1,3 +1,16 @@
+/*
+═══════════════════════════════════════════════════════════════════════════
+COPILOT CHANGE LOG
+
+@generated
+@taskId         TASK-2026-0216-001
+@dateTime       2026-02-16T15:00:00Z
+@aiModel        GPT-4.1
+@purpose        Refactor font-size to use font-size variables for all banner and section titles
+@filesChanged   11
+@fileDescription Refactored all font-size values to use variables, added Copilot change log
+═══════════════════════════════════════════════════════════════════════════
+*/
 @use "../variables" as *;
 
 .container {
@@ -52,8 +65,9 @@
 // ----------------------------------------------------------
 @media (min-width: 900px) {
   .banner-title {
-    font-size: 2.5rem !important; // COPILOT - TASK-2026-0213-003 - was 40px, display unchanged, px→rem
-    line-height: 3.125rem !important; // COPILOT - TASK-2026-0213-003 - was 50px, px→rem
+    // font-size: 2.5rem !important; // COPILOT - TASK-2026-0213-003 - was 40px, display unchanged, px→rem    
+    font-size: var(--font-size-banner-title-lg) !important; // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
+    line-height: 3.125rem !important;
   }
 }
 
@@ -64,8 +78,9 @@
 }
 
 .banner-title {
-  font-size: 2.25rem; // COPILOT - TASK-2026-0213-003 - was 36px, display unchanged, px→rem
-  line-height: 2.75rem; // COPILOT - TASK-2026-0213-003 - was 44px, px→rem
+  // font-size: 2.25rem; // COPILOT - TASK-2026-0213-003 - was 36px, display unchanged, px→rem
+  font-size: var(--font-size-banner-title); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
+  line-height: 2.75rem;
 }
 
 .banner-subtitle {
@@ -75,7 +90,8 @@
 .btn-custom {
   height: 56px !important;
   padding: 0 52px !important;
-  font-size: 1.0625rem; // COPILOT - TASK-2026-0213-003 - was 16px, +1px body, px→rem
+  // font-size: 1.0625rem; // COPILOT - TASK-2026-0213-003 - was 16px, +1px body, px→rem
+  font-size: var(--font-size-banner-subtitle); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
   &.sm {
     padding: 0 34px !important;
   }
@@ -130,14 +146,16 @@
 }
 
 .section-title {
-  font-size: 1.8125rem; // COPILOT - TASK-2026-0213-003 - was 28px, +1px heading, px→rem
+  // font-size: 1.8125rem; // COPILOT - TASK-2026-0213-003 - was 28px, +1px heading, px→rem
+  font-size: var(--font-size-section-title); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
   line-height: 2rem; // COPILOT - TASK-2026-0213-003 - was 32px, px→rem
   font-weight: 600;
 }
 
 @media (min-width: 991px) {
   .section-title {
-    font-size: 2.25rem; // COPILOT - TASK-2026-0213-003 - was 36px, display unchanged, px→rem
+    // font-size: 2.25rem; // COPILOT - TASK-2026-0213-003 - was 36px, display unchanged, px→rem
+    font-size: var(--font-size-section-title-lg); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
     line-height: 2.6875rem; // COPILOT - TASK-2026-0213-003 - was 43px, px→rem
   }
 }
@@ -186,7 +204,8 @@
 }
 
 .section-title2 {
-  font-size: 1.9375rem; // COPILOT - TASK-2026-0213-003 - was 30px, +1px heading, px→rem
+  // font-size: 1.9375rem; // COPILOT - TASK-2026-0213-003 - was 30px, +1px heading, px→rem
+  font-size: var(--font-size-section-title2); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
   line-height: 2.25rem; // COPILOT - TASK-2026-0213-003 - was 36px, px→rem
   font-weight: 700;
 }

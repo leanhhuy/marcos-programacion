@@ -1,0 +1,32 @@
+{
+  "_copilot": {
+    "taskId": "TASK-2026-0217-001",
+    "dateTime": "2026-02-17T10:00:00Z",
+    "aiModel": "Claude Opus 4.6",
+    "purpose": "Font size recalibration for DM Sans to visually match Roboto Flex",
+    "filesChanged": 28,
+    "fileDescription": "Recalibrated font-size CSS variable values for DM Sans. DM Sans has ~4% larger x-height with geometric proportions. Scale factors: Display 0.975, Heading 0.965, Body 0.96, Caption 0.955."
+  },
+  "--font-size-pricing-title": "3.0625rem",
+  "--font-size-banner-title-lg": "2.4375rem",
+  "--font-size-banner-title": "2.1875rem",
+  "--font-size-banner-subtitle": "1rem",
+  "--font-size-section-title": "1.75rem",
+  "--font-size-section-title-lg": "2.1875rem",
+  "--font-size-section-title2": "1.875rem",
+  "--font-size-section-sub-title-lg": "2rem",
+  "--font-size-section-sub-title-md": "1.625rem",
+  "--font-size-dashboard-tab": "0.9375rem",
+  "--font-size-dashboard-caption": "0.8125rem",
+  "--font-size-auth-title": "2.1875rem",
+  "--font-size-header-badge": "0.6875rem",
+  "--font-size-breadcrumb-link": "0.875rem",
+  "--font-size-sidebar-subheader": "0.8125rem",
+  "--font-size-sidebar-menu": "0.9375rem",
+  "--font-size-sidebar-chip": "0.8125rem",
+  "--font-size-sidebar-icon": "1.1875rem",
+  "--font-size-horizontal-menu": "0.875rem",
+  "--font-size-horizontal-icon": "1.1875rem",
+  "--font-size-calendar-cell": "0.875rem",
+  "--font-size-blog-title": "2.1875rem"
+}

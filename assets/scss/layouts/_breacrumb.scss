@@ -28,7 +28,8 @@
 
   a {
     text-decoration: none;
-    font-size: 0.9375rem; // COPILOT - TASK-2026-0213-003 - was 14px, +1px UI text, px→rem
+    // font-size: 0.9375rem; // COPILOT - TASK-2026-0213-003 - was 14px, +1px UI text, px→rem
+    font-size: var(--font-size-breadcrumb-link); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
 
     &:hover {
       color: $primary;

@@ -50,7 +50,8 @@ html .topbar {
 .header-badge.mat-badge-medium .mat-badge-content {
   width: 18px;
   height: 18px;
-  font-size: 0.75rem; // COPILOT - TASK-2026-0213-003 - was 10px, +2px caption compensation, px→rem
+  // font-size: 0.75rem; // COPILOT - TASK-2026-0213-003 - was 10px, +2px caption compensation, px→rem  
+  font-size: var(--font-size-header-badge); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
   line-height: 1.25rem; // COPILOT - TASK-2026-0213-003 - was 18px, adjusted, px→rem
   left: 18px;
 }

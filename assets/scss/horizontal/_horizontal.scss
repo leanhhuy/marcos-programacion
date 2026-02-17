@@ -75,7 +75,8 @@
         align-items: center;
         height: 40px;
         gap: 10px;
-        font-size: 0.9375rem; // COPILOT - TASK-2026-0213-003 - was 14px, +1px UI text, px→rem
+        // font-size: 0.9375rem; // COPILOT - TASK-2026-0213-003 - was 14px, +1px UI text, px→rem
+        font-size: var(--font-size-horizontal-menu); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
 
         &:hover {
           color: var(--mat-sys-secondary);
@@ -92,7 +93,8 @@
       .down-icon .mat-icon {
         width: 18px;
         height: 18px;
-        font-size: 1.1875rem; // COPILOT - TASK-2026-0213-003 - was 18px, +1px icon, px→rem
+        // font-size: 1.1875rem; // COPILOT - TASK-2026-0213-003 - was 18px, +1px icon, px→rem
+        font-size: var(--font-size-horizontal-icon); // COPILOT - TASK-2026-0216-001 - replaced SCSS variable with CSS variable
       }
       .childBox {
         border-radius: $border-radius;
