@@ -1,0 +1,17 @@
+[
+  { "label": "Roboto Flex", "value": "Roboto Flex" },
+  { "label": "DM Sans", "value": "DM Sans" },
+  { "label": "IBM Plex Sans", "value": "IBM Plex Sans" },
+  { "label": "Inter", "value": "Inter" },
+  { "label": "Libre Baskerville", "value": "Libre Baskerville" },
+  { "label": "Lora", "value": "Lora" },
+  { "label": "Manrope", "value": "Manrope" },
+  { "label": "Nunito", "value": "Nunito" },
+  { "label": "Plus Jakarta Sans", "value": "Plus Jakarta Sans" },
+  { "label": "Roboto", "value": "Roboto" },
+  { "label": "Roboto Mono", "value": "Roboto Mono" },
+  { "label": "Roboto Serif", "value": "Roboto Serif" },
+  { "label": "Source Sans 3", "value": "Source Sans 3" },
+  { "label": "Space Grotesk", "value": "Space Grotesk" },
+  { "label": "Syne", "value": "Syne" }
+]
