@@ -8,6 +8,7 @@
       "warn": "Alerta",
       "disabled": "Desabilitado",
       "link": "Link"
-    }
+    },
+    "testText": "teste"
   }
 }

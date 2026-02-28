@@ -9,7 +9,24 @@
       "position": "Posición",
       "weight": "Peso",
       "symbol": "Símbolo",
-      "actions": "Acciones"
+      "actions": "Acciones",
+      "product": "Producto",
+      "progress": "Progreso",
+      "status": "Estado",
+      "sales": "Ventas",
+      "price": "Precio",
+      "item": "Artículo",
+      "cost": "Costo",
+      "total": "Total",
+      "id": "ID",
+      "color": "Color",
+      "title": "Título",
+      "state": "Estado",
+      "created": "Creado",
+      "post": "Puesto",
+      "projectName": "Nombre del proyecto",
+      "category": "Categoría",
+      "users": "Usuarios"
     },
     "priorities": {
       "low": "Baja",
@@ -26,7 +43,21 @@
       "expandTable": "Tabla Expandible",
       "filterableTable": "Tabla Filtrable",
       "paginationTable": "Tabla con Paginación",
-      "sortableTable": "Tabla Ordenable"
+      "sortableTable": "Tabla Ordenable",
+      "bestProducts": "Mejores productos",
+      "paymentGateways": "Pasarelas de pago",
+      "employeeOfYear": "Empleado del año",
+      "footerRowTable": "Tabla con fila de pie",
+      "httpTable": "Tabla HTTP",
+      "mixTable": "Tabla con ordenación, paginación y filtrado",
+      "multiHeaderFooter": "Tabla con múltiples filas de encabezado y pie",
+      "rowContextTable": "Tabla con contexto de fila",
+      "selectionTable": "Tabla de selección",
+      "stickyColumnTable": "Tabla con columna fija",
+      "stickyFooterTable": "Tabla con pie fijo",
+      "stickyHeaderTable": "Tabla con encabezado fijo",
+      "dynamicTableTitle": "Tabla que cambia columnas dinámicamente",
+      "expandableTableTitle": "Tabla con filas expandibles"
     },
     "actions": {
       "edit": "Editar",
@@ -40,6 +71,43 @@
       "lastPage": "Última página",
       "previousPage": "Página anterior",
       "nextPage": "Página siguiente"
+    },
+    "subtitles": {
+      "topNewProducts": "productos nuevos destacados",
+      "addColumnDynamic": "agregar columna dinámicamente",
+      "expandableRows": "filas expandibles aquí",
+      "searchItems": "busca tus elementos",
+      "totalAtFooter": "total disponible en pie",
+      "getDataHttp": "obtener datos con HTTP",
+      "allFunctionality": "toda la funcionalidad en una tabla",
+      "paginationSearch": "Paginación y búsqueda disponibles",
+      "paginationMore": "obtener más elementos con paginación",
+      "sellNewProducts": "Vender nuevos productos",
+      "singleOrMore": "uno o más elementos",
+      "sortItems": "ordena tus elementos",
+      "stickyColumnSub": "columna fija con tabla",
+      "fixedFooterTotal": "Pie fijo con total de elementos",
+      "fixedHeader": "Encabezado fijo",
+      "platformForIncome": "Plataforma de ingresos",
+      "greatWork": "gran trabajo"
+    },
+    "buttons": {
+      "addColumn": "Agregar columna",
+      "removeColumn": "Eliminar columna",
+      "shuffle": "Mezclar"
+    },
+    "labels": {
+      "filter": "Filtro",
+      "searchHere": "Buscar aquí",
+      "filterPlaceholder": "Filtrar",
+      "filterPlaceholderIum": "Ex. ium"
+    },
+    "messages": {
+      "noDataFilter": "No hay datos que coincidan con el filtro",
+      "rateLimitReached": "Se ha alcanzado el límite de solicitudes de la API de GitHub. Se restablecerá en un minuto.",
+      "itemPurchasedDesc": "Nombre del artículo comprado",
+      "costInUSD": "Costo del artículo en USD",
+      "disclaimerCost": "Tenga en cuenta que los costos de los artículos mostrados son completamente ficticios."
     }
   }
 }

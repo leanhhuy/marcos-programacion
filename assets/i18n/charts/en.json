@@ -11,7 +11,11 @@
       "radial": "Radial Chart",
       "radar": "Radar Chart",
       "candlestick": "Candlestick Chart",
-      "gradient": "Gradient Chart"
+      "gradient": "Gradient Chart",
+      "doughnutTitle": "Doughnut",
+      "pieTitle": "Pie",
+      "radialbarTitle": "Radialbar",
+      "radarTitle": "Radar"
     },
     "labels": {
       "series": "Series",

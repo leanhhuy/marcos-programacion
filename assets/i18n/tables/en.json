@@ -9,7 +9,24 @@
       "position": "Position",
       "weight": "Weight",
       "symbol": "Symbol",
-      "actions": "Actions"
+      "actions": "Actions",
+      "product": "Product",
+      "progress": "Progress",
+      "status": "Status",
+      "sales": "Sales",
+      "price": "Price",
+      "item": "Item",
+      "cost": "Cost",
+      "total": "Total",
+      "id": "ID",
+      "color": "Color",
+      "title": "Title",
+      "state": "State",
+      "created": "Created",
+      "post": "Post",
+      "projectName": "Project Name",
+      "category": "Category",
+      "users": "Users"
     },
     "priorities": {
       "low": "Low",
@@ -26,7 +43,21 @@
       "expandTable": "Expand Table",
       "filterableTable": "Filterable Table",
       "paginationTable": "Pagination Table",
-      "sortableTable": "Sortable Table"
+      "sortableTable": "Sortable Table",
+      "bestProducts": "Best Products",
+      "paymentGateways": "Payment Gateways",
+      "employeeOfYear": "Employee of the Year",
+      "footerRowTable": "Footer Row table",
+      "httpTable": "HTTP table",
+      "mixTable": "Data table with sorting, pagination, and filtering",
+      "multiHeaderFooter": "Table with multiple header and footer rows",
+      "rowContextTable": "Row context table",
+      "selectionTable": "Selection Table",
+      "stickyColumnTable": "Sticky Column table",
+      "stickyFooterTable": "Sticky Footer table",
+      "stickyHeaderTable": "Sticky header table",
+      "dynamicTableTitle": "Table dynamically changing the columns displayed",
+      "expandableTableTitle": "Table with expandable rows"
     },
     "actions": {
       "edit": "Edit",
@@ -40,6 +71,43 @@
       "lastPage": "Last page",
       "previousPage": "Previous page",
       "nextPage": "Next page"
+    },
+    "subtitles": {
+      "topNewProducts": "top new products",
+      "addColumnDynamic": "add column dynamically",
+      "expandableRows": "expandable rows here",
+      "searchItems": "search your items",
+      "totalAtFooter": "total is avail at footer",
+      "getDataHttp": "get data with http",
+      "allFunctionality": "all functionality is in one table",
+      "paginationSearch": "Pagination and search is avail",
+      "paginationMore": "get more item with pagination",
+      "sellNewProducts": "Sell new products",
+      "singleOrMore": "single one or more then one item",
+      "sortItems": "sort your item",
+      "stickyColumnSub": "sticky column with table",
+      "fixedFooterTotal": "Fixed footer with total items",
+      "fixedHeader": "Fixed header",
+      "platformForIncome": "Platform For Income",
+      "greatWork": "great work"
+    },
+    "buttons": {
+      "addColumn": "Add column",
+      "removeColumn": "Remove column",
+      "shuffle": "Shuffle"
+    },
+    "labels": {
+      "filter": "Filter",
+      "searchHere": "Search Here",
+      "filterPlaceholder": "Filter",
+      "filterPlaceholderIum": "Ex. ium"
+    },
+    "messages": {
+      "noDataFilter": "No data matching the filter",
+      "rateLimitReached": "GitHub's API rate limit has been reached. It will be reset in one minute.",
+      "itemPurchasedDesc": "Name of the item purchased",
+      "costInUSD": "Cost of the item in USD",
+      "disclaimerCost": "Please note that the cost of items displayed are completely and totally made up."
     }
   }
 }

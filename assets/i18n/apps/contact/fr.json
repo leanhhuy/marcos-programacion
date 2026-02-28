@@ -5,6 +5,24 @@
     "addContact": "Ajouter un Contact",
     "chat": "Discussion",
     "follow": "Suivre",
-    "mo": "Tél"
+    "mo": "Tél",
+    "addNewContact": "Ajouter un Nouveau Contact",
+    "uploadImage": "Télécharger une Image",
+    "nameLabel": "Nom",
+    "post": "Poste",
+    "webDesigner": "Designer Web",
+    "themeDesigner": "Designer de Thèmes",
+    "frontEndDeveloper": "Développeur Front End",
+    "hacker": "Hacker",
+    "backEndDeveloper": "Développeur Back End",
+    "graphicsDesigner": "Designer Graphique",
+    "address": "Adresse",
+    "contactNumber": "Numéro de Contact",
+    "instagramFollowers": "Abonnés Instagram",
+    "linkedinFollowers": "Abonnés Linkedin",
+    "facebookFollowers": "Abonnés Facebook",
+    "followersPlaceholder": "Abonnés",
+    "cancel": "Annuler",
+    "selectedImage": "Image sélectionnée"
   }
 }

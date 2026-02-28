@@ -5,6 +5,26 @@
     "sortBy": "Ordenar por",
     "labels": "Etiquetas",
     "noEmailsFound": "No se encontraron correos electrónicos.",
-    "pleaseSelectMail": "Por favor, seleccione un correo electrónico"
+    "pleaseSelectMail": "Por favor, seleccione un correo electrónico",
+    "composeEmail": "Redactar correo electrónico",
+    "to": "Para",
+    "subject": "Asunto",
+    "typeHere": "Escriba aquí...",
+    "send": "Enviar",
+    "saveAsDraft": "Guardar como borrador",
+    "personal": "Personal",
+    "work": "Trabajo",
+    "payments": "Pagos",
+    "accounts": "Cuentas",
+    "markAsUnread": "Marcar como no leído",
+    "markAsRead": "Marcar como leído",
+    "spam": "Spam",
+    "trash": "Papelera",
+    "payment": "Pago",
+    "account": "Cuenta",
+    "typeReplyHere": "Escriba su respuesta aquí",
+    "discard": "Descartar",
+    "reply": "Responder",
+    "forward": "Reenviar"
   }
 }

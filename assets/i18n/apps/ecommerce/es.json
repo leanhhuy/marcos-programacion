@@ -76,6 +76,7 @@
     "selectTemplate": "Seleccionar plantilla",
     "templateHint": "Asignar una plantilla de su tema actual para definir cómo se muestra un producto individual.",
     "updateProduct": "Actualizar Producto",
-    "cancel": "Cancelar"
+    "cancel": "Cancelar",
+    "clear": "Limpiar"
   }
 }

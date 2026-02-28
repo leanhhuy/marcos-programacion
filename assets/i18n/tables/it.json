@@ -9,7 +9,24 @@
       "position": "Posizione",
       "weight": "Peso",
       "symbol": "Simbolo",
-      "actions": "Azioni"
+      "actions": "Azioni",
+      "product": "Prodotto",
+      "progress": "Progresso",
+      "status": "Stato",
+      "sales": "Vendite",
+      "price": "Prezzo",
+      "item": "Articolo",
+      "cost": "Costo",
+      "total": "Totale",
+      "id": "ID",
+      "color": "Colore",
+      "title": "Titolo",
+      "state": "Stato",
+      "created": "Creato",
+      "post": "Ruolo",
+      "projectName": "Nome del progetto",
+      "category": "Categoria",
+      "users": "Utenti"
     },
     "priorities": {
       "low": "Bassa",
@@ -26,7 +43,21 @@
       "expandTable": "Tabella Espandibile",
       "filterableTable": "Tabella Filtrabile",
       "paginationTable": "Tabella con Paginazione",
-      "sortableTable": "Tabella Ordinabile"
+      "sortableTable": "Tabella Ordinabile",
+      "bestProducts": "Migliori prodotti",
+      "paymentGateways": "Gateway di pagamento",
+      "employeeOfYear": "Dipendente dell'anno",
+      "footerRowTable": "Tabella con riga piè di pagina",
+      "httpTable": "Tabella HTTP",
+      "mixTable": "Tabella con ordinamento, paginazione e filtro",
+      "multiHeaderFooter": "Tabella con più righe di intestazione e piè di pagina",
+      "rowContextTable": "Tabella con contesto di riga",
+      "selectionTable": "Tabella di selezione",
+      "stickyColumnTable": "Tabella con colonna fissa",
+      "stickyFooterTable": "Tabella con piè di pagina fisso",
+      "stickyHeaderTable": "Tabella con intestazione fissa",
+      "dynamicTableTitle": "Tabella che cambia colonne dinamicamente",
+      "expandableTableTitle": "Tabella con righe espandibili"
     },
     "actions": {
       "edit": "Modifica",
@@ -40,6 +71,43 @@
       "lastPage": "Ultima pagina",
       "previousPage": "Pagina precedente",
       "nextPage": "Pagina successiva"
+    },
+    "subtitles": {
+      "topNewProducts": "migliori nuovi prodotti",
+      "addColumnDynamic": "aggiungi colonna dinamicamente",
+      "expandableRows": "righe espandibili qui",
+      "searchItems": "cerca i tuoi elementi",
+      "totalAtFooter": "totale disponibile nel piè di pagina",
+      "getDataHttp": "ottenere dati con HTTP",
+      "allFunctionality": "tutte le funzionalità in una tabella",
+      "paginationSearch": "Paginazione e ricerca disponibili",
+      "paginationMore": "ottieni più elementi con paginazione",
+      "sellNewProducts": "Vendi nuovi prodotti",
+      "singleOrMore": "uno o più elementi",
+      "sortItems": "ordina i tuoi elementi",
+      "stickyColumnSub": "colonna fissa con tabella",
+      "fixedFooterTotal": "Piè di pagina fisso con totale elementi",
+      "fixedHeader": "Intestazione fissa",
+      "platformForIncome": "Piattaforma per entrate",
+      "greatWork": "ottimo lavoro"
+    },
+    "buttons": {
+      "addColumn": "Aggiungi colonna",
+      "removeColumn": "Rimuovi colonna",
+      "shuffle": "Mescola"
+    },
+    "labels": {
+      "filter": "Filtro",
+      "searchHere": "Cerca qui",
+      "filterPlaceholder": "Filtra",
+      "filterPlaceholderIum": "Ex. ium"
+    },
+    "messages": {
+      "noDataFilter": "Nessun dato corrispondente al filtro",
+      "rateLimitReached": "Il limite dell'API di GitHub è stato raggiunto. Verrà reimpostato tra un minuto.",
+      "itemPurchasedDesc": "Nome dell'articolo acquistato",
+      "costInUSD": "Costo dell'articolo in USD",
+      "disclaimerCost": "Si prega di notare che i costi degli articoli visualizzati sono completamente inventati."
     }
   }
 }

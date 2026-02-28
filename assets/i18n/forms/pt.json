@@ -22,7 +22,25 @@
       "age": "Idade",
       "description": "Descrição",
       "subject": "Assunto",
-      "username": "Nome de Usuário"
+      "username": "Nome de Usuário",
+      "fullName": "Nome Completo",
+      "birthDate": "Data de Nascimento",
+      "addressType": "Tipo de Endereço",
+      "pincode": "Código Postal",
+      "landmark": "Ponto de Referência",
+      "cardNumber": "Número do Cartão",
+      "expDate": "Data de Exp.",
+      "ccvCode": "Código CCV",
+      "confirm": "Confirmar",
+      "language": "Idioma",
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "google": "Google",
+      "linkedin": "Linkedin",
+      "instagram": "Instagram",
+      "quora": "Quora",
+      "hidePassword": "Ocultar palavra-passe",
+      "select": "Selecionar"
     },
     "buttons": {
       "send": "Enviar",
@@ -33,7 +51,9 @@
       "next": "Próximo",
       "back": "Voltar",
       "finish": "Concluir",
-      "upload": "Carregar"
+      "upload": "Carregar",
+      "previous": "Anterior",
+      "end": "Fim"
     },
     "titles": {
       "basicLayout": "Layout Básico",
@@ -59,13 +79,36 @@
       "enterEmail": "Digite o E-mail",
       "enterPhone": "Digite o Telefone",
       "enterMessage": "Digite a Mensagem",
-      "hiDoYouHaveMoment": "Olá, você tem um momento para conversar?"
+      "hiDoYouHaveMoment": "Olá, você tem um momento para conversar?",
+      "johnDeoEmail": "joao.silva",
+      "phone123": "123 4567 123",
+      "john": "João",
+      "deo": "Silva",
+      "johnDotDeo": "João.Silva",
+      "footRingRoad": "Av. Perimetral 150",
+      "jackson": "Lisboa",
+      "phoneAlt": "123 4561 213",
+      "pincode": "630012",
+      "nrWallStreet": "Perto de Wall Street",
+      "cardNumber": "123 200 540 620",
+      "mmYy": "MM/AA",
+      "ccv": "2501",
+      "phoneAlt2": "123 4560 123",
+      "emailSuffix": "@exmaple.com",
+      "hiDoYouHaveMomentDeo": "Olá, tem um momento para falar Deo?"
     },
     "sections": {
       "personalInfo": "Informações Pessoais",
       "contactInfo": "Informações de Contato",
       "accountInfo": "Informações da Conta",
-      "addressInfo": "Informações de Endereço"
+      "addressInfo": "Informações de Endereço",
+      "accountDetails": "Detalhes da Conta",
+      "deliveryAddress": "Endereço de Entrega",
+      "deliveryOptions": "Opções de Entrega",
+      "paymentMethod": "Método de Pagamento",
+      "collapsibleSection": "Seção Retrátil",
+      "formWithTabs": "Formulário com Abas",
+      "socialLinks": "Links Sociais"
     },
     "radioCheckbox": {
       "basicRadioButton": "Botão de Rádio Básico",
@@ -92,7 +135,15 @@
       "dateRange": "Intervalo de Datas",
       "startDate": "Data de início",
       "endDate": "Data de término",
-      "chooseDate": "Escolha uma data"
+      "chooseDate": "Escolha uma data",
+      "inheritedCalendarColor": "Cor do calendário herdada",
+      "customCalendarColor": "Cor do calendário personalizada",
+      "inputAndChangeEvents": "Eventos de entrada e alteração",
+      "completelyDisabled": "Completamente desativado",
+      "popupDisabled": "Popup desativado",
+      "inputDisabled": "Entrada desativada",
+      "logs": "Registros:",
+      "open": "Abrir"
     },
     "button": {
       "title": "Botão",
@@ -103,6 +154,32 @@
       "iconButton": "Botão de Ícone",
       "fabButton": "Botão FAB",
       "miniFabButton": "Botão Mini FAB"
+    },
+    "options": {
+      "india": "Índia",
+      "africa": "África",
+      "unitedKingdom": "Reino Unido",
+      "france": "França",
+      "homeDelivery": "Residência (Entrega o dia todo)",
+      "officeDelivery": "Escritório (Entrega entre 10h e 17h)",
+      "standard": "Padrão 3-5 Dias",
+      "express": "Express",
+      "overnight": "Entrega noturna",
+      "creditDebitAtm": "Cartão de Crédito/Débito/ATM",
+      "cashOnDelivery": "Pagamento na Entrega",
+      "english": "Inglês",
+      "french": "Francês",
+      "option": "Opção",
+      "option2": "Opção2",
+      "option3": "Opção3"
+    },
+    "wizard": {
+      "account": "Conta",
+      "profile": "Perfil",
+      "finish": "Concluir",
+      "termsAndCondition": "Termos e condições",
+      "termsDescription": "Informações sobre este site ou se você o visitou, mas não consegue descobrir o que é ou o que pode fazer. O diretório web MTA é informações sobre este site ou se você o visitou, mas não consegue descobrir o que é ou o que pode fazer. O diretório web MTA é",
+      "agreeWithTerms": "Concorda com os termos?"
     }
   }
 }

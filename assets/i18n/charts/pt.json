@@ -11,7 +11,11 @@
       "radial": "Gráfico Radial",
       "radar": "Gráfico Radar",
       "candlestick": "Gráfico de Velas",
-      "gradient": "Gráfico com Gradiente"
+      "gradient": "Gráfico com Gradiente",
+      "doughnutTitle": "Rosca",
+      "pieTitle": "Pizza",
+      "radialbarTitle": "Barra radial",
+      "radarTitle": "Radar"
     },
     "labels": {
       "series": "Séries",

@@ -8,6 +8,7 @@
       "warn": "Avviso",
       "disabled": "Disabilitato",
       "link": "Link"
-    }
+    },
+    "testText": "prova"
   }
 }

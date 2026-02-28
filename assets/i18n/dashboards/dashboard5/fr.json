@@ -52,7 +52,9 @@
       "title": "Disponibilité des Produits"
     },
     "PROFILE_CARD_TWO": {
-      "title": "Carte de Profil"
+      "title": "Carte de Profil",
+      "name": "James Anderson",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
     },
     "REVIEWS": {
       "title": "Avis"

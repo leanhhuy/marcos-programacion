@@ -31,7 +31,10 @@
       "addTitle": "Adicionar Usuário",
       "updateTitle": "Atualizar Usuário",
       "deleteTitle": "Excluir Usuário",
-      "deleteConfirm": "Tem certeza que deseja excluir"
+      "deleteConfirm": "Tem certeza que deseja excluir",
+      "employeeSuccessfullyAdded": "Funcionário adicionado com sucesso.",
+      "findAtLastOfTable": "Você pode encontrar seu funcionário no final da tabela.",
+      "ok": "Ok"
     }
   }
 }

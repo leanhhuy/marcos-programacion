@@ -11,7 +11,11 @@
       "radial": "Graphique Radial",
       "radar": "Graphique Radar",
       "candlestick": "Graphique en Chandeliers",
-      "gradient": "Graphique avec Dégradé"
+      "gradient": "Graphique avec Dégradé",
+      "doughnutTitle": "Anneau",
+      "pieTitle": "Camembert",
+      "radialbarTitle": "Barre radiale",
+      "radarTitle": "Radar"
     },
     "labels": {
       "series": "Séries",

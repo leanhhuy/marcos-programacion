@@ -7,6 +7,25 @@
     "onHold": "In attesa",
     "completed": "Completato",
     "edit": "Modifica",
-    "delete": "Elimina"
+    "delete": "Elimina",
+    "taskSuccessfullyAdded": "Attività aggiunta con successo.",
+    "ok": "Ok",
+    "confirmDeleteMessage": "Sei sicuro di voler eliminare?",
+    "yes": "Sì",
+    "no": "No",
+    "task": "Attività",
+    "titleLabel": "Titolo",
+    "description": "Descrizione",
+    "property": "Proprietà",
+    "design": "Design",
+    "mobile": "Mobile",
+    "uxStage": "Fase UX",
+    "research": "Ricerca",
+    "dataScience": "Scienza dei dati",
+    "branding": "Branding",
+    "imageUrl": "URL immagine",
+    "save": "Salva",
+    "add": "Aggiungi",
+    "cancel": "Annulla"
   }
 }

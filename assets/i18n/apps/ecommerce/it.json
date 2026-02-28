@@ -76,6 +76,7 @@
     "selectTemplate": "Seleziona modello",
     "templateHint": "Assegna un modello dal tuo tema attuale per definire come viene visualizzato un singolo prodotto.",
     "updateProduct": "Aggiorna Prodotto",
-    "cancel": "Annulla"
+    "cancel": "Annulla",
+    "clear": "Cancella"
   }
 }

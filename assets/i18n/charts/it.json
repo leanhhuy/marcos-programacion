@@ -11,7 +11,11 @@
       "radial": "Grafico Radiale",
       "radar": "Grafico Radar",
       "candlestick": "Grafico a Candele",
-      "gradient": "Grafico con Sfumatura"
+      "gradient": "Grafico con Sfumatura",
+      "doughnutTitle": "Ciambella",
+      "pieTitle": "Torta",
+      "radialbarTitle": "Barra radiale",
+      "radarTitle": "Radar"
     },
     "labels": {
       "series": "Serie",

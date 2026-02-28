@@ -76,6 +76,7 @@
     "selectTemplate": "Select template",
     "templateHint": "Assign a template from your current theme to define how a single product is displayed.",
     "updateProduct": "Update Product",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "clear": "Clear"
   }
 }

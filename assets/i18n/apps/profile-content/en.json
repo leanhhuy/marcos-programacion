@@ -18,6 +18,9 @@
     "searchFriends": "Search Friends",
     "searchGallery": "Search Gallery",
     "follow": "Follow",
-    "unfollow": "Unfollow"
+    "unfollow": "Unfollow",
+    "like": "Like",
+    "share": "Share",
+    "reply": "Reply"
   }
 }

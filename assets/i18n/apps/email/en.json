@@ -5,6 +5,26 @@
     "sortBy": "Sort By",
     "labels": "Labels",
     "noEmailsFound": "No emails found.",
-    "pleaseSelectMail": "Please Select a Mail"
+    "pleaseSelectMail": "Please Select a Mail",
+    "composeEmail": "Compose Email",
+    "to": "To",
+    "subject": "Subject",
+    "typeHere": "Type here...",
+    "send": "Send",
+    "saveAsDraft": "Save as a Draft",
+    "personal": "Personal",
+    "work": "Work",
+    "payments": "Payments",
+    "accounts": "Accounts",
+    "markAsUnread": "Mark as unread",
+    "markAsRead": "Mark as read",
+    "spam": "Spam",
+    "trash": "Trash",
+    "payment": "Payment",
+    "account": "Account",
+    "typeReplyHere": "Type your reply here",
+    "discard": "Discard",
+    "reply": "Reply",
+    "forward": "Forward"
   }
 }

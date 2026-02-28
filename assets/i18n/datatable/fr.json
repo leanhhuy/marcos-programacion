@@ -31,7 +31,10 @@
       "addTitle": "Ajouter un Utilisateur",
       "updateTitle": "Mettre à Jour l'Utilisateur",
       "deleteTitle": "Supprimer l'Utilisateur",
-      "deleteConfirm": "Êtes-vous sûr de vouloir supprimer"
+      "deleteConfirm": "Êtes-vous sûr de vouloir supprimer",
+      "employeeSuccessfullyAdded": "Employé ajouté avec succès.",
+      "findAtLastOfTable": "Vous pouvez trouver votre employé à la fin du tableau.",
+      "ok": "D'accord"
     }
   }
 }

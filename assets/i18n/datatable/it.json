@@ -31,7 +31,10 @@
       "addTitle": "Aggiungi Utente",
       "updateTitle": "Aggiorna Utente",
       "deleteTitle": "Elimina Utente",
-      "deleteConfirm": "Sei sicuro di voler eliminare"
+      "deleteConfirm": "Sei sicuro di voler eliminare",
+      "employeeSuccessfullyAdded": "Dipendente aggiunto con successo.",
+      "findAtLastOfTable": "Puoi trovare il tuo dipendente alla fine della tabella.",
+      "ok": "Ok"
     }
   }
 }

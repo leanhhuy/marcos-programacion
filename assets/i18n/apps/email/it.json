@@ -5,6 +5,26 @@
     "sortBy": "Ordina per",
     "labels": "Etichette",
     "noEmailsFound": "Nessuna email trovata.",
-    "pleaseSelectMail": "Seleziona un'email"
+    "pleaseSelectMail": "Seleziona un'email",
+    "composeEmail": "Scrivi email",
+    "to": "A",
+    "subject": "Oggetto",
+    "typeHere": "Scrivi qui...",
+    "send": "Invia",
+    "saveAsDraft": "Salva come bozza",
+    "personal": "Personale",
+    "work": "Lavoro",
+    "payments": "Pagamenti",
+    "accounts": "Conti",
+    "markAsUnread": "Segna come non letto",
+    "markAsRead": "Segna come letto",
+    "spam": "Spam",
+    "trash": "Cestino",
+    "payment": "Pagamento",
+    "account": "Conto",
+    "typeReplyHere": "Scrivi la tua risposta qui",
+    "discard": "Annulla",
+    "reply": "Rispondi",
+    "forward": "Inoltra"
   }
 }

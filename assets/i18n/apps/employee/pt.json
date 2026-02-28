@@ -8,6 +8,18 @@
     "dateOfJoining": "Data de admissão",
     "salary": "Salário",
     "projects": "Projetos",
-    "action": "Ação"
+    "action": "Ação",
+    "successfullyAdded": "Funcionário adicionado com sucesso.",
+    "findAtLastOfTable": "Você pode encontrar seu funcionário no final da tabela.",
+    "ok": "Ok",
+    "employee": "Funcionário",
+    "nameLabel": "Nome",
+    "position": "Cargo",
+    "mobileNumber": "Número de Telefone",
+    "mobilePlaceholder": "Telefone",
+    "joiningDate": "Data de Admissão",
+    "chooseDate": "Escolher uma data",
+    "cancel": "Cancelar",
+    "deleteConfirmation": "Tem certeza que deseja excluir"
   }
 }

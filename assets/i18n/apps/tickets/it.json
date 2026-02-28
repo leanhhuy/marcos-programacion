@@ -11,6 +11,14 @@
     "assignedTo": "Assegnato a",
     "status": "Stato",
     "date": "Data",
-    "action": "Azione"
+    "action": "Azione",
+    "ticket": "Ticket",
+    "ticketId": "Id del Ticket",
+    "ticketTitle": "Titolo del Ticket",
+    "ticketSubtext": "Sottotesto del Ticket",
+    "assignUser": "Assegnare Utente",
+    "dateLabel": "Data",
+    "cancel": "Annulla",
+    "deleteConfirmation": "Sei sicuro di eliminare"
   }
 }

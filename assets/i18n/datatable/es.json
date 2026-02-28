@@ -31,7 +31,10 @@
       "addTitle": "Agregar Usuario",
       "updateTitle": "Actualizar Usuario",
       "deleteTitle": "Eliminar Usuario",
-      "deleteConfirm": "¿Está seguro de eliminar"
+      "deleteConfirm": "¿Está seguro de eliminar",
+      "employeeSuccessfullyAdded": "Empleado añadido exitosamente.",
+      "findAtLastOfTable": "Puede encontrar a su empleado al final de la tabla.",
+      "ok": "Vale"
     }
   }
 }

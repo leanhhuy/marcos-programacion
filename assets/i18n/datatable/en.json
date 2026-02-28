@@ -31,7 +31,10 @@
       "addTitle": "Add User",
       "updateTitle": "Update User",
       "deleteTitle": "Delete User",
-      "deleteConfirm": "Sure to delete"
+      "deleteConfirm": "Sure to delete",
+      "employeeSuccessfullyAdded": "Employee Successfully Added.",
+      "findAtLastOfTable": "You can find your employee at last of table.",
+      "ok": "Ok"
     }
   }
 }

@@ -8,6 +8,7 @@
       "warn": "Advertencia",
       "disabled": "Deshabilitado",
       "link": "Enlace"
-    }
+    },
+    "testText": "prueba"
   }
 }

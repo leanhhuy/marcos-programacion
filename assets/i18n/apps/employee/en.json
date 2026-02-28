@@ -8,6 +8,18 @@
     "dateOfJoining": "Date of Joining",
     "salary": "Salary",
     "projects": "Projects",
-    "action": "Action"
+    "action": "Action",
+    "successfullyAdded": "Employee Successfully Added.",
+    "findAtLastOfTable": "You can find your employee at last of table.",
+    "ok": "Ok",
+    "employee": "Employee",
+    "nameLabel": "Name",
+    "position": "Position",
+    "mobileNumber": "Mobile Number",
+    "mobilePlaceholder": "Mobile",
+    "joiningDate": "Joining Date",
+    "chooseDate": "Choose a date",
+    "cancel": "Cancel",
+    "deleteConfirmation": "Sure to delete"
   }
 }

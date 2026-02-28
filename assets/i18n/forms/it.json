@@ -22,7 +22,25 @@
       "age": "Età",
       "description": "Descrizione",
       "subject": "Oggetto",
-      "username": "Nome utente"
+      "username": "Nome utente",
+      "fullName": "Nome completo",
+      "birthDate": "Data di nascita",
+      "addressType": "Tipo di indirizzo",
+      "pincode": "Codice postale",
+      "landmark": "Punto di riferimento",
+      "cardNumber": "Numero di carta",
+      "expDate": "Data di scad.",
+      "ccvCode": "Codice CCV",
+      "confirm": "Conferma",
+      "language": "Lingua",
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "google": "Google",
+      "linkedin": "Linkedin",
+      "instagram": "Instagram",
+      "quora": "Quora",
+      "hidePassword": "Nascondi password",
+      "select": "Selezionare"
     },
     "buttons": {
       "send": "Invia",
@@ -33,7 +51,9 @@
       "next": "Avanti",
       "back": "Indietro",
       "finish": "Fine",
-      "upload": "Carica"
+      "upload": "Carica",
+      "previous": "Precedente",
+      "end": "Fine"
     },
     "titles": {
       "basicLayout": "Layout di base",
@@ -59,13 +79,36 @@
       "enterEmail": "Inserisci l'e-mail",
       "enterPhone": "Inserisci il telefono",
       "enterMessage": "Inserisci il messaggio",
-      "hiDoYouHaveMoment": "Ciao, hai un momento per parlare?"
+      "hiDoYouHaveMoment": "Ciao, hai un momento per parlare?",
+      "johnDeoEmail": "mario.rossi",
+      "phone123": "123 4567 123",
+      "john": "Mario",
+      "deo": "Rossi",
+      "johnDotDeo": "Mario.Rossi",
+      "footRingRoad": "Via Circonvallazione 150",
+      "jackson": "Milano",
+      "phoneAlt": "123 4561 213",
+      "pincode": "630012",
+      "nrWallStreet": "Vicino a Wall Street",
+      "cardNumber": "123 200 540 620",
+      "mmYy": "MM/AA",
+      "ccv": "2501",
+      "phoneAlt2": "123 4560 123",
+      "emailSuffix": "@exmaple.com",
+      "hiDoYouHaveMomentDeo": "Ciao, hai un momento per parlare Deo?"
     },
     "sections": {
       "personalInfo": "Informazioni personali",
       "contactInfo": "Informazioni di contatto",
       "accountInfo": "Informazioni account",
-      "addressInfo": "Informazioni indirizzo"
+      "addressInfo": "Informazioni indirizzo",
+      "accountDetails": "Dettagli account",
+      "deliveryAddress": "Indirizzo di consegna",
+      "deliveryOptions": "Opzioni di consegna",
+      "paymentMethod": "Metodo di pagamento",
+      "collapsibleSection": "Sezione comprimibile",
+      "formWithTabs": "Modulo con schede",
+      "socialLinks": "Link social"
     },
     "radioCheckbox": {
       "basicRadioButton": "Pulsante radio di base",
@@ -92,7 +135,15 @@
       "dateRange": "Intervallo date",
       "startDate": "Data di inizio",
       "endDate": "Data di fine",
-      "chooseDate": "Scegli una data"
+      "chooseDate": "Scegli una data",
+      "inheritedCalendarColor": "Colore del calendario ereditato",
+      "customCalendarColor": "Colore del calendario personalizzato",
+      "inputAndChangeEvents": "Eventi di input e modifica",
+      "completelyDisabled": "Completamente disabilitato",
+      "popupDisabled": "Popup disabilitato",
+      "inputDisabled": "Input disabilitato",
+      "logs": "Log:",
+      "open": "Apri"
     },
     "button": {
       "title": "Pulsante",
@@ -103,6 +154,32 @@
       "iconButton": "Pulsante icona",
       "fabButton": "Pulsante FAB",
       "miniFabButton": "Pulsante Mini FAB"
+    },
+    "options": {
+      "india": "India",
+      "africa": "Africa",
+      "unitedKingdom": "Regno Unito",
+      "france": "Francia",
+      "homeDelivery": "Casa (Consegna tutto il giorno)",
+      "officeDelivery": "Ufficio (Consegna tra le 10 e le 17)",
+      "standard": "Standard 3-5 giorni",
+      "express": "Express",
+      "overnight": "Consegna notturna",
+      "creditDebitAtm": "Carta di credito/debito/bancomat",
+      "cashOnDelivery": "Pagamento alla consegna",
+      "english": "Inglese",
+      "french": "Francese",
+      "option": "Opzione",
+      "option2": "Opzione2",
+      "option3": "Opzione3"
+    },
+    "wizard": {
+      "account": "Account",
+      "profile": "Profilo",
+      "finish": "Fine",
+      "termsAndCondition": "Termini e condizioni",
+      "termsDescription": "Informazioni su questo sito o se lo avete visitato, ma non riuscite a capire cosa sia o cosa possa fare. La directory web MTA è informazioni su questo sito o se lo avete visitato, ma non riuscite a capire cosa sia o cosa possa fare. La directory web MTA è",
+      "agreeWithTerms": "Accetti i termini?"
     }
   }
 }

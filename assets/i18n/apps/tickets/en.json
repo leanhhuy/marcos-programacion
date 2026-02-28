@@ -11,6 +11,14 @@
     "assignedTo": "Assigned To",
     "status": "Status",
     "date": "Date",
-    "action": "Action"
+    "action": "Action",
+    "ticket": "Ticket",
+    "ticketId": "Ticket Id",
+    "ticketTitle": "Ticket Title",
+    "ticketSubtext": "Ticket Subtext",
+    "assignUser": "Assign User",
+    "dateLabel": "Date",
+    "cancel": "Cancel",
+    "deleteConfirmation": "Sure to delete"
   }
 }

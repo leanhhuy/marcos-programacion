@@ -7,6 +7,25 @@
     "onHold": "Em espera",
     "completed": "Concluído",
     "edit": "Editar",
-    "delete": "Excluir"
+    "delete": "Excluir",
+    "taskSuccessfullyAdded": "Tarefa adicionada com sucesso.",
+    "ok": "Ok",
+    "confirmDeleteMessage": "Tem certeza que deseja excluir?",
+    "yes": "Sim",
+    "no": "Não",
+    "task": "Tarefa",
+    "titleLabel": "Título",
+    "description": "Descrição",
+    "property": "Propriedade",
+    "design": "Design",
+    "mobile": "Móvel",
+    "uxStage": "Etapa UX",
+    "research": "Pesquisa",
+    "dataScience": "Ciência de dados",
+    "branding": "Marca",
+    "imageUrl": "URL da imagem",
+    "save": "Salvar",
+    "add": "Adicionar",
+    "cancel": "Cancelar"
   }
 }

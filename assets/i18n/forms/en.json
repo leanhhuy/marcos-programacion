@@ -22,7 +22,25 @@
       "age": "Age",
       "description": "Description",
       "subject": "Subject",
-      "username": "Username"
+      "username": "Username",
+      "fullName": "Full Name",
+      "birthDate": "Birth Date",
+      "addressType": "Address Type",
+      "pincode": "Pincode",
+      "landmark": "Landmark",
+      "cardNumber": "Card Number",
+      "expDate": "Exp. Date",
+      "ccvCode": "CCV Code",
+      "confirm": "Confirm",
+      "language": "Language",
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "google": "Google",
+      "linkedin": "Linkedin",
+      "instagram": "Instagram",
+      "quora": "Quora",
+      "hidePassword": "Hide password",
+      "select": "Select"
     },
     "buttons": {
       "send": "Send",
@@ -33,7 +51,9 @@
       "next": "Next",
       "back": "Back",
       "finish": "Finish",
-      "upload": "Upload"
+      "upload": "Upload",
+      "previous": "Previous",
+      "end": "End"
     },
     "titles": {
       "basicLayout": "Basic Layout",
@@ -59,13 +79,36 @@
       "enterEmail": "Enter Email",
       "enterPhone": "Enter Phone",
       "enterMessage": "Enter Message",
-      "hiDoYouHaveMoment": "Hi, Do you have a moment to talk?"
+      "hiDoYouHaveMoment": "Hi, Do you have a moment to talk?",
+      "johnDeoEmail": "john.deo",
+      "phone123": "123 4567 123",
+      "john": "John",
+      "deo": "Deo",
+      "johnDotDeo": "John.Deo",
+      "footRingRoad": "150 Foot Ring Road",
+      "jackson": "Jackson",
+      "phoneAlt": "123 4561 213",
+      "pincode": "630012",
+      "nrWallStreet": "Nr. wall street",
+      "cardNumber": "123 200 540 620",
+      "mmYy": "MM/YY",
+      "ccv": "2501",
+      "phoneAlt2": "123 4560 123",
+      "emailSuffix": "@exmaple.com",
+      "hiDoYouHaveMomentDeo": "Hi, Do you have a moment to talk Deo ?"
     },
     "sections": {
       "personalInfo": "Personal Info",
       "contactInfo": "Contact Info",
       "accountInfo": "Account Info",
-      "addressInfo": "Address Info"
+      "addressInfo": "Address Info",
+      "accountDetails": "Account Details",
+      "deliveryAddress": "Delivery Address",
+      "deliveryOptions": "Delivery Options",
+      "paymentMethod": "Payment Method",
+      "collapsibleSection": "Collapsible Section",
+      "formWithTabs": "Form with Tabs",
+      "socialLinks": "Social Links"
     },
     "radioCheckbox": {
       "basicRadioButton": "Basic radio button",
@@ -92,7 +135,15 @@
       "dateRange": "Date Range",
       "startDate": "Start date",
       "endDate": "End date",
-      "chooseDate": "Choose a date"
+      "chooseDate": "Choose a date",
+      "inheritedCalendarColor": "Inherited calendar color",
+      "customCalendarColor": "Custom calendar color",
+      "inputAndChangeEvents": "Input & change events",
+      "completelyDisabled": "Completely disabled",
+      "popupDisabled": "Popup disabled",
+      "inputDisabled": "Input disabled",
+      "logs": "Logs:",
+      "open": "Open"
     },
     "button": {
       "title": "Button",
@@ -103,6 +154,32 @@
       "iconButton": "Icon Button",
       "fabButton": "FAB Button",
       "miniFabButton": "Mini FAB Button"
+    },
+    "options": {
+      "india": "India",
+      "africa": "Africa",
+      "unitedKingdom": "United Kingdom",
+      "france": "France",
+      "homeDelivery": "Home (All day delivery)",
+      "officeDelivery": "Office (Delivery between 10 AM - 5 PM)",
+      "standard": "Standard 3-5 Days",
+      "express": "Express",
+      "overnight": "Overnight",
+      "creditDebitAtm": "Credit/Debit/ATM Card",
+      "cashOnDelivery": "Cash on Delivery",
+      "english": "English",
+      "french": "French",
+      "option": "Option",
+      "option2": "Option2",
+      "option3": "Option3"
+    },
+    "wizard": {
+      "account": "Account",
+      "profile": "Profile",
+      "finish": "Finish",
+      "termsAndCondition": "Terms and condition",
+      "termsDescription": "Sard about this site or you have been to it, but you cannot figure out what it is or what it can do. MTA web directory isSard about this site or you have been to it, but you cannot figure out what it is or what it can do. MTA web directory is",
+      "agreeWithTerms": "Agree with terms?"
     }
   }
 }

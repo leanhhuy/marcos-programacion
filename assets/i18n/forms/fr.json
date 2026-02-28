@@ -22,7 +22,25 @@
       "age": "Âge",
       "description": "Description",
       "subject": "Sujet",
-      "username": "Nom d'utilisateur"
+      "username": "Nom d'utilisateur",
+      "fullName": "Nom complet",
+      "birthDate": "Date de naissance",
+      "addressType": "Type d'adresse",
+      "pincode": "Code postal",
+      "landmark": "Point de repère",
+      "cardNumber": "Numéro de carte",
+      "expDate": "Date d'exp.",
+      "ccvCode": "Code CCV",
+      "confirm": "Confirmer",
+      "language": "Langue",
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "google": "Google",
+      "linkedin": "Linkedin",
+      "instagram": "Instagram",
+      "quora": "Quora",
+      "hidePassword": "Masquer le mot de passe",
+      "select": "Sélectionner"
     },
     "buttons": {
       "send": "Envoyer",
@@ -33,7 +51,9 @@
       "next": "Suivant",
       "back": "Retour",
       "finish": "Terminer",
-      "upload": "Télécharger"
+      "upload": "Télécharger",
+      "previous": "Précédent",
+      "end": "Fin"
     },
     "titles": {
       "basicLayout": "Mise en page de base",
@@ -59,13 +79,36 @@
       "enterEmail": "Entrez l'e-mail",
       "enterPhone": "Entrez le téléphone",
       "enterMessage": "Entrez le message",
-      "hiDoYouHaveMoment": "Bonjour, avez-vous un moment pour discuter?"
+      "hiDoYouHaveMoment": "Bonjour, avez-vous un moment pour discuter?",
+      "johnDeoEmail": "jean.dupont",
+      "phone123": "123 4567 123",
+      "john": "Jean",
+      "deo": "Dupont",
+      "johnDotDeo": "Jean.Dupont",
+      "footRingRoad": "150 Boulevard Périphérique",
+      "jackson": "Paris",
+      "phoneAlt": "123 4561 213",
+      "pincode": "630012",
+      "nrWallStreet": "Près de Wall Street",
+      "cardNumber": "123 200 540 620",
+      "mmYy": "MM/AA",
+      "ccv": "2501",
+      "phoneAlt2": "123 4560 123",
+      "emailSuffix": "@exmaple.com",
+      "hiDoYouHaveMomentDeo": "Salut, avez-vous un moment pour parler Deo ?"
     },
     "sections": {
       "personalInfo": "Informations personnelles",
       "contactInfo": "Coordonnées",
       "accountInfo": "Informations du compte",
-      "addressInfo": "Informations d'adresse"
+      "addressInfo": "Informations d'adresse",
+      "accountDetails": "Détails du compte",
+      "deliveryAddress": "Adresse de livraison",
+      "deliveryOptions": "Options de livraison",
+      "paymentMethod": "Mode de paiement",
+      "collapsibleSection": "Section pliable",
+      "formWithTabs": "Formulaire avec onglets",
+      "socialLinks": "Liens sociaux"
     },
     "radioCheckbox": {
       "basicRadioButton": "Bouton radio de base",
@@ -92,7 +135,15 @@
       "dateRange": "Plage de dates",
       "startDate": "Date de début",
       "endDate": "Date de fin",
-      "chooseDate": "Choisissez une date"
+      "chooseDate": "Choisissez une date",
+      "inheritedCalendarColor": "Couleur de calendrier héritée",
+      "customCalendarColor": "Couleur de calendrier personnalisée",
+      "inputAndChangeEvents": "Événements d'entrée et de changement",
+      "completelyDisabled": "Complètement désactivé",
+      "popupDisabled": "Popup désactivé",
+      "inputDisabled": "Entrée désactivée",
+      "logs": "Journaux :",
+      "open": "Ouvrir"
     },
     "button": {
       "title": "Bouton",
@@ -103,6 +154,32 @@
       "iconButton": "Bouton icône",
       "fabButton": "Bouton FAB",
       "miniFabButton": "Bouton Mini FAB"
+    },
+    "options": {
+      "india": "Inde",
+      "africa": "Afrique",
+      "unitedKingdom": "Royaume-Uni",
+      "france": "France",
+      "homeDelivery": "Domicile (Livraison toute la journée)",
+      "officeDelivery": "Bureau (Livraison entre 10h et 17h)",
+      "standard": "Standard 3-5 jours",
+      "express": "Express",
+      "overnight": "Livraison de nuit",
+      "creditDebitAtm": "Carte de crédit/débit/GAB",
+      "cashOnDelivery": "Paiement à la livraison",
+      "english": "Anglais",
+      "french": "Français",
+      "option": "Option",
+      "option2": "Option2",
+      "option3": "Option3"
+    },
+    "wizard": {
+      "account": "Compte",
+      "profile": "Profil",
+      "finish": "Terminer",
+      "termsAndCondition": "Termes et conditions",
+      "termsDescription": "Information sur ce site ou si vous l'avez visité, mais vous ne pouvez pas déterminer ce qu'il est ni ce qu'il peut faire. Le répertoire web MTA est information sur ce site ou si vous l'avez visité, mais vous ne pouvez pas déterminer ce qu'il est ni ce qu'il peut faire. Le répertoire web MTA est",
+      "agreeWithTerms": "Acceptez-vous les conditions ?"
     }
   }
 }

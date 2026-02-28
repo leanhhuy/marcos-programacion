@@ -7,6 +7,25 @@
     "onHold": "Onhold",
     "completed": "Completed",
     "edit": "Edit",
-    "delete": "Delete"
+    "delete": "Delete",
+    "taskSuccessfullyAdded": "Task Successfully Added.",
+    "ok": "Ok",
+    "confirmDeleteMessage": "Are you sure you want to delete ?",
+    "yes": "Yes",
+    "no": "No",
+    "task": "Task",
+    "titleLabel": "Title",
+    "description": "Description",
+    "property": "Property",
+    "design": "Design",
+    "mobile": "Mobile",
+    "uxStage": "UX Stage",
+    "research": "Research",
+    "dataScience": "Data Science",
+    "branding": "Branding",
+    "imageUrl": "Image URL",
+    "save": "Save",
+    "add": "Add",
+    "cancel": "Cancel"
   }
 }

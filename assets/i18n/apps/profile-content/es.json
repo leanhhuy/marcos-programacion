@@ -18,6 +18,9 @@
     "searchFriends": "Buscar Amigos",
     "searchGallery": "Buscar en Galería",
     "follow": "Seguir",
-    "unfollow": "Dejar de seguir"
+    "unfollow": "Dejar de seguir",
+    "like": "Me gusta",
+    "share": "Compartir",
+    "reply": "Responder"
   }
 }

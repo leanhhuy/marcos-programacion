@@ -11,7 +11,11 @@
       "radial": "Gráfico Radial",
       "radar": "Gráfico de Radar",
       "candlestick": "Gráfico de Velas",
-      "gradient": "Gráfico con Degradado"
+      "gradient": "Gráfico con Degradado",
+      "doughnutTitle": "Rosquilla",
+      "pieTitle": "Pastel",
+      "radialbarTitle": "Barra radial",
+      "radarTitle": "Radar"
     },
     "labels": {
       "series": "Series",
