@@ -1,8 +1,8 @@
 @use "sass:map";
 @use "@angular/material" as mat;
 
-// <!-- "Rojo oscuro"  -->
-html.green_theme {
+// Custom Theme - colors applied dynamically via JS (applyCustomColor)
+html.custom_theme {
   // --mat-sys-primary: rgb(152,41,42);
   // --mat-sys-primary-fixed-dim: rgb(152,41,42, 0.15);
   // --mat-sys-secondary: rgb(82, 202, 231);
