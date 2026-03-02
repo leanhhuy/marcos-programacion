@@ -1,5 +1,37 @@
 @use "../variables" as *;
 
+/*
+═══════════════════════════════════════════════════════════════════════════
+COPILOT CHANGE LOG
+
+@generated
+@taskId         TASK-2026-0302-003
+@dateTime       2026-03-02T14:00:00Z
+@aiModel        Claude Sonnet 4.6
+@purpose        Implement Sticky/Static Horizontal Menu (navbar) feature
+@filesChanged   4
+@fileDescription Added .menu-sticky and .menu-static SCSS classes to control
+                 position:sticky on the horizontal navbar (.horizontal-sidebar),
+                 mirroring the .header-sticky/.header-static pattern.
+                 top value adjusts based on whether stickyHeader is also active.
+
+─────────────────────────────────────────────────────────────────────────────
+
+@taskId         TASK-2026-0302-004
+@dateTime       2026-03-02T15:00:00Z
+@aiModel        Claude Sonnet 4.6
+@purpose        Fix Edge-browser blank space on left of horizontal header/navbar
+@filesChanged   1
+@fileDescription In Edge, flex-child divs with position:sticky (or static) do not
+                 automatically expand to 100% width of their container, leaving a
+                 blank strip on the left. The existing codebase already works around
+                 this for .topbar and .mainWrapper via explicit width:100% inside
+                 .sidebarNav-horizontal. Added the same fix for the new
+                 .menu-sticky and .menu-static wrapper divs introduced in TASK-003.
+
+═══════════════════════════════════════════════════════════════════════════
+*/
+
 .sidebarNav-horizontal {
   .childBox {
     background: var(--mat-sys-surface);
@@ -145,10 +177,28 @@
 }
 
 .sidebarNav-horizontal {
+  // COPILOT - TASK-2026-0302-004 (related) - These existing rules prevent Edge blank-space bug on .topbar and .mainWrapper
+  // By applying explicit width:100%, we ensure flexbox child divs fully occupy their container width.
+  // Edge (unlike Chrome/Firefox) does not automatically expand flex children with position:sticky to 100% width.
   .topbar,
   .mainWrapper {
     width: 100%;
   }
+
+  // COPILOT START - TASK-2026-0302-004 - MODIFICATION: Added explicit width:100% to .menu-sticky and .menu-static wrappers
+  // WHY: Fix Edge browser's blank-space bug (vertical strip on left of header/navbar in horizontal layout).
+  // BUG: Edge does not automatically expand flex container children with position:sticky (or position:static)
+  //   to 100% width of their parent. Result: horizontal navbar wrapper (.menu-sticky/.menu-static) takes only
+  //   partial width, leaving a blank strip on the left.
+  // SOLUTION: Apply explicit width:100% to .menu-sticky and .menu-static, mirroring the existing fix already
+  //   applied to .topbar and .mainWrapper (lines above). This pattern is consistent with codebase design.
+  // SCOPE: Applies only in horizontal layout mode (inside .sidebarNav-horizontal), does not affect vertical layout.
+  // COMPATIBILITY: Chrome, Firefox, Safari: not affected (they already expand to 100%). Edge: fixed.
+  .menu-sticky,
+  .menu-static {
+    width: 100%;
+  }
+  // COPILOT END - TASK-2026-0302-004
   .horizontal-navbar {
     .parentBox {
       &.pactive > a,
@@ -199,3 +249,47 @@
     }
   }
 }
+
+// COPILOT START - TASK-2026-0302-003 - MODIFICATION: Added .menu-sticky and .menu-static positioning classes for horizontal navbar
+// WHY: Enable toggle between sticky (always visible) and static (scrolls away) horizontal navbar behavior.
+// FEATURE: Parallels the sticky header feature (TASK-2026-0302-001) but controls the horizontal navbar instead.
+// ARCHITECTURE: Similar to header, the navbar wrapper div is placed INSIDE mat-sidenav-content, allowing
+//   position:sticky to work within the scroll context. Wrapper div created in full.component.html line 112-114.
+// BINDING: customizer.component.html line 248 → setStickyMenu(boolean) → options.stickyMenu → template [ngClass]
+//
+// CRITICAL DETAIL: sticky is applied to the .menu-sticky/.menu-static WRAPPER DIV (not .horizontal-sidebar inside it).
+// WHY THIS MATTERS:
+//   - If sticky were applied to .horizontal-sidebar (child element), its nearest sticky containing block would be
+//     the .menu-sticky wrapper itself (height = navbar height ~40px). Sticky positioning would fail immediately
+//     after any scroll because there's no room inside the containing block to "stick".
+//   - By applying sticky to the .menu-sticky wrapper, the containing block becomes the parent scroll container
+//     (.mat-sidenav-content), which has full viewport height. Sticky positioning works correctly.
+//
+// top VALUE LOGIC:
+//   Whether the navbar sticks below the header or at the viewport top depends on the header's state:
+//   - If header is sticky (stickyHeader=true): navbar must stick at top:$header-height (below sticky header)
+//   - If header is static (stickyHeader=false): navbar sticks at top:0 (topbar scrolled away, navbar takes top spot)
+//
+// Case 1: Both header AND navbar are sticky → navbar wrapper sits directly below sticky header
+.header-sticky {
+  .menu-sticky {
+    position: sticky;
+    top: $header-height; // 60px — navbar sticks immediately below the sticky topbar
+    z-index: 8;          // z-index 8: below header (9), floats above content
+  }
+}
+
+// Case 2: Header is static (scrolls away), navbar is sticky → navbar wrapper sticks at viewport top
+.header-static {
+  .menu-sticky {
+    position: sticky;
+    top: 0;    // topbar has scrolled away; navbar wrapper anchors at viewport top
+    z-index: 9; // z-index 9: same as header, both visible when scrolled
+  }
+}
+
+// Case 3: Menu is static → navbar wrapper scrolls with content (not sticky)
+.menu-static {
+  position: static;
+}
+// COPILOT END - TASK-2026-0302-003

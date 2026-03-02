@@ -8,18 +8,26 @@
 
 body {
   font-family: $font-family;
-  line-height: 1.5rem; // COPILOT - TASK-2026-0213-003 - was 1.334rem, increased for readability
+  // COPILOT - TASK-2026-0213-003 - MODIFICATION: Increased line-height from 1.334rem to 1.5rem
+  // WHY: Improves typography readability and text spacing throughout the application
+  line-height: 1.5rem;
   overflow-x: hidden;
   color: var(--mat-sys-on-background);
 }
 
+// COPILOT START - TASK-2026-0302-002 - MODIFICATION: Removed top/padding offsets from .mainWrapper
+// WHY: Architectural change — header moved INSIDE mat-sidenav-content for sticky positioning.
+// Previously: header was outside mat-sidenav-content (sticky impossible), so mainWrapper had padding-top offset.
+// Now: header is first child of mat-sidenav-content (scrolls with content), so no offset needed.
+// This allows position:sticky on header to work correctly within the scroll context.
 .mainWrapper {
   display: flex;
-  min-height: calc(100vh - 60px);
+  min-height: 100vh;
   width: 100%;
   flex: 1;
-  height: 100%;
+  height: 100vh;
 }
+// COPILOT END - TASK-2026-0302-002
 
 .container {
   max-width: $boxedWidth;

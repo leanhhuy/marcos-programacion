@@ -1,9 +1,27 @@
+/*
+═══════════════════════════════════════════════════════════════════════════
+COPILOT CHANGE LOG
+
+@generated
+@taskId         TASK-2026-0302-001
+@dateTime       2026-03-02T00:00:00Z
+@aiModel        Claude Haiku 4.5
+@purpose        Implement Sticky Header feature with responsive behavior
+@filesChanged   3
+@fileDescription Added .header-sticky and .header-static SCSS classes for conditional header positioning
+
+Related files changed in this task:
+  1. src/assets/scss/layouts/_header.scss (this file)
+  2. src/app/layouts/full/full.component.html (added header wrapper with class binding)
+  3. src/app/layouts/full/shared/customizer/customizer.component.html (fixed setStickyHeader binding)
+
+═══════════════════════════════════════════════════════════════════════════
+*/
+
 @use "../variables" as *;
 
 html .topbar {
   background-color: var(--mat-sys-primary);
-  position: sticky;
-  top: 0;
   z-index: 9;
   height: $header-height;
   box-shadow: var(--mat-sys-level2);
@@ -12,6 +30,32 @@ html .topbar {
     color: $white;
   }
 }
+
+// COPILOT START - TASK-2026-0302-001/002 - MODIFICATION: Added .header-sticky and .header-static control classes
+// WHY: Enable toggle between sticky (always visible) and static (scrolls away) header behavior.
+// ARCHITECTURE: Header moved INSIDE mat-sidenav-content (full.component.html line 108).
+//   This allows position:sticky to work because parent scroll container (.mat-sidenav-content) now wraps the header.
+//   Previously: header outside scroll container made sticky impossible.
+//   Now: wrapping header in <div [ngClass]="options.stickyHeader ? 'header-sticky' : 'header-static'">
+//     allows dynamic position switching.
+// BINDING: customizer.component.html line 230 → setStickyHeader(boolean) → options.stickyHeader → template [ngClass]
+//
+// .header-sticky: header sticks to viewport top (z-index:9 ensures it floats above content)
+.header-sticky {
+  .topbar {
+    position: sticky;
+    top: 0;           // sticks to viewport top when scrolling
+    z-index: 9;       // floats above content
+  }
+}
+
+// .header-static: header scrolls away with content (visible only when scrolled to top)
+.header-static {
+  .topbar {
+    position: static;
+  }
+}
+// COPILOT END - TASK-2026-0302-001/002
 
 .topbar-dd {
   min-width: 360px !important;

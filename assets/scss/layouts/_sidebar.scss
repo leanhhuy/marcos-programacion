@@ -8,12 +8,28 @@
   flex-shrink: 0;
   transition: width .4s cubic-bezier(.25, .8, .25, 1);
   position: fixed !important;
-  top: $header-height !important;
+  // COPILOT START - TASK-2026-0302-002 - MODIFICATION: Changed positioning from 'top: X' to 'top: 0'
+  // WHY: Architectural change — header moved INSIDE mat-sidenav-content (no longer offset).
+  //   Previously: header outside mat-sidenav-content had fixed height (60px), so sidebar had top: 60px.
+  //   Now: header is first child of mat-sidenav-content (takes viewport space), so sidebar positioned at top: 0.
+  //   The [fixed] positioning ensures sidebar doesn't scroll; only content inside mat-sidenav-content scrolls.
+  top: 0 !important;
+  // COPILOT END - TASK-2026-0302-002
   overflow-x: hidden;
   border-right: 0;
   border-radius: 0px !important;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .03), 0 0 1px 0 rgba(0, 0, 0, .1);
   background-color: var(--mat-card-elevated-container-color);
+
+  // COPILOT START - TASK-2026-0302-002 - MODIFICATION: Adjusted .mini-scroll height from 230px to 170px
+  // WHY: Sidebar height calculation changed due to header repositioning.
+  //   Previously: header outside mat-sidenav-content (fixed 60px offset), sidebar nav = 100vh - 60px (header) - 70px (profile area) = 230px offset
+  //   Now: header INSIDE mat-sidenav-content (takes viewport space), sidebar nav = 100vh - 0 (no header offset) - 70px (profile) = 170px offset
+  //   Formula: height = calc(100vh - sidebar-top:0 - profile-area:70px) = calc(100vh - 170px)
+  .mini-scroll {
+    height: calc(100vh - 170px) !important;
+  }
+  // COPILOT END - TASK-2026-0302-002
 
   .mat-drawer-inner-container {
     overflow: hidden;
@@ -82,9 +98,15 @@
 }
 
 .sidebarNav-mini {
+  // COPILOT START - TASK-2026-0302-002 - MODIFICATION: Adjusted mini-sidebar .mini-scroll height from 70px to 10px
+  // WHY: Mini-sidebar (hover collapsed state) height calculation changed due to header repositioning.
+  //   Previously: sidebar at top:60px (below fixed header), height = 100vh - 60px (header) - 10px (padding) = 70px offset
+  //   Now: sidebar at top:0 (header now inside scroll, doesn't offset), height = 100vh - 0 - 10px (padding) = 10px offset
+  //   Formula: height = calc(100vh - 10px)
   .mini-scroll {
-    height: calc(100vh - 70px) !important;
+    height: calc(100vh - 10px) !important;
   }
+  // COPILOT END - TASK-2026-0302-002
 
   .branding {
     justify-content: center;
