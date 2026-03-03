@@ -288,5 +288,11 @@
     "preview": "Preview",
     "html": "HTML",
     "typescript": "Typescript"
-  }
+  },  
+  "Primary Color": "Primary Color",
+  "Secondary Color": "Secondary Color",
+  "Sticky Header": "Sticky Header",
+  "Static Header": "Static Header",
+  "Sticky Menu": "Sticky Menu",
+  "Static Menu": "Static Menu"
 }

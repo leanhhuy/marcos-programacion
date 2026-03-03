@@ -248,7 +248,7 @@
   "Expressive": "Expresivo",
   "Artistic / Expressive": "Artístico / Expresivo",
   "Custom Theme Color": "Color del tema personalizado",
-  "Custom Theme": "Tema personalizado",
+  "Custom Theme": "Tema personalizado",  
   "Close": "Cerrar",
   "Delete": "Eliminar",
   "snackbar_cannonball": "¡Cañonazo!!",
@@ -288,5 +288,11 @@
     "preview": "Vista Previa",
     "html": "HTML",
     "typescript": "Typescript"
-  }
+  },
+  "Primary Color": "Color primario",
+  "Secondary Color": "Color secundario",
+  "Sticky Header": "Encabezado fijo",
+  "Static Header": "Encabezado estático",
+  "Sticky Menu": "Menú fijo",
+  "Static Menu": "Menú estático"
 }
