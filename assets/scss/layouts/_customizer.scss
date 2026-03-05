@@ -1,10 +1,18 @@
 @use "../variables" as *;
 
+// COPILOT START - TASK-2026-0304-002 - Customizer starts from top of screen
 html .customizer-fixed {
   position: fixed !important;
-  top: $header-height !important;
+  top: 0 !important;
   bottom: unset;
 }
+
+// Scrollbar height inside customizer panel:
+// 100vh - panel-header (~59px: p-y-10 * 2 + icon-button height + border)
+.customizer-scroll-area {
+  height: calc(100vh - 59px);
+}
+// COPILOT END - TASK-2026-0304-002
 
 .customizer-button-group {
   &.two-row {

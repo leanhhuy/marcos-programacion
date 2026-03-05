@@ -42,7 +42,9 @@ COPILOT CHANGE LOG
     box-shadow: var(--mat-sys-level2);
     .branding {
       padding-left: 0;
-      width: 200px;
+      // COPILOT START - TASK-2026-0304-003 - WHY: removed fixed 200px width (same gap fix as vertical header)
+      width: auto;
+      // COPILOT END - TASK-2026-0304-003
     }
     .container {
       max-width: $boxedWidth;

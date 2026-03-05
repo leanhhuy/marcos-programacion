@@ -294,5 +294,12 @@
   "Sticky Header": "Cabeçalho fixo",
   "Static Header": "Cabeçalho estático",
   "Sticky Menu": "Menu fixo",
-  "Static Menu": "Menu estático"
+  "Static Menu": "Menu estático",
+  "Customize": "Personalizar",
+  "notifBanner_textBefore": "Deseja",
+  "notifBanner_textBetween": "o design ou",
+  "notifBanner_textAfter": "uma conta?",
+  "This feature is under development": "Esta funcionalidade está em desenvolvimento",
+  "This feature is not available yet. It will be coming soon.": "Esta funcionalidade ainda não está disponível. Estará disponível em breve.",
+  "OK": "OK"
 }

@@ -80,16 +80,24 @@ html .topbar {
   object-fit: cover;
 }
 
+// COPILOT START - TASK-2026-0304-003
+// WHY: Removed fixed width ($sidenav-desktop = 260px) that caused a large gap between the
+//   logo image and the adjacent left-side buttons (toggle, search, apps).
+//   The logo only occupies its natural image width; the remaining 60-110px was dead space.
+//   width: auto lets the branding shrink to its content, putting buttons immediately after the logo.
+//   Breakpoint handled by branding's own d-none d-lg-flex (hidden on mobile).
 .branding {
-  width: $sidenav-desktop;
+  width: auto;
 }
 
 .sidebarNav-mini {
   .branding {
-    width: $sidenav-mini - 15px;
-    overflow: hidden;
+    // The branding component already switches to a short logo via *ngIf on sidenavCollapsed.
+    // No fixed width needed; auto sizing works for both mini and full sidebar states.
+    width: auto;
   }
 }
+// COPILOT END - TASK-2026-0304-003
 
 .header-badge.mat-badge-medium .mat-badge-content {
   width: 18px;
@@ -226,3 +234,94 @@ html .topbar {
   box-sizing: border-box;
 }
 // COPILOT END - TASK-2026-0207-001
+
+// COPILOT START - TASK-2026-0303-001 - Notification Banner styles
+// COPILOT START - TASK-2026-0304-001 - Fix register dialog layout (col-lg-4 collapsed inside narrow dialog)
+// COPILOT START - TASK-2026-0305-001 - Auth dialog navigation link cursor
+// Modal dialog for register (opened from notification banner)
+.register-dialog {
+  .mat-mdc-dialog-container,
+  .mdc-dialog__surface {
+    padding: 0 !important;
+    border-radius: 12px !important;
+    overflow: hidden;
+  }
+
+  // Override full-page layout applied by blank-layout-container
+  .blank-layout-container {
+    height: auto !important;
+    min-height: auto !important;
+  }
+
+  .bg-gredient {
+    height: auto !important;
+    min-height: auto !important;
+  }
+
+  // Force grid column to full-width inside dialog (overrides col-lg-4 which
+  // renders at ~160px on desktop viewports inside a 480px dialog)
+  [class*="col-lg"] {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  // Ensure the boxed-auth card fills the available dialog width
+  .boxed-auth {
+    max-width: 100% !important;
+  }
+
+  .register-dialog-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 10;
+    color: inherit;
+  }
+
+  // Cursor pointer for anchor-like links inside auth dialogs (no routerLink)
+  .auth-dialog-nav-link {
+    cursor: pointer;
+  }
+}
+// COPILOT END - TASK-2026-0305-001
+// COPILOT END - TASK-2026-0304-001
+
+.notification-banner {
+  min-height: 44px;
+  height: auto;
+  padding: 6px 16px;
+  // Override mat-toolbar fixed height
+  &.mat-toolbar {
+    height: auto;
+    min-height: 44px;
+  }
+
+  .notification-banner-content {
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .notif-banner-btn {
+    // Override Angular Material button defaults for compact inline badge style
+    &.mat-mdc-button-base {
+      height: auto;
+      min-height: auto;
+      padding: 2px 10px;
+      font-size: 12px;
+      line-height: 1.6;
+      border-radius: 7px;
+    }
+  }
+
+  // Responsive: tighten layout on small screens
+  @media (max-width: 599px) {
+    padding: 6px 8px;
+
+    .notification-banner-content {
+      font-size: 12px;
+      gap: 4px;
+    }
+  }
+}
+// COPILOT END - TASK-2026-0303-001

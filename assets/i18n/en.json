@@ -294,5 +294,12 @@
   "Sticky Header": "Sticky Header",
   "Static Header": "Static Header",
   "Sticky Menu": "Sticky Menu",
-  "Static Menu": "Static Menu"
+  "Static Menu": "Static Menu",
+  "Customize": "Customize",
+  "notifBanner_textBefore": "Do you want to",
+  "notifBanner_textBetween": "the design or",
+  "notifBanner_textAfter": "an account?",
+  "This feature is under development": "This feature is under development",
+  "This feature is not available yet. It will be coming soon.": "This feature is not available yet. It will be coming soon.",
+  "OK": "OK"
 }
