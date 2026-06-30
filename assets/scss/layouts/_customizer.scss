@@ -9,8 +9,13 @@ html .customizer-fixed {
 
 // Scrollbar height inside customizer panel:
 // 100vh - panel-header (~59px: p-y-10 * 2 + icon-button height + border)
+// On mobile Chrome, 100vh = viewport height with address bar *hidden* (larger value).
+// When the address bar is visible, the visible area is smaller, cutting off the bottom
+// of the panel (including the Reset button). Using dvh (Dynamic Viewport Height) fixes
+// this: 100dvh always equals the *current* visible viewport, adjusting as browser UI changes.
 .customizer-scroll-area {
-  height: calc(100vh - 59px);
+  height: calc(100vh - 59px); /* Fallback for older browsers */
+  height: calc(100dvh - 59px); /* Modern: adjusts dynamically for mobile browser UI (address bar) */
 }
 // COPILOT END - TASK-2026-0304-002
 
